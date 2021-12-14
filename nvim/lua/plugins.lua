@@ -11,8 +11,11 @@ return require('packer').startup(function()
 	-- statusline
 	use {
 		'nvim-lualine/lualine.nvim',
-		requires = {'kyazdani42/nvim-web-devicons', opt = true}
+        config = function()
+		    require("_lualine")
+        end,
 	}
+    use 'kyazdani42/nvim-web-devicons'
 
     -- easy comment
 	use {
@@ -44,15 +47,6 @@ return require('packer').startup(function()
       config = function()
         require("_surround")
       end
-    }
-
-    -- latex compile and preview
-    use{
-        "lervag/vimtex",
-        ft = { "tex", "bib" },
-        config = function()
-            require("_vimtex")
-        end,
     }
 
     -- lsp (auto complete, go do to def, etc.)
