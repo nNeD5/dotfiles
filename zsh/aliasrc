@@ -1,0 +1,7 @@
+alias vim='nvim'
+alias v='nvim'
+alias vi='nvim'
+
+alias ls='ls --color'
+alias la='ls -A'
+
