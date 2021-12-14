@@ -15,27 +15,47 @@ return require('packer').startup(function()
 	}
 
     -- easy comment
-	use{
+	use {
 		"terrortylor/nvim-comment",
-		cmd = "CommentToggle",
 		config = function()
-		    require("plugins.others").nvim_comment()
+		    require("nvim_comment").setup()
 		end,
     }
 
-    -- markdown preview in browser (not work)
-    --use 'iamcco/markdown-preview.nvim'
+    -- syntax hi
+    use {
+        "nvim-treesitter/nvim-treesitter",
+        run = ":TSUpdate",
+    }
 
+    -- markdown preview in browser
+    use{
+        "iamcco/markdown-preview.nvim",
+        run = "cd app && yarn install",
+        cmd = "MarkdownPreview",
+        config = function()
+            vim.cmd("doautocmd mkdp_init BufEnter")
+        end,
+    }
 
+    -- fast char around
     use {
       "blackCauldron7/surround.nvim",
       config = function()
-        require"surround".setup {mappings_style = "surround"}
+        require("_surround")
       end
+    }
+
+    -- latex compile and preview
+    use{
+        "lervag/vimtex",
+        ft = { "tex", "bib" },
+        config = function()
+            require("_vimtex")
+        end,
     }
 
     -- lsp (auto complete, go do to def, etc.)
     use 'neovim/nvim-lspconfig'
     use 'williamboman/nvim-lsp-installer'
 end)
-

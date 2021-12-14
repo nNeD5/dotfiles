@@ -12,7 +12,8 @@ opt.relativenumber = true
 opt.undofile = true
 opt.splitright = true
 opt.splitbelow = true
-opt.mouse='a'
+opt.mouse = 'a'
+opt.autochdir = true
 -- don't auto commenting new lines
 cmd [[au BufEnter * set fo-=c fo-=r fo-=o]]
 
@@ -48,4 +49,3 @@ cmd [[ hi clear SpellBad ]]
 cmd [[ hi SpellBad cterm=underline ]]
 cmd [[ hi SpellBad gui=undercurl ]]
 cmd [[ hi clear SpellCap ]]
-
