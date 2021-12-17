@@ -6,4 +6,7 @@ require('plugins')
 require('settings')
 require('keymaps')
 require('lsp')
-require('config_lualine')
+
+vim.cmd [[ source ~/.config/nvim/pdf-viewer/plugin/pdfpreview.vim ]]
+
+

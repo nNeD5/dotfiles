@@ -5,3 +5,13 @@ alias vi='nvim'
 alias ls='ls --color'
 alias la='ls -A'
 
+alias lg='ls | grep'
+
+
+# git alias
+alias g='git'
+alias gcm='git commit -m'
+alias gph='git push'
+alias gst='git status'
+
+

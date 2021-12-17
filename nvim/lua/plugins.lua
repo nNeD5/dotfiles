@@ -1,21 +1,21 @@
 vim.cmd [[ packadd packer.nvim]]
 
-return require('packer').startup(function()
+return require("packer").startup(function()
 	-- Packer can manage itself
-	use 'wbthomason/packer.nvim'
+	use "wbthomason/packer.nvim"
 
 
 	-- color scheme
-	use 'shaunsingh/nord.nvim'
+	use "shaunsingh/nord.nvim"
 
 	-- statusline
 	use {
-		'nvim-lualine/lualine.nvim',
+		"nvim-lualine/lualine.nvim",
         config = function()
 		    require("_lualine")
         end,
 	}
-    use 'kyazdani42/nvim-web-devicons'
+    use "kyazdani42/nvim-web-devicons"
 
     -- easy comment
 	use {
@@ -50,6 +50,6 @@ return require('packer').startup(function()
     }
 
     -- lsp (auto complete, go do to def, etc.)
-    use 'neovim/nvim-lspconfig'
-    use 'williamboman/nvim-lsp-installer'
+    use "neovim/nvim-lspconfig"
+    use "williamboman/nvim-lsp-installer"
 end)

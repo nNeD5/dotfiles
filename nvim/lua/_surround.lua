@@ -9,7 +9,7 @@ require("surround").setup {
     nestable = {{"(", ")"}, {"[", "]"}, {"{", "}"}},
     linear = {{"'", "'"}, {"`", "`"}, {'"', '"'}}
   },
-  prefix = "s"
+  prefix = "c"
 }
 
 local OPENING = 1
