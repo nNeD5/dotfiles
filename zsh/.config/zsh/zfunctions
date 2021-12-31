@@ -1,0 +1,11 @@
+fcd() {
+    cd "$(find -type d | fzf)"
+}
+
+fe() {
+    nvim "$(find -type f | fzf)"
+}
+
+foi() {
+    sxiv "$(find -type f -name '*.jpg' -o -name '*.png' | fzf)"
+}

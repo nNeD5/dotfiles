@@ -1,0 +1,17 @@
+# nvim
+# alias vim='nvim'
+alias nv='nvim'
+alias vi='nvim'
+
+# ls
+alias ls='ls --color=auto'
+alias la='ls -A'
+
+# grep
+alias grep='grep --color=auto'
+
+# git
+alias g='git'
+alias gcm='git commit -m'
+alias gph='git push'
+alias gst='git status'
