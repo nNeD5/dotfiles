@@ -8,6 +8,8 @@ return require("packer").startup(function()
 	-- color scheme
 	use "shaunsingh/nord.nvim"
 
+    use "vimwiki/vimwiki"
+
 	-- statusline
 	use "nvim-lualine/lualine.nvim"
     -- use "kyazdani42/nvim-web-devicons" -- img for statusline
@@ -23,15 +25,8 @@ return require("packer").startup(function()
 
     use "windwp/nvim-autopairs"
 
-    -- markdown preview in browser
-    use{
-        "iamcco/markdown-preview.nvim",
-        run = "cd app && yarn install",
-        cmd = "MarkdownPreview",
-        config = function()
-            vim.cmd("doautocmd mkdp_init BufEnter")
-        end,
-    }
+    -- markdown preview
+    use "davidgranstrom/nvim-markdown-preview"
 
     -- color preview
     use {
@@ -45,11 +40,11 @@ return require("packer").startup(function()
     use "blackCauldron7/surround.nvim"
 
     -- my own plugin for latex
-     use 'nNeD5/nvim-pdfpreview'
+    use 'nNeD5/nvim-pdfpreview'
 
     -- snippets
     use 'dcampos/nvim-snippy'
-    -- lsp (go do to def, etc.)
+    -- lsp (go to def, etc.)
     use "neovim/nvim-lspconfig"
     use "williamboman/nvim-lsp-installer"
 

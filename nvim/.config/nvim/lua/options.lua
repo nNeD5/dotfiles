@@ -56,3 +56,6 @@ cmd [[ autocmd BufWritePre *.snippet[s] SnippyReload ]]
 
 -- LATEX
 g.tex_flavor = 'latex'  -- for clear recognize latex file
+
+-- VIM WIKI
+cmd [[ let g:vimwiki_list = [{'syntax': 'markdown', 'ext': '.md'}] ]]
