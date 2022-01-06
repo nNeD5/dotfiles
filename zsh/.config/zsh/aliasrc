@@ -19,3 +19,4 @@ alias gst='git status'
 # pacman & aur
 alias pinst='sudo pacman -S'
 alias pdel='sudo pacman -Rsu'
+alias yinst='yay -S'
