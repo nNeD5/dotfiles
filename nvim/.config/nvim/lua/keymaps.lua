@@ -15,8 +15,15 @@ map('n', '<Down>', ':resize +2<CR>', {silent = true})
 map('n', '<Right>', ':vertical resize +2<CR>', {silent = true})
 map('n', '<Left>', ':vertical resize -2<CR>', {silent = true})
 
--- latex compile and preview
-vim.cmd [[ autocmd FileType tex  nnoremap <buffer> \lv :PdfPreview<CR>]]
-vim.cmd [[ autocmd FileType tex  nnoremap <buffer> \lc :!latexmk % <CR>]]
--- vim.cmd [[ autocmd BufWritePost *.tex silent !latexmk % ]]
+map('n','S', ':%s///g<Left><Left><Left>', {})
+map('c', '<C-w>', '\\<\\><Left><Left>', {})
 
+map('', '<s-h>', '^', {silent = true})
+map('', '<s-l>', '$', {silent = true})
+
+
+
+
+-- latex compile and preview
+vim.cmd [[ autocmd FileType tex  nnoremap <buffer> \lv :TexlabForward<CR> ]]
+vim.cmd [[ autocmd FileType tex  nnoremap <buffer> \lc :TexlabBuild<CR> ]]

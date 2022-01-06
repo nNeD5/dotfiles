@@ -10,10 +10,6 @@ set $mod Mod4
 # default i3 tiling mode:
 workspace_layout default
 
-# fibonacci layout
-default_orientation vertical
-for_window [class=".*"] split toggle
-
 ##############################
 # extra options for windows: #
 ##############################
@@ -93,9 +89,6 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to update i3)
 bindsym $mod+Shift+r restart
 
-# keybinding in fancy rofi (automated):
-bindsym F1 exec ~/.config/i3/scripts/keyhint-2
-
 # Backlight control
 bindsym XF86MonBrightnessUp exec xbacklight +10
 bindsym XF86MonBrightnessDown exec xbacklight -10
@@ -169,7 +162,7 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+p exec /usr/local/bin/switch-audio-port
 
 # App shortcuts
-bindsym $mod+w exec /usr/bin/firefox
+bindsym $mod+w exec /usr/bin/chromium
 bindsym Print exec "scrot ~/%Y-%m-%d-%T-screenshot.png"
 
 
@@ -201,7 +194,6 @@ set $ws10 "10"
 # for_window [class=(?i)firefox] focus
 # for_window [class=Thunar] focus
 # for_window [class=Thunderbird] focus
-# for_window [class=TelegramDesktop] focus
 
 #############################################
 # autostart applications/services on login: #
@@ -209,6 +201,7 @@ set $ws10 "10"
 
 #get auth work with polkit-gnome
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id unclutter --timeout 2
 
 # start a script to setup displays
 # uncomment the next line, use arandr to setup displays and save the file as monitor:
@@ -230,7 +223,7 @@ exec --no-startup-id picom
 exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
 
 # set CaplsLk for chanage layout
-exec --no-startup-id "setxkbmap -option 'grp:caps_toggle' -layout us,ru"
+exec --no-startup-id "setxkbmap -option 'grp:caps_toggle' -layout us,ru,ua"
 exec --no-startup-id st;
 
 # dropdown Telegram
@@ -265,6 +258,7 @@ for_window [class="qt5ct" instance="qt5ct"] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
 for_window [class="Pamac-manager"] floating enable
+for_window [class="Thunar"] floating enable; for_window [class="Thunar"] resize set 600 800
 
 
 ######################################
@@ -272,24 +266,24 @@ for_window [class="Pamac-manager"] floating enable
 ######################################
 
 # Define colors variables:
-set $darkbluetrans	#08052be6
-set $darkblue		#08052b
-set $lightblue		#5294e2
-set $urgentred		#e53935
-set $white		    #ffffff
-set $black		    #000000
-set $purple		    #e345ff
-set $darkgrey		#383c4a
-set $grey		    #b0b5bd
-set $mediumgrey		#8b8b8b
-set $yellowbrown	#e1b700
+set $darkbluetrans  #08052be6
+set $darkblue       #08052b
+set $lightblue      #5294e2
+set $urgentred      #e53935
+set $white          #ffffff
+set $black          #000000
+set $purple         #e345ff
+set $darkgrey       #383c4a
+set $grey           #b0b5bd
+set $mediumgrey     #8b8b8b
+set $yellowbrown    #e1b700
 
 # define colors for windows:
-#class		        	border		bground		text		indicator	child_border
-client.focused		    $lightblue	$darkblue	$white		$lightblue	$lightblue
-client.unfocused	    $darkblue	$darkblue	$grey		$lightblue	$darkgrey
-client.focused_inactive	$darkblue	$darkblue	$grey		none		$black
-client.urgent		    $urgentred	$urgentred	$white		none		$yellowbrown
+#class                  border      bground     text        indicator         child_border
+client.focused          $lightblue  $darkblue   $white      $mediumgrey       $lightblue
+client.unfocused        $darkblue   $darkblue   $grey       $mediumgrey       $darkgrey
+client.focused_inactive $darkblue   $darkblue   $grey       $mediumgrey       $black
+client.urgent           $urgentred  $urgentred  $white      $mediumgrey       $yellowbrown
 
 
 
@@ -317,7 +311,7 @@ client.urgent		    $urgentred	$urgentred	$white		none		$yellowbrown
 # client.background       $bg
 
 # PROTIP: You can also dynamically set dmenu's colors this way:
-# bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
+ # bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
 
 ############################################
 # bar settings (input comes from i3blocks) #
@@ -326,14 +320,14 @@ client.urgent		    $urgentred	$urgentred	$white		none		$yellowbrown
 # Start i3bar to display a workspace bar
 # (plus the system information i3status finds out, if available)
 bar {
-		font pango:Noto Sans Regular 10, FontAwesome 10
-		status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	    	position top
-#	    	i3bar_command i3bar --transparency
+        font pango:Noto Sans Regular 10, FontAwesome 10
+        status_command i3blocks -c ~/.config/i3/i3blocks.conf
+            position top
+#           i3bar_command i3bar --transparency
 # it could be that you have no primary display set: set one (xrandr --output <output> --primary)
 # reference: https://i3wm.org/docs/userguide.html#_tray_output
-		    tray_output primary
-		    tray_padding 0
+            tray_output primary
+            tray_padding 0
 
 # When strip_workspace_numbers is set to yes,
 # any workspace that has a name of the form
@@ -341,16 +335,16 @@ bar {
 strip_workspace_numbers yes
 ##strip_workspace_name no
 
-		    colors {
-		    separator          $purple
-		    background         $darkgrey
-		    statusline         $white
-#                          		border 		        bg		txt		indicator
-		focused_workspace	$mediumgrey	   	$grey		$darkgrey	$purple
-		active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple
-		inactive_workspace	$darkgrey   		$darkgrey	$grey		$purple
-		urgent_workspace	$urgentred	    	$urgentred	$white		$purple
-	}
+            colors {
+            separator          $purple
+            background         $darkgrey
+            statusline         $white
+#                               border              bg      txt     indicator
+        focused_workspace   $mediumgrey     $grey       $darkgrey   $purple
+        active_workspace    $lightblue          $mediumgrey $darkgrey   $purple
+        inactive_workspace  $darkgrey           $darkgrey   $grey       $purple
+        urgent_workspace    $urgentred          $urgentred  $white      $purple
+    }
 }
 
 # you can add different bars for multidisplay setups on each display:
@@ -360,11 +354,11 @@ strip_workspace_numbers yes
 # #08052be6 --> e6=90%
 
 # bar {
-#	font pango:Noto Sans Regular 9, FontAwesome 9
-#	status_command i3blocks -c ~/.config/i3/i3blocks-2.conf
-#	i3bar_command i3bar --transparency
-#	output HDMI-0
-#	position bottom
+#   font pango:Noto Sans Regular 9, FontAwesome 9
+#   status_command i3blocks -c ~/.config/i3/i3blocks-2.conf
+#   i3bar_command i3bar --transparency
+#   output HDMI-0
+#   position bottom
 #
 # When strip_workspace_numbers is set to yes,
 # any workspace that has a name of the form
@@ -372,16 +366,16 @@ strip_workspace_numbers yes
 #strip_workspace_numbers yes
 ##strip_workspace_name no
 #
-#	colors {
-#		separator          $purple
-#		background         $darkbluetrans
-#        	statusline         $white
-#					border		bg		txt		indicator
-#		focused_workspace	$lighterblue	$lighterblue	$darkblue	$purple
-#		active_workspace	$lightdblue	$lightdblue	$darkblue	$purple
-#		inactive_workspace	$darkblue	$darkblue	$lightdblue	$purple
-#		urgent_workspace	$urgentred	$urgentred	$white		$purple
-#	}
+#   colors {
+#       separator          $purple
+#       background         $darkbluetrans
+#           statusline         $white
+#                   border      bg      txt     indicator
+#       focused_workspace   $lighterblue    $lighterblue    $darkblue   $purple
+#       active_workspace    $lightdblue $lightdblue $darkblue   $purple
+#       inactive_workspace  $darkblue   $darkblue   $lightdblue $purple
+#       urgent_workspace    $urgentred  $urgentred  $white      $purple
+#   }
 #}
 
 #####################################
@@ -390,7 +384,7 @@ strip_workspace_numbers yes
 
 ## rofi bindings fancy application menu ($mod+d /F9 optional disabled)
 bindsym $mod+d exec rofi -modi drun -show drun \
-		-config ~/.config/rofi/rofidmenu.rasi
+         -config ~/.config/rofi/rofidmenu.rasi
 
 # Restore to default
 # https://raw.githubusercontent.com/endeavouros-team/endeavouros-i3wm-setup/master/.config/i3/config
@@ -405,4 +399,3 @@ bindsym $mod+d exec rofi -modi drun -show drun \
 # Source for complete framework of our i3 config and theming here: https://github.com/endeavouros-team/endeavouros-i3wm-setup
 # EndeavourOS wiki holds some Information also: https://discovery.endeavouros.com/window-tiling-managers/i3-wm/
 # Please see http://i3wm.org/docs/userguide.html for the official i3 reference!
-

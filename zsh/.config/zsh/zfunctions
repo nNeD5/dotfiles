@@ -1,11 +1,14 @@
-fcd() {
-    cd "$(find -type d | fzf)"
-}
+# fzf
+fcd() { cd "$(find ~/ -type d | fzf)" }
+frm() { rm -d "$(find ~/ | fzf -m)" }
+fnv()  { nvim $(find ~/ -type f | fzf -m) }
+fsxiv() { sxiv "$(find ~/ -type f -name '*.jpg' -o -name '*.png' | fzf -m)" }
+fmv() { mv "$(find ~/ | fzf)" .}
+fcp() { cp -r "$(find ~/ | fzf)" .}
+fdo() { $1 "$(find ~/ | fzf)" }
 
-fe() {
-    nvim "$(find -type f | fzf)"
-}
 
-foi() {
-    sxiv "$(find -type f -name '*.jpg' -o -name '*.png' | fzf)"
+# ohter
+lgrep() {
+    ls -A $1 | grep --color=auto -i $2
 }

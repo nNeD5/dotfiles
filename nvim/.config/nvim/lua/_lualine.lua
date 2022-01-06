@@ -59,5 +59,8 @@ require"lualine".setup {
 }
 
 -- icons
-require'nvim-web-devicons'.setup {}
+-- require'nvim-web-devicons'.setup {}
 
+vim.opt.laststatus = 0 -- hide status line
+vim.cmd [[ command StatusLineShow :set laststatus=2 noshowmode ]]
+vim.cmd [[ command StatusLineHide :set laststatus=0 showmode ]]

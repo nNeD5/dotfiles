@@ -9,27 +9,19 @@ return require("packer").startup(function()
 	use "shaunsingh/nord.nvim"
 
 	-- statusline
-	use {
-		"nvim-lualine/lualine.nvim",
-        requires = {'kyazdani42/nvim-web-devicons', opt = true},
-        config = function()
-		    require("_lualine")
-        end,
-	}
-    -- use "kyazdani42/nvim-web-devicons"
+	use "nvim-lualine/lualine.nvim"
+    -- use "kyazdani42/nvim-web-devicons" -- img for statusline
 
-    -- easy comment
-	use {
-		"terrortylor/nvim-comment",
-		config = function()
-		    require("nvim_comment").setup()
-		end,
-    }
     -- syntax hi
     use {
         "nvim-treesitter/nvim-treesitter",
         run = ":TSUpdate",
     }
+
+    -- easy comment
+    use "numToStr/Comment.nvim"
+
+    use "windwp/nvim-autopairs"
 
     -- markdown preview in browser
     use{
@@ -50,14 +42,23 @@ return require("packer").startup(function()
     }
 
     -- fast char around
-    use {
-      "blackCauldron7/surround.nvim",
-      config = function()
-        require("_surround")
-      end
-    }
+    use "blackCauldron7/surround.nvim"
 
-    -- lsp (auto complete, go do to def, etc.)
+    -- my own plugin for latex
+     use 'nNeD5/nvim-pdfpreview'
+
+    -- snippets
+    use 'dcampos/nvim-snippy'
+    -- lsp (go do to def, etc.)
     use "neovim/nvim-lspconfig"
     use "williamboman/nvim-lsp-installer"
+
+    -- cmp plugins (autocomplete)
+    use "hrsh7th/nvim-cmp"          -- The completion plugin
+    use "hrsh7th/cmp-buffer"        -- buffer completions
+    use "hrsh7th/cmp-path"          -- path completions
+    use "hrsh7th/cmp-cmdline"       -- cmdline completions
+    use "dcampos/cmp-snippy"        -- snippet completions
+    use "hrsh7th/cmp-nvim-lsp"
+
 end)

@@ -15,3 +15,7 @@ alias g='git'
 alias gcm='git commit -m'
 alias gph='git push'
 alias gst='git status'
+
+# pacman & aur
+alias pinst='sudo pacman -S'
+alias pdel='sudo pacman -Rsu'

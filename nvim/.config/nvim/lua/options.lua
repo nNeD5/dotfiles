@@ -14,22 +14,26 @@ opt.splitright = true
 opt.splitbelow = true
 opt.mouse = 'a'
 opt.autochdir = true
-opt.showmode = false
 opt.clipboard = "unnamedplus"
-
--- don't auto commenting new lines
-cmd [[au BufEnter * set fo-=c fo-=r fo-=o]]
+opt.ignorecase = true
+opt.smartcase = true
+opt.pumheight = 12 -- popum menu len
+opt.signcolumn = "yes"
+opt.wildmode = "longest,list,full"
 
 -- Tabulates and Ppasing
 opt.expandtab = true            -- use space instead of tabs
 opt.shiftwidth = 4              -- shift 4 spaces when tab
 opt.tabstop = 4                 -- 1 tab = 4 space
-opt.smartindent = true          -- auto indent new lines
+opt.softtabstop = 4
+-- opt.smartindent = true          -- auto indent new lines
+-- don't auto commenting new lines
+
+cmd [[au BufEnter * set fo-=c fo-=r fo-=o]]
+
 
 -- Зпоминает где nvim последний раз редактировал файла
-cmd [[
-autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-]]
+cmd [[ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif ]]
 
 -- Подсвечивает на доли секунды скопированную часть текста
 exec([[
@@ -46,16 +50,9 @@ cmd [[ autocmd BufWritePre * %s/\n\+\%$//e ]]
 cmd [[ autocmd BufWritePre *.[ch] %s/\%$/\r/e ]]
 cmd [[ autocmd BufWritePre * cal cursor(currPos[1], currPos[2]) ]]
 
--- Load and config the colorscheme
-g.nord_contrast = true
-g.nord_borders = false
-g.nord_disable_background = true
-g.nord_italic = false
-require('nord').set()
-cmd [[ hi clear SpellBad ]]
-cmd [[ hi SpellBad cterm=underline ]]
-cmd [[ hi SpellBad gui=undercurl ]]
-cmd [[ hi clear SpellCap ]]
+-- Automatically reload snippy on write
+cmd [[ autocmd BufWritePre *.snippet[s] SnippyReload ]]
+
 
 -- LATEX
 g.tex_flavor = 'latex'  -- for clear recognize latex file

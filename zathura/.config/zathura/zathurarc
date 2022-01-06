@@ -1,4 +1,12 @@
+# maps
+map <A-j> zoom in
+map <A-k> zoom out
+
 set adjust-open "width"
+
+# inverse search
+set synctex true
+set synctex-editor-command "code -g %{input}:%{line}"
 
 # disable bar
 set guioptions none
