@@ -56,4 +56,13 @@ return require("packer").startup(function()
     use "dcampos/cmp-snippy"        -- snippet completions
     use "hrsh7th/cmp-nvim-lsp"
 
+    -- for broweser
+    use {
+        'glacambre/firenvim',
+        run = function() vim.fn['firenvim#install'](0) end
+    }
+
+    -- auto formating
+    use "jose-elias-alvarez/null-ls.nvim"
+
 end)

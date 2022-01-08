@@ -53,6 +53,9 @@ cmd [[ autocmd BufWritePre * cal cursor(currPos[1], currPos[2]) ]]
 -- Automatically reload snippy on write
 cmd [[ autocmd BufWritePre *.snippet[s] SnippyReload ]]
 
+-- check spell in markdown files
+cmd [[ autocmd BufNewFile,BufRead *.md setlocal spell ]]
+
 
 -- LATEX
 g.tex_flavor = 'latex'  -- for clear recognize latex file

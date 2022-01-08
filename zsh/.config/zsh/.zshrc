@@ -52,6 +52,10 @@ zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
+# Edit line in vim with ctrl-e:
+autoload edit-command-line; zle -N edit-command-line
+bindkey '^e' edit-command-line
+
 # Load aliases
 [ -f "$HOME/.config/zsh/aliasrc" ] && source "$HOME/.config/zsh/aliasrc"
 [ -f "$HOME/.config/zsh/zfunctions" ] && source "$HOME/.config/zsh/zfunctions"
@@ -63,6 +67,9 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
 # Load zsh promt
 source $HOME/.config/zsh/themes/common/common.zsh-theme
+
+# Load icons for filetypes
+# source ~/.local/share/icons-in-terminal/icons_bash.sh
 
 # Load zsh-syntax-highlighting; should be last.
 source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

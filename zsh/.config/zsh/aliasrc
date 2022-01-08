@@ -4,7 +4,7 @@ alias nv='nvim'
 alias vi='nvim'
 
 # ls
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias la='ls -A'
 
 # grep
@@ -19,4 +19,3 @@ alias gst='git status'
 # pacman & aur
 alias pinst='sudo pacman -S'
 alias pdel='sudo pacman -Rsu'
-alias yinst='yay -S'
