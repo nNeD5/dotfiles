@@ -8,11 +8,12 @@ return require("packer").startup(function()
 	-- color scheme
 	use "shaunsingh/nord.nvim"
 
+    -- vim wiki
     use "vimwiki/vimwiki"
 
 	-- statusline
 	use "nvim-lualine/lualine.nvim"
-    -- use "kyazdani42/nvim-web-devicons" -- img for statusline
+    use "kyazdani42/nvim-web-devicons" -- img for statusline
 
     -- syntax hi
     use {
@@ -44,6 +45,7 @@ return require("packer").startup(function()
 
     -- snippets
     use 'dcampos/nvim-snippy'
+
     -- lsp (go to def, etc.)
     use "neovim/nvim-lspconfig"
     use "williamboman/nvim-lsp-installer"
@@ -63,6 +65,6 @@ return require("packer").startup(function()
     }
 
     -- auto formating
-    use "jose-elias-alvarez/null-ls.nvim"
+    -- use "jose-elias-alvarez/null-ls.nvim"
 
 end)

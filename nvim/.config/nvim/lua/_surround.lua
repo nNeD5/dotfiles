@@ -4,15 +4,16 @@ if not status_ok then
 end
 
 surround.setup {
-  context_offset = 100,
-  load_autogroups = false,
-  mappings_style = "sandwich",
-  map_insert_mode = false,
-  quotes = {"'", '"'},
-  brackets = {"(", '{', '['},
-  pairs = {
-    nestable = {{"(", ")"}, {"[", "]"}, {"{", "}"}},
-    linear = {{"'", "'"}, {"`", "`"}, {'"', '"'}}
-  },
-  prefix = "c"
+    context_offset = 100,
+    load_autogroups = false,
+    mappings_style = "sandwich",
+    map_insert_mode = false,
+    quotes = {"'", '"'},
+    brackets = {"(", '{', '['},
+    space_on_closing_char = false,
+    pairs = {
+        nestable = {{"(", ")"}, {"[", "]"}, {"{", "}"}},
+        linear = {{"'", "'"}, {"`", "`"}, {'"', '"'}}
+    },
+    prefix = "c"
 }

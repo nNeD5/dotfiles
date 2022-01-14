@@ -1,14 +1,11 @@
 #!/bin/sh
 
-# setxkbmap -option 'grp:caps_toggle' -layout ru,ua
-layout_1="us"
-layout_2="ru,ua"
-layout_current=$(setxkbmap -query | grep "layout" | awk '{print $2}')
+lang_1="us"
+lang_2="ru,ua"
+options="grp:menu_toggle,caps:escape"
 
-if [ $layout_current = $layout_2 ]; then
-    setxkbmap -option 'grp:menu_toggle' -layout $layout_1
-    echo $layout_1
+if setxkbmap -query | grep -q $lang_1; then
+    setxkbmap -option $options -layout $lang_2 -variant , ;
 else
-    setxkbmap -layout $layout_2
-    echo $layout_2
+    setxkbmap  -option $options -layout $lang_1 -variant , ;
 fi

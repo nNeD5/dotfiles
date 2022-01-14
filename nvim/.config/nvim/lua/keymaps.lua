@@ -23,7 +23,6 @@ map('', '<s-l>', '$', {silent = true})
 
 
 
-
 -- latex compile and preview
 vim.cmd [[ autocmd FileType tex  nnoremap <buffer> \lv :TexlabForward<CR> ]]
-vim.cmd [[ autocmd FileType tex  nnoremap <buffer> \lc :TexlabBuild<CR> ]]
+vim.cmd [[ autocmd FileType tex  nnoremap <buffer> \lc :!latexmk %<CR> ]]

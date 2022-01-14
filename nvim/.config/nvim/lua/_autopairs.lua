@@ -12,12 +12,13 @@ end
 
 npairs.setup({
     check_ts = true,
+    fast_wrap = {},
+    enable_check_bracket_line = true,
 })
 
 local ts_conds = require('nvim-autopairs.ts-conds')
 npairs.add_rule(Rule("$","$","tex"))
 npairs.add_rule(Rule("\\[","\\]","tex"))
-
 npairs.add_rules({
     Rule("$", "$", {"tex", "latex"})
 })
