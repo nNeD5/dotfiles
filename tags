@@ -1,0 +1,985 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/oned/dotfiles/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+$(OBJ)	st/.config/st-0.8.4/Makefile	/^$(OBJ): config.h config.mk$/;"	t
+-0,0 +1,194	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -0,0 +1,194 @@$/;"	h	newFile:b/boxdraw.c
+-0,0 +1,214	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -0,0 +1,214 @@$/;"	h	newFile:b/boxdraw_data.h
+-1004,11 +1013,23	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -1004,11 +1013,23 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-1018,7 +1039,7	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -1018,7 +1039,7 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-1038,19 +1059,15	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -1038,19 +1059,15 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-1059,13 +1069,53	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -1059,13 +1069,53 @@ tswapscreen(void)$/;"	h	modifiedFile:a/st.c
+-1075,17 +1125,28	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -1075,17 +1125,28 @@ tscrolldown(int orig, int n)$/;"	h	modifiedFile:a/st.c
+-109,6 +112,7	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -109,6 +112,7 @@ static const char *colorname[] = {$/;"	h	modifiedFile:a/config.def.h
+-1095,7 +1156,8	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -1095,7 +1156,8 @@ tscrollup(int orig, int n)$/;"	h	modifiedFile:a/st.c
+-1104,8 +1118,6	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^@@ -1104,8 +1118,6 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-111,6 +112,14	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -111,6 +112,14 @@ void *xmalloc(size_t);$/;"	h	modifiedFile:a/st.h
+-1124,7 +1186,7	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -1124,7 +1186,7 @@ tnewline(int first_col)$/;"	h	modifiedFile:a/st.c
+-115,6 +119,9	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -115,6 +119,9 @@ typedef struct {$/;"	h	modifiedFile:a/st.c
+-117,7 +121,7	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -117,7 +121,7 @@ static const char *colorname[] = {$/;"	h	modifiedFile:a/config.def.h
+-120,3 +120,4	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -120,3 +120,4 @@ extern char *termname;$/;"	h	modifiedFile:a/st.h
+-1205,6 +1205,8	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -1205,6 +1205,8 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-122,3 +131,4	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -122,3 +131,4 @@ extern char *termname;$/;"	h	modifiedFile:a/st.h
+-1230,6 +1230,9	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -1230,6 +1230,9 @@ tsetchar(Rune u, Glyph *attr, int x, int y)$/;"	h	modifiedFile:a/st.c
+-1251,8 +1253,13	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -1251,8 +1253,13 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len/;"	h	modifiedFile:a/x.c
+-1289,14 +1351,14	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -1289,14 +1351,14 @@ void$/;"	h	modifiedFile:a/st.c
+-14,6 +14,7	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^@@ -14,6 +14,7 @@$/;"	h	modifiedFile:a/x.c
+-1456,8 +1463,12	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -1456,8 +1463,12 @@ xdrawglyphfontspecs(const XftGlyphFontSpec *specs, Glyph base, int len, i/;"	h	modifiedFile:a/x.c
+-1500,7 +1511,7	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -1500,7 +1511,7 @@ xdrawcursor(int cx, int cy, Glyph g, int ox, int oy, Glyph og)$/;"	h	modifiedFile:a/x.c
+-16,7 +16,7	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -16,7 +16,7 @@ PKG_CONFIG = pkg-config$/;"	h	modifiedFile:a/config.mk
+-168,6 +168,42	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^@@ -168,6 +168,42 @@ static unsigned int defaultattr = 11;$/;"	h	modifiedFile:a/config.def.h
+-1733,11 +1795,11	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -1733,11 +1795,11 @@ csihandle(void)$/;"	h	modifiedFile:a/st.c
+-184,8 +191,8	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -184,8 +191,8 @@ static void tnewline(int);$/;"	h	modifiedFile:a/st.c
+-1894,6 +1911,9	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -1894,6 +1911,9 @@ main(int argc, char *argv[])$/;"	h	modifiedFile:a/x.c
+-1926,6 +1932,59	st/.config/st-0.8.4/patches/st-externalpipe-0.8.4.diff	/^@@ -1926,6 +1932,59 @@ strparse(void)$/;"	h	modifiedFile:a/st.c
+-1964,6 +1976,59	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^@@ -1964,6 +1976,59 @@ run(void)$/;"	h	modifiedFile:a/x.c
+-199,6 +199,8	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -199,6 +199,8 @@ static Shortcut shortcuts[] = {$/;"	h	modifiedFile:a/config.def.h
+-2037,6 +2102,11	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^@@ -2037,6 +2102,11 @@ run:$/;"	h	modifiedFile:a/x.c
+-2241,7 +2303,7	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -2241,7 +2303,7 @@ eschandle(uchar ascii)$/;"	h	modifiedFile:a/st.c
+-2254,7 +2316,7	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -2254,7 +2316,7 @@ eschandle(uchar ascii)$/;"	h	modifiedFile:a/st.c
+-229,6 +230,7	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -229,6 +230,7 @@ static char *usedfont = NULL;$/;"	h	modifiedFile:a/x.c
+-23,6 +23,7	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -23,6 +23,7 @@ config.h:$/;"	h	modifiedFile:a/Makefile
+-2464,7 +2526,7	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -2464,7 +2526,7 @@ twrite(const char *buf, int buflen, int show_ctrl)$/;"	h	modifiedFile:a/st.c
+-2501,6 +2563,14	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -2501,6 +2563,14 @@ tresize(int col, int row)$/;"	h	modifiedFile:a/st.c
+-2559,7 +2629,7	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -2559,7 +2629,7 @@ drawregion(int x1, int y1, int x2, int y2)$/;"	h	modifiedFile:a/st.c
+-2580,8 +2650,9	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -2580,8 +2650,9 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-33,6 +33,7	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -33,6 +33,7 @@ enum glyph_attribute {$/;"	h	modifiedFile:a/st.h
+-35,6 +35,7	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -35,6 +35,7 @@$/;"	h	modifiedFile:a/st.c
+-4,7 +4,7	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -4,7 +4,7 @@$/;"	h	modifiedFile:a/Makefile
+-414,10 +421,10	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -414,10 +421,10 @@ tlinelen(int y)$/;"	h	modifiedFile:a/st.c
+-42,6 +43,9	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -42,6 +43,9 @@$/;"	h	modifiedFile:a/st.c
+-45,6 +46,19	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^@@ -45,6 +46,19 @@ typedef struct {$/;"	h	modifiedFile:a/x.c
+-526,7 +533,7	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -526,7 +533,7 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-541,14 +548,14	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -541,14 +548,14 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-569,14 +576,14	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -569,14 +576,14 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-58,6 +58,18	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^@@ -58,6 +58,18 @@ static unsigned int blinktimeout = 800;$/;"	h	modifiedFile:a/config.def.h
+-607,13 +614,13	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -607,13 +614,13 @@ getsel(void)$/;"	h	modifiedFile:a/st.c
+-688,7 +690,7	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -688,7 +690,7 @@ xresize(int col, int row)$/;"	h	modifiedFile:a/x.c
+-723,8 +723,14	st/.config/st-0.8.4/patches/st-externalpipe-0.8.4.diff	/^@@ -723,8 +723,14 @@ sigchld(int a)$/;"	h	modifiedFile:a/st.c
+-748,6 +750,13	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -748,6 +750,13 @@ xloadcols(void)$/;"	h	modifiedFile:a/x.c
+-81,6 +81,7	st/.config/st-0.8.4/patches/st-externalpipe-0.8.4.diff	/^@@ -81,6 +81,7 @@ void die(const char *, ...);$/;"	h	modifiedFile:a/st.h
+-81,6 +81,8	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -81,6 +81,8 @@ void die(const char *, ...);$/;"	h	modifiedFile:a/st.h
+-82,6 +82,9	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -82,6 +82,9 @@ char *termname = "st-256color";$/;"	h	modifiedFile:a/config.def.h
+-828,8 +842,8	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^@@ -828,8 +842,8 @@ xclear(int x1, int y1, int x2, int y2)$/;"	h	modifiedFile:a/x.c
+-848,6 +855,9	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^@@ -848,6 +855,9 @@ void$/;"	h	modifiedFile:a/st.c
+-98,6 +98,7	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^@@ -98,6 +98,7 @@ typedef struct {$/;"	h	modifiedFile:a/x.c
+.c.o	st/.config/st-0.8.4/Makefile	/^.c.o:$/;"	t
+0	st/.config/st-0.8.4/compile_commands.json	/^      "\/usr\/bin\/gcc",$/;"	s	array:0.arguments
+0	st/.config/st-0.8.4/compile_commands.json	/^      "\/usr\/bin\/gcc",$/;"	s	array:1.arguments
+0	st/.config/st-0.8.4/compile_commands.json	/^      "\/usr\/bin\/gcc",$/;"	s	array:2.arguments
+0	st/.config/st-0.8.4/compile_commands.json	/^  {$/;"	o
+1	st/.config/st-0.8.4/compile_commands.json	/^      "-std=c99",$/;"	s	array:0.arguments
+1	st/.config/st-0.8.4/compile_commands.json	/^      "-std=c99",$/;"	s	array:1.arguments
+1	st/.config/st-0.8.4/compile_commands.json	/^      "-std=c99",$/;"	s	array:2.arguments
+1	st/.config/st-0.8.4/compile_commands.json	/^  {$/;"	o
+10	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/harfbuzz",$/;"	s	array:0.arguments
+10	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/harfbuzz",$/;"	s	array:1.arguments
+10	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/harfbuzz",$/;"	s	array:2.arguments
+11	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/glib-2.0",$/;"	s	array:0.arguments
+11	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/glib-2.0",$/;"	s	array:1.arguments
+11	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/glib-2.0",$/;"	s	array:2.arguments
+12	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/lib\/glib-2.0\/include",$/;"	s	array:0.arguments
+12	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/lib\/glib-2.0\/include",$/;"	s	array:1.arguments
+12	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/lib\/glib-2.0\/include",$/;"	s	array:2.arguments
+13	st/.config/st-0.8.4/compile_commands.json	/^      "-DVERSION=\\"0.8.4\\"",$/;"	s	array:0.arguments
+13	st/.config/st-0.8.4/compile_commands.json	/^      "-DVERSION=\\"0.8.4\\"",$/;"	s	array:1.arguments
+13	st/.config/st-0.8.4/compile_commands.json	/^      "-DVERSION=\\"0.8.4\\"",$/;"	s	array:2.arguments
+14	st/.config/st-0.8.4/compile_commands.json	/^      "-D_XOPEN_SOURCE=600",$/;"	s	array:0.arguments
+14	st/.config/st-0.8.4/compile_commands.json	/^      "-D_XOPEN_SOURCE=600",$/;"	s	array:1.arguments
+14	st/.config/st-0.8.4/compile_commands.json	/^      "-D_XOPEN_SOURCE=600",$/;"	s	array:2.arguments
+15	st/.config/st-0.8.4/compile_commands.json	/^      "-O1",$/;"	s	array:0.arguments
+15	st/.config/st-0.8.4/compile_commands.json	/^      "-O1",$/;"	s	array:1.arguments
+15	st/.config/st-0.8.4/compile_commands.json	/^      "-O1",$/;"	s	array:2.arguments
+16	st/.config/st-0.8.4/compile_commands.json	/^      "-c",$/;"	s	array:0.arguments
+16	st/.config/st-0.8.4/compile_commands.json	/^      "-c",$/;"	s	array:1.arguments
+16	st/.config/st-0.8.4/compile_commands.json	/^      "-c",$/;"	s	array:2.arguments
+17	st/.config/st-0.8.4/compile_commands.json	/^      "boxdraw.c"$/;"	s	array:2.arguments
+17	st/.config/st-0.8.4/compile_commands.json	/^      "st.c"$/;"	s	array:0.arguments
+17	st/.config/st-0.8.4/compile_commands.json	/^      "x.c"$/;"	s	array:1.arguments
+2	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/X11R6\/include",$/;"	s	array:0.arguments
+2	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/X11R6\/include",$/;"	s	array:1.arguments
+2	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/X11R6\/include",$/;"	s	array:2.arguments
+2	st/.config/st-0.8.4/compile_commands.json	/^  {$/;"	o
+3	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/freetype2",$/;"	s	array:0.arguments
+3	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/freetype2",$/;"	s	array:1.arguments
+3	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/freetype2",$/;"	s	array:2.arguments
+4	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/libpng16",$/;"	s	array:0.arguments
+4	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/libpng16",$/;"	s	array:1.arguments
+4	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/libpng16",$/;"	s	array:2.arguments
+5	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/harfbuzz",$/;"	s	array:0.arguments
+5	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/harfbuzz",$/;"	s	array:1.arguments
+5	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/harfbuzz",$/;"	s	array:2.arguments
+6	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/glib-2.0",$/;"	s	array:0.arguments
+6	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/glib-2.0",$/;"	s	array:1.arguments
+6	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/glib-2.0",$/;"	s	array:2.arguments
+7	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/lib\/glib-2.0\/include",$/;"	s	array:0.arguments
+7	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/lib\/glib-2.0\/include",$/;"	s	array:1.arguments
+7	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/lib\/glib-2.0\/include",$/;"	s	array:2.arguments
+8	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/freetype2",$/;"	s	array:0.arguments
+8	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/freetype2",$/;"	s	array:1.arguments
+8	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/freetype2",$/;"	s	array:2.arguments
+9	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/libpng16",$/;"	s	array:0.arguments
+9	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/libpng16",$/;"	s	array:1.arguments
+9	st/.config/st-0.8.4/compile_commands.json	/^      "-I\/usr\/include\/libpng16",$/;"	s	array:2.arguments
+ARGBEGIN	st/.config/st-0.8.4/arg.h	/^#define ARGBEGIN	/;"	d
+ARGC	st/.config/st-0.8.4/arg.h	/^#define ARGC(/;"	d
+ARGEND	st/.config/st-0.8.4/arg.h	/^#define ARGEND	/;"	d
+ARGF	st/.config/st-0.8.4/arg.h	/^#define ARGF(/;"	d
+ARG_H__	st/.config/st-0.8.4/arg.h	/^#define ARG_H__$/;"	d
+ATTRCMP	st/.config/st-0.8.4/st.h	/^#define ATTRCMP(/;"	d
+ATTR_BLINK	st/.config/st-0.8.4/st.h	/^	ATTR_BLINK      = 1 << 4,$/;"	e	enum:glyph_attribute
+ATTR_BOLD	st/.config/st-0.8.4/st.h	/^	ATTR_BOLD       = 1 << 0,$/;"	e	enum:glyph_attribute
+ATTR_BOLD_FAINT	st/.config/st-0.8.4/st.h	/^	ATTR_BOLD_FAINT = ATTR_BOLD | ATTR_FAINT,$/;"	e	enum:glyph_attribute
+ATTR_BOXDRAW	st/.config/st-0.8.4/st.h	/^	ATTR_BOXDRAW    = 1 << 11,$/;"	e	enum:glyph_attribute
+ATTR_FAINT	st/.config/st-0.8.4/st.h	/^	ATTR_FAINT      = 1 << 1,$/;"	e	enum:glyph_attribute
+ATTR_INVISIBLE	st/.config/st-0.8.4/st.h	/^	ATTR_INVISIBLE  = 1 << 6,$/;"	e	enum:glyph_attribute
+ATTR_ITALIC	st/.config/st-0.8.4/st.h	/^	ATTR_ITALIC     = 1 << 2,$/;"	e	enum:glyph_attribute
+ATTR_NULL	st/.config/st-0.8.4/st.h	/^	ATTR_NULL       = 0,$/;"	e	enum:glyph_attribute
+ATTR_REVERSE	st/.config/st-0.8.4/st.h	/^	ATTR_REVERSE    = 1 << 5,$/;"	e	enum:glyph_attribute
+ATTR_STRUCK	st/.config/st-0.8.4/st.h	/^	ATTR_STRUCK     = 1 << 7,$/;"	e	enum:glyph_attribute
+ATTR_UNDERLINE	st/.config/st-0.8.4/st.h	/^	ATTR_UNDERLINE  = 1 << 3,$/;"	e	enum:glyph_attribute
+ATTR_WDUMMY	st/.config/st-0.8.4/st.h	/^	ATTR_WDUMMY     = 1 << 10,$/;"	e	enum:glyph_attribute
+ATTR_WIDE	st/.config/st-0.8.4/st.h	/^	ATTR_WIDE       = 1 << 9,$/;"	e	enum:glyph_attribute
+ATTR_WRAP	st/.config/st-0.8.4/st.h	/^	ATTR_WRAP       = 1 << 8,$/;"	e	enum:glyph_attribute
+AUTHORS	st/.config/st-0.8.4/st.1	/^.SH AUTHORS$/;"	s	title:ST
+Arg	st/.config/st-0.8.4/st.h	/^} Arg;$/;"	t	typeref:union:__anona2c43966020a
+BBD	st/.config/st-0.8.4/boxdraw_data.h	/^#define BBD /;"	d
+BBL	st/.config/st-0.8.4/boxdraw_data.h	/^#define BBL /;"	d
+BBQ	st/.config/st-0.8.4/boxdraw_data.h	/^#define BBQ /;"	d
+BBR	st/.config/st-0.8.4/boxdraw_data.h	/^#define BBR /;"	d
+BBS	st/.config/st-0.8.4/boxdraw_data.h	/^#define BBS /;"	d
+BBU	st/.config/st-0.8.4/boxdraw_data.h	/^#define BBU /;"	d
+BDA	st/.config/st-0.8.4/boxdraw_data.h	/^#define BDA /;"	d
+BDB	st/.config/st-0.8.4/boxdraw_data.h	/^#define BDB /;"	d
+BDL	st/.config/st-0.8.4/boxdraw_data.h	/^#define BDL /;"	d
+BETWEEN	st/.config/st-0.8.4/st.h	/^#define BETWEEN(/;"	d
+BL	st/.config/st-0.8.4/boxdraw_data.h	/^#define BL /;"	d
+BR	st/.config/st-0.8.4/boxdraw_data.h	/^#define BR /;"	d
+BRL	st/.config/st-0.8.4/boxdraw_data.h	/^#define BRL /;"	d
+BUGS	st/.config/st-0.8.4/st.1	/^.SH BUGS$/;"	s	title:ST
+CPU-temperature	i3/.config/i3/i3blocks.conf	/^[CPU-temperature]$/;"	s
+CSIEscape	st/.config/st-0.8.4/st.c	/^} CSIEscape;$/;"	t	typeref:struct:__anona2c439610508	file:
+CS_FIN	st/.config/st-0.8.4/st.c	/^	CS_FIN$/;"	e	enum:charset	file:
+CS_GER	st/.config/st-0.8.4/st.c	/^	CS_GER,$/;"	e	enum:charset	file:
+CS_GRAPHIC0	st/.config/st-0.8.4/st.c	/^	CS_GRAPHIC0,$/;"	e	enum:charset	file:
+CS_GRAPHIC1	st/.config/st-0.8.4/st.c	/^	CS_GRAPHIC1,$/;"	e	enum:charset	file:
+CS_MULTI	st/.config/st-0.8.4/st.c	/^	CS_MULTI,$/;"	e	enum:charset	file:
+CS_UK	st/.config/st-0.8.4/st.c	/^	CS_UK,$/;"	e	enum:charset	file:
+CS_USA	st/.config/st-0.8.4/st.c	/^	CS_USA,$/;"	e	enum:charset	file:
+CURSOR_DEFAULT	st/.config/st-0.8.4/st.c	/^	CURSOR_DEFAULT  = 0,$/;"	e	enum:cursor_state	file:
+CURSOR_LOAD	st/.config/st-0.8.4/st.c	/^	CURSOR_LOAD$/;"	e	enum:cursor_movement	file:
+CURSOR_ORIGIN	st/.config/st-0.8.4/st.c	/^	CURSOR_ORIGIN   = 2$/;"	e	enum:cursor_state	file:
+CURSOR_SAVE	st/.config/st-0.8.4/st.c	/^	CURSOR_SAVE,$/;"	e	enum:cursor_movement	file:
+CURSOR_WRAPNEXT	st/.config/st-0.8.4/st.c	/^	CURSOR_WRAPNEXT = 1,$/;"	e	enum:cursor_state	file:
+CUSTOMIZATION	st/.config/st-0.8.4/st.1	/^.SH CUSTOMIZATION$/;"	s	title:ST
+Color	st/.config/st-0.8.4/x.c	/^typedef XftColor Color;$/;"	t	typeref:typename:XftColor	file:
+DC	st/.config/st-0.8.4/x.c	/^} DC;$/;"	t	typeref:struct:__anon52821db20a08	file:
+DD	st/.config/st-0.8.4/boxdraw_data.h	/^#define DD /;"	d
+DEFAULT	st/.config/st-0.8.4/st.h	/^#define DEFAULT(/;"	d
+DESCRIPTION	st/.config/st-0.8.4/st.1	/^.SH DESCRIPTION$/;"	s	title:ST
+DH	st/.config/st-0.8.4/boxdraw_data.h	/^#define DH /;"	d
+DIV	st/.config/st-0.8.4/boxdraw.c	/^#define DIV(/;"	d	file:
+DIVCEIL	st/.config/st-0.8.4/st.h	/^#define DIVCEIL(/;"	d
+DL	st/.config/st-0.8.4/boxdraw_data.h	/^#define DL /;"	d
+DR	st/.config/st-0.8.4/boxdraw_data.h	/^#define DR /;"	d
+DU	st/.config/st-0.8.4/boxdraw_data.h	/^#define DU /;"	d
+DV	st/.config/st-0.8.4/boxdraw_data.h	/^#define DV /;"	d
+Draw	st/.config/st-0.8.4/x.c	/^typedef XftDraw *Draw;$/;"	t	typeref:typename:XftDraw *	file:
+EARGF	st/.config/st-0.8.4/arg.h	/^#define EARGF(/;"	d
+ESC_ALTCHARSET	st/.config/st-0.8.4/st.c	/^	ESC_ALTCHARSET = 8,$/;"	e	enum:escape_state	file:
+ESC_ARG_SIZ	st/.config/st-0.8.4/st.c	/^#define ESC_ARG_SIZ /;"	d	file:
+ESC_BUF_SIZ	st/.config/st-0.8.4/st.c	/^#define ESC_BUF_SIZ /;"	d	file:
+ESC_CSI	st/.config/st-0.8.4/st.c	/^	ESC_CSI        = 2,$/;"	e	enum:escape_state	file:
+ESC_START	st/.config/st-0.8.4/st.c	/^	ESC_START      = 1,$/;"	e	enum:escape_state	file:
+ESC_STR	st/.config/st-0.8.4/st.c	/^	ESC_STR        = 4,  \/* DCS, OSC, PM, APC *\/$/;"	e	enum:escape_state	file:
+ESC_STR_END	st/.config/st-0.8.4/st.c	/^	ESC_STR_END    = 16, \/* a final string was encountered *\/$/;"	e	enum:escape_state	file:
+ESC_TEST	st/.config/st-0.8.4/st.c	/^	ESC_TEST       = 32, \/* Enter in test mode *\/$/;"	e	enum:escape_state	file:
+ESC_UTF8	st/.config/st-0.8.4/st.c	/^	ESC_UTF8       = 64,$/;"	e	enum:escape_state	file:
+FA_BATTERY	i3/.config/i3/scripts/battery2	/^    FA_BATTERY = "<span font='FontAwesome'>\\uf240<\/span>"$/;"	v
+FA_LIGHTNING	i3/.config/i3/scripts/battery2	/^    FA_LIGHTNING = "<span color='{}'><span font='FontAwesome'>\\uf0e7<\/span><\/span>".format(co/;"	v
+FA_PLUG	i3/.config/i3/scripts/battery2	/^    FA_PLUG = "<span font='FontAwesome'>\\uf1e6<\/span>"$/;"	v
+FA_QUESTION	i3/.config/i3/scripts/battery2	/^    FA_QUESTION = "<span font='FontAwesome'>\\uf128<\/span>"$/;"	v
+FLOAT	st/.config/st-0.8.4/x.c	/^	FLOAT = 2$/;"	e	enum:resource_type	file:
+FRC_BOLD	st/.config/st-0.8.4/x.c	/^	FRC_BOLD,$/;"	e	enum:__anon52821db20b03	file:
+FRC_ITALIC	st/.config/st-0.8.4/x.c	/^	FRC_ITALIC,$/;"	e	enum:__anon52821db20b03	file:
+FRC_ITALICBOLD	st/.config/st-0.8.4/x.c	/^	FRC_ITALICBOLD$/;"	e	enum:__anon52821db20b03	file:
+FRC_NORMAL	st/.config/st-0.8.4/x.c	/^	FRC_NORMAL,$/;"	e	enum:__anon52821db20b03	file:
+Font	st/.config/st-0.8.4/x.c	/^#define Font /;"	d	file:
+Font	st/.config/st-0.8.4/x.c	/^} Font;$/;"	t	typeref:struct:__anon52821db20908	file:
+Fontcache	st/.config/st-0.8.4/x.c	/^} Fontcache;$/;"	t	typeref:struct:__anon52821db20c08	file:
+Glyph	st/.config/st-0.8.4/st.h	/^#define Glyph /;"	d
+Glyph	st/.config/st-0.8.4/st.h	/^} Glyph;$/;"	t	typeref:struct:__anona2c439660108
+GlyphFontSpec	st/.config/st-0.8.4/x.c	/^typedef XftGlyphFontSpec GlyphFontSpec;$/;"	t	typeref:typename:XftGlyphFontSpec	file:
+HD	st/.config/st-0.8.4/boxdraw_data.h	/^#define HD /;"	d
+HH	st/.config/st-0.8.4/boxdraw_data.h	/^#define HH /;"	d
+HISTSIZE	st/.config/st-0.8.4/st.c	/^#define HISTSIZE /;"	d	file:
+HL	st/.config/st-0.8.4/boxdraw_data.h	/^#define HL /;"	d
+HR	st/.config/st-0.8.4/boxdraw_data.h	/^#define HR /;"	d
+HU	st/.config/st-0.8.4/boxdraw_data.h	/^#define HU /;"	d
+HV	st/.config/st-0.8.4/boxdraw_data.h	/^#define HV /;"	d
+INCS	st/.config/st-0.8.4/config.mk	/^INCS = -I$(X11INC) \\$/;"	m
+INTEGER	st/.config/st-0.8.4/x.c	/^	INTEGER = 1,$/;"	e	enum:resource_type	file:
+ISCONTROL	st/.config/st-0.8.4/st.c	/^#define ISCONTROL(/;"	d	file:
+ISCONTROLC0	st/.config/st-0.8.4/st.c	/^#define ISCONTROLC0(/;"	d	file:
+ISCONTROLC1	st/.config/st-0.8.4/st.c	/^#define ISCONTROLC1(/;"	d	file:
+ISDELIM	st/.config/st-0.8.4/st.c	/^#define ISDELIM(/;"	d	file:
+IS_SET	st/.config/st-0.8.4/st.c	/^#define IS_SET(/;"	d	file:
+IS_SET	st/.config/st-0.8.4/x.c	/^#define IS_SET(/;"	d	file:
+IS_TRUECOL	st/.config/st-0.8.4/st.h	/^#define IS_TRUECOL(/;"	d
+Key	st/.config/st-0.8.4/x.c	/^} Key;$/;"	t	typeref:struct:__anon52821db20308	file:
+LD	st/.config/st-0.8.4/boxdraw_data.h	/^#define LD /;"	d
+LEN	st/.config/st-0.8.4/st.h	/^#define LEN(/;"	d
+LH	st/.config/st-0.8.4/boxdraw_data.h	/^#define LH /;"	d
+LIBS	st/.config/st-0.8.4/config.mk	/^LIBS = -L$(X11LIB) -lm -lrt -lX11 -lutil -lXft -lXrender\\$/;"	m
+LICENSE	st/.config/st-0.8.4/st.1	/^.SH LICENSE$/;"	s	title:ST
+LIMIT	st/.config/st-0.8.4/st.h	/^#define LIMIT(/;"	d
+LL	st/.config/st-0.8.4/boxdraw_data.h	/^#define LL /;"	d
+LR	st/.config/st-0.8.4/boxdraw_data.h	/^#define LR /;"	d
+LU	st/.config/st-0.8.4/boxdraw_data.h	/^#define LU /;"	d
+LV	st/.config/st-0.8.4/boxdraw_data.h	/^#define LV /;"	d
+Line	st/.config/st-0.8.4/st.h	/^typedef Glyph *Line;$/;"	t	typeref:typename:Glyph *
+M.on_attach	nvim/.config/nvim/lua/lsp/handlers.lua	/^    M.on_attach = function()$/;"	f
+M.setup	nvim/.config/nvim/lua/lsp/handlers.lua	/^M.setup = function()$/;"	f
+MANPREFIX	st/.config/st-0.8.4/config.mk	/^MANPREFIX = $(PREFIX)\/share\/man$/;"	m
+MAX	st/.config/st-0.8.4/st.h	/^#define MAX(/;"	d
+MIN	st/.config/st-0.8.4/st.h	/^#define MIN(/;"	d
+MODBIT	st/.config/st-0.8.4/st.h	/^#define MODBIT(/;"	d
+MODE_8BIT	st/.config/st-0.8.4/win.h	/^	MODE_8BIT        = 1 << 10,$/;"	e	enum:win_mode
+MODE_ALTSCREEN	st/.config/st-0.8.4/st.c	/^	MODE_ALTSCREEN   = 1 << 2,$/;"	e	enum:term_mode	file:
+MODE_APPCURSOR	st/.config/st-0.8.4/win.h	/^	MODE_APPCURSOR   = 1 << 8,$/;"	e	enum:win_mode
+MODE_APPKEYPAD	st/.config/st-0.8.4/win.h	/^	MODE_APPKEYPAD   = 1 << 2,$/;"	e	enum:win_mode
+MODE_BLINK	st/.config/st-0.8.4/win.h	/^	MODE_BLINK       = 1 << 11,$/;"	e	enum:win_mode
+MODE_BRCKTPASTE	st/.config/st-0.8.4/win.h	/^	MODE_BRCKTPASTE  = 1 << 16,$/;"	e	enum:win_mode
+MODE_CRLF	st/.config/st-0.8.4/st.c	/^	MODE_CRLF        = 1 << 3,$/;"	e	enum:term_mode	file:
+MODE_ECHO	st/.config/st-0.8.4/st.c	/^	MODE_ECHO        = 1 << 4,$/;"	e	enum:term_mode	file:
+MODE_FBLINK	st/.config/st-0.8.4/win.h	/^	MODE_FBLINK      = 1 << 12,$/;"	e	enum:win_mode
+MODE_FOCUS	st/.config/st-0.8.4/win.h	/^	MODE_FOCUS       = 1 << 13,$/;"	e	enum:win_mode
+MODE_FOCUSED	st/.config/st-0.8.4/win.h	/^	MODE_FOCUSED     = 1 << 1,$/;"	e	enum:win_mode
+MODE_HIDE	st/.config/st-0.8.4/win.h	/^	MODE_HIDE        = 1 << 7,$/;"	e	enum:win_mode
+MODE_INSERT	st/.config/st-0.8.4/st.c	/^	MODE_INSERT      = 1 << 1,$/;"	e	enum:term_mode	file:
+MODE_KBDLOCK	st/.config/st-0.8.4/win.h	/^	MODE_KBDLOCK     = 1 << 6,$/;"	e	enum:win_mode
+MODE_MOUSE	st/.config/st-0.8.4/win.h	/^	MODE_MOUSE       = MODE_MOUSEBTN|MODE_MOUSEMOTION|MODE_MOUSEX10\\$/;"	e	enum:win_mode
+MODE_MOUSEBTN	st/.config/st-0.8.4/win.h	/^	MODE_MOUSEBTN    = 1 << 3,$/;"	e	enum:win_mode
+MODE_MOUSEMANY	st/.config/st-0.8.4/win.h	/^	MODE_MOUSEMANY   = 1 << 15,$/;"	e	enum:win_mode
+MODE_MOUSEMOTION	st/.config/st-0.8.4/win.h	/^	MODE_MOUSEMOTION = 1 << 4,$/;"	e	enum:win_mode
+MODE_MOUSESGR	st/.config/st-0.8.4/win.h	/^	MODE_MOUSESGR    = 1 << 9,$/;"	e	enum:win_mode
+MODE_MOUSEX10	st/.config/st-0.8.4/win.h	/^	MODE_MOUSEX10    = 1 << 14,$/;"	e	enum:win_mode
+MODE_NUMLOCK	st/.config/st-0.8.4/win.h	/^	MODE_NUMLOCK     = 1 << 17,$/;"	e	enum:win_mode
+MODE_PRINT	st/.config/st-0.8.4/st.c	/^	MODE_PRINT       = 1 << 5,$/;"	e	enum:term_mode	file:
+MODE_REVERSE	st/.config/st-0.8.4/win.h	/^	MODE_REVERSE     = 1 << 5,$/;"	e	enum:win_mode
+MODE_UTF8	st/.config/st-0.8.4/st.c	/^	MODE_UTF8        = 1 << 6,$/;"	e	enum:term_mode	file:
+MODE_VISIBLE	st/.config/st-0.8.4/win.h	/^	MODE_VISIBLE     = 1 << 0,$/;"	e	enum:win_mode
+MODE_WRAP	st/.config/st-0.8.4/st.c	/^	MODE_WRAP        = 1 << 0,$/;"	e	enum:term_mode	file:
+MODKEY	st/.config/st-0.8.4/config.def.h	/^#define MODKEY /;"	d
+MODKEY	st/.config/st-0.8.4/config.h	/^#define MODKEY /;"	d
+MODKEY	st/.config/st-0.8.4/test.h	/^#define MODKEY /;"	d
+Main	i3/.config/i3/scripts/keyhint	/^Main() {$/;"	f
+MouseShortcut	st/.config/st-0.8.4/x.c	/^} MouseShortcut;$/;"	t	typeref:struct:__anon52821db20208	file:
+NAME	st/.config/st-0.8.4/st.1	/^.SH NAME$/;"	s	title:ST
+OBJ	st/.config/st-0.8.4/Makefile	/^OBJ = $(SRC:.c=.o)$/;"	m
+OPTIONS	st/.config/st-0.8.4/st.1	/^.SH OPTIONS$/;"	s	title:ST
+PKG_CONFIG	st/.config/st-0.8.4/config.mk	/^PKG_CONFIG = pkg-config$/;"	m
+PREFIX	st/.config/st-0.8.4/config.mk	/^PREFIX = \/usr\/local$/;"	m
+ResourcePref	st/.config/st-0.8.4/x.c	/^} ResourcePref;$/;"	t	typeref:struct:__anon52821db20408	file:
+Rune	st/.config/st-0.8.4/st.h	/^typedef uint_least32_t Rune;$/;"	t	typeref:typename:uint_least32_t
+SEE	st/.config/st-0.8.4/st.1	/^.SH SEE ALSO$/;"	s	title:ST
+SEL_EMPTY	st/.config/st-0.8.4/st.h	/^	SEL_EMPTY = 1,$/;"	e	enum:selection_mode
+SEL_IDLE	st/.config/st-0.8.4/st.h	/^	SEL_IDLE = 0,$/;"	e	enum:selection_mode
+SEL_READY	st/.config/st-0.8.4/st.h	/^	SEL_READY = 2$/;"	e	enum:selection_mode
+SEL_RECTANGULAR	st/.config/st-0.8.4/st.h	/^	SEL_RECTANGULAR = 2$/;"	e	enum:selection_type
+SEL_REGULAR	st/.config/st-0.8.4/st.h	/^	SEL_REGULAR = 1,$/;"	e	enum:selection_type
+SHORTCUTS	st/.config/st-0.8.4/st.1	/^.SH SHORTCUTS$/;"	s	title:ST
+SNAP_LINE	st/.config/st-0.8.4/st.h	/^	SNAP_LINE = 2$/;"	e	enum:selection_snap
+SNAP_WORD	st/.config/st-0.8.4/st.h	/^	SNAP_WORD = 1,$/;"	e	enum:selection_snap
+SRC	st/.config/st-0.8.4/Makefile	/^SRC = st.c x.c boxdraw.c$/;"	m
+ST	st/.config/st-0.8.4/st.1	/^.TH ST 1 st\\-VERSION$/;"	t
+STCFLAGS	st/.config/st-0.8.4/config.mk	/^STCFLAGS = $(INCS) $(STCPPFLAGS) $(CPPFLAGS) $(CFLAGS)$/;"	m
+STCPPFLAGS	st/.config/st-0.8.4/config.mk	/^STCPPFLAGS = -DVERSION=\\"$(VERSION)\\" -D_XOPEN_SOURCE=600$/;"	m
+STLDFLAGS	st/.config/st-0.8.4/config.mk	/^STLDFLAGS = $(LIBS) $(LDFLAGS)$/;"	m
+STREscape	st/.config/st-0.8.4/st.c	/^} STREscape;$/;"	t	typeref:struct:__anona2c439610608	file:
+STRING	st/.config/st-0.8.4/x.c	/^	STRING = 0,$/;"	e	enum:resource_type	file:
+STR_ARG_SIZ	st/.config/st-0.8.4/st.c	/^#define STR_ARG_SIZ /;"	d	file:
+STR_BUF_SIZ	st/.config/st-0.8.4/st.c	/^#define STR_BUF_SIZ /;"	d	file:
+SYNOPSIS	st/.config/st-0.8.4/st.1	/^.SH SYNOPSIS$/;"	s	title:ST
+Selection	st/.config/st-0.8.4/st.c	/^} Selection;$/;"	t	typeref:struct:__anona2c439610208	file:
+Shortcut	st/.config/st-0.8.4/x.c	/^} Shortcut;$/;"	t	typeref:struct:__anon52821db20108	file:
+TCursor	st/.config/st-0.8.4/st.c	/^} TCursor;$/;"	t	typeref:struct:__anona2c439610108	file:
+TERMMOD	st/.config/st-0.8.4/config.def.h	/^#define TERMMOD /;"	d
+TERMMOD	st/.config/st-0.8.4/config.h	/^#define TERMMOD /;"	d
+TERMMOD	st/.config/st-0.8.4/test.h	/^#define TERMMOD /;"	d
+TIMEDIFF	st/.config/st-0.8.4/st.h	/^#define TIMEDIFF(/;"	d
+TL	st/.config/st-0.8.4/boxdraw_data.h	/^#define TL /;"	d
+TLINE	st/.config/st-0.8.4/st.c	/^#define TLINE(/;"	d	file:
+TR	st/.config/st-0.8.4/boxdraw_data.h	/^#define TR /;"	d
+TRUEBLUE	st/.config/st-0.8.4/x.c	/^#define TRUEBLUE(/;"	d	file:
+TRUECOLOR	st/.config/st-0.8.4/st.h	/^#define TRUECOLOR(/;"	d
+TRUEGREEN	st/.config/st-0.8.4/x.c	/^#define TRUEGREEN(/;"	d	file:
+TRUERED	st/.config/st-0.8.4/x.c	/^#define TRUERED(/;"	d	file:
+Term	st/.config/st-0.8.4/st.c	/^} Term;$/;"	t	typeref:struct:__anona2c439610408	file:
+TermWindow	st/.config/st-0.8.4/x.c	/^} TermWindow;$/;"	t	typeref:struct:__anon52821db20508	file:
+UTF_INVALID	st/.config/st-0.8.4/st.c	/^#define UTF_INVALID /;"	d	file:
+UTF_SIZ	st/.config/st-0.8.4/st.c	/^#define UTF_SIZ /;"	d	file:
+VERSION	st/.config/st-0.8.4/config.mk	/^VERSION = 0.8.4$/;"	m
+Weather	i3/.config/i3/scripts/openweather.conf	/^[Weather]$/;"	s
+X11INC	st/.config/st-0.8.4/config.mk	/^X11INC = \/usr\/X11R6\/include$/;"	m
+X11LIB	st/.config/st-0.8.4/config.mk	/^X11LIB = \/usr\/X11R6\/lib$/;"	m
+XEMBED_FOCUS_IN	st/.config/st-0.8.4/x.c	/^#define XEMBED_FOCUS_IN /;"	d	file:
+XEMBED_FOCUS_OUT	st/.config/st-0.8.4/x.c	/^#define XEMBED_FOCUS_OUT /;"	d	file:
+XK_ANY_MOD	st/.config/st-0.8.4/x.c	/^#define XK_ANY_MOD /;"	d	file:
+XK_NO_MOD	st/.config/st-0.8.4/x.c	/^#define XK_NO_MOD /;"	d	file:
+XK_SWITCH_MOD	st/.config/st-0.8.4/x.c	/^#define XK_SWITCH_MOD /;"	d	file:
+XSelection	st/.config/st-0.8.4/x.c	/^} XSelection;$/;"	t	typeref:struct:__anon52821db20808	file:
+XWindow	st/.config/st-0.8.4/x.c	/^} XWindow;$/;"	t	typeref:struct:__anon52821db20608	file:
+["<S-Tab>"]	nvim/.config/nvim/lua/_cmp.lua	/^        ["<S-Tab>"] = cmp.mapping(function(fallback)$/;"	f
+["<Tab>"]	nvim/.config/nvim/lua/_cmp.lua	/^        ["<Tab>"] = cmp.mapping(function(fallback)$/;"	f
+["<c-n>"]	nvim/.config/nvim/lua/_cmp.lua	/^        ["<c-n>"] = cmp.mapping(function()$/;"	f
+__anon52821db20108	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20208	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20308	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20408	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20508	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20608	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20708	st/.config/st-0.8.4/x.c	/^	struct {$/;"	s	struct:__anon52821db20608	file:
+__anon52821db20808	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20908	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20a08	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anon52821db20b03	st/.config/st-0.8.4/x.c	/^enum {$/;"	g	file:
+__anon52821db20c08	st/.config/st-0.8.4/x.c	/^typedef struct {$/;"	s	file:
+__anona2c439610108	st/.config/st-0.8.4/st.c	/^typedef struct {$/;"	s	file:
+__anona2c439610208	st/.config/st-0.8.4/st.c	/^typedef struct {$/;"	s	file:
+__anona2c439610308	st/.config/st-0.8.4/st.c	/^	struct {$/;"	s	struct:__anona2c439610208	file:
+__anona2c439610408	st/.config/st-0.8.4/st.c	/^typedef struct {$/;"	s	file:
+__anona2c439610508	st/.config/st-0.8.4/st.c	/^typedef struct {$/;"	s	file:
+__anona2c439610608	st/.config/st-0.8.4/st.c	/^typedef struct {$/;"	s	file:
+__anona2c439660108	st/.config/st-0.8.4/st.h	/^typedef struct {$/;"	s
+__anona2c43966020a	st/.config/st-0.8.4/st.h	/^typedef union {$/;"	u
+a/Makefile	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^--- a\/Makefile$/;"	m
+a/config.def.h	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^--- a\/config.def.h$/;"	m
+a/config.mk	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^--- a\/config.mk$/;"	m
+a/st.c	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^--- a\/st.c$/;"	m
+a/st.c	st/.config/st-0.8.4/patches/st-externalpipe-0.8.4.diff	/^--- a\/st.c$/;"	m
+a/st.c	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^--- a\/st.c$/;"	m
+a/st.h	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^--- a\/st.h$/;"	m
+a/st.h	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^--- a\/st.h$/;"	m
+a/st.h	st/.config/st-0.8.4/patches/st-externalpipe-0.8.4.diff	/^--- a\/st.h$/;"	m
+a/st.h	st/.config/st-0.8.4/patches/st-scrollback-0.8.4.diff	/^--- a\/st.h$/;"	m
+a/x.c	st/.config/st-0.8.4/patches/st-alpha-0.8.2.diff	/^--- a\/x.c$/;"	m
+a/x.c	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^--- a\/x.c$/;"	m
+a/x.c	st/.config/st-0.8.4/patches/st-xresources-20200604-9ba7ecf.diff	/^--- a\/x.c$/;"	m
+all	st/.config/st-0.8.4/Makefile	/^all: options st$/;"	t
+allowaltscreen	st/.config/st-0.8.4/config.def.h	/^int allowaltscreen = 1;$/;"	v	typeref:typename:int
+allowaltscreen	st/.config/st-0.8.4/config.h	/^int allowaltscreen = 1;$/;"	v	typeref:typename:int
+allowaltscreen	st/.config/st-0.8.4/test.h	/^int allowaltscreen = 1;$/;"	v	typeref:typename:int
+allowwindowops	st/.config/st-0.8.4/config.def.h	/^int allowwindowops = 0;$/;"	v	typeref:typename:int
+allowwindowops	st/.config/st-0.8.4/config.h	/^int allowwindowops = 0;$/;"	v	typeref:typename:int
+allowwindowops	st/.config/st-0.8.4/test.h	/^int allowwindowops = 0;$/;"	v	typeref:typename:int
+alpha	st/.config/st-0.8.4/config.def.h	/^float alpha = 0.8;$/;"	v	typeref:typename:float
+alpha	st/.config/st-0.8.4/config.h	/^float alpha = 0.8;$/;"	v	typeref:typename:float
+alpha	st/.config/st-0.8.4/test.h	/^float alpha = 0.8;$/;"	v	typeref:typename:float
+alphaOffset	st/.config/st-0.8.4/config.h	/^float alphaOffset = 0.0;$/;"	v	typeref:typename:float
+alphaOffset	st/.config/st-0.8.4/test.h	/^float alphaOffset = 0.0;$/;"	v	typeref:typename:float
+alphaUnfocus	st/.config/st-0.8.4/config.h	/^float alphaUnfocus;$/;"	v	typeref:typename:float
+alphaUnfocus	st/.config/st-0.8.4/test.h	/^float alphaUnfocus;$/;"	v	typeref:typename:float
+alt	st/.config/st-0.8.4/st.c	/^	Line *alt;    \/* alternate screen *\/$/;"	m	struct:__anona2c439610408	typeref:typename:Line *	file:
+alt	st/.config/st-0.8.4/st.c	/^	int alt;$/;"	m	struct:__anona2c439610208	typeref:typename:int	file:
+appcursor	st/.config/st-0.8.4/x.c	/^	signed char appcursor; \/* application cursor *\/$/;"	m	struct:__anon52821db20308	typeref:typename:signed char	file:
+appkey	st/.config/st-0.8.4/x.c	/^	signed char appkey;    \/* application keypad *\/$/;"	m	struct:__anon52821db20308	typeref:typename:signed char	file:
+arg	st/.config/st-0.8.4/st.c	/^	int arg[ESC_ARG_SIZ];$/;"	m	struct:__anona2c439610508	typeref:typename:int[]	file:
+arg	st/.config/st-0.8.4/x.c	/^	const Arg arg;$/;"	m	struct:__anon52821db20108	typeref:typename:const Arg	file:
+arg	st/.config/st-0.8.4/x.c	/^	const Arg arg;$/;"	m	struct:__anon52821db20208	typeref:typename:const Arg	file:
+args	st/.config/st-0.8.4/st.c	/^	char *args[STR_ARG_SIZ];$/;"	m	struct:__anona2c439610608	typeref:typename:char * []	file:
+arguments	st/.config/st-0.8.4/compile_commands.json	/^    "arguments": [$/;"	a	object:0
+arguments	st/.config/st-0.8.4/compile_commands.json	/^    "arguments": [$/;"	a	object:1
+arguments	st/.config/st-0.8.4/compile_commands.json	/^    "arguments": [$/;"	a	object:2
+argv0	st/.config/st-0.8.4/x.c	/^char *argv0;$/;"	v	typeref:typename:char *
+ascent	st/.config/st-0.8.4/x.c	/^	int ascent;$/;"	m	struct:__anon52821db20908	typeref:typename:int	file:
+ascii_printable	st/.config/st-0.8.4/config.def.h	/^static char ascii_printable[] =$/;"	v	typeref:typename:char[]
+ascii_printable	st/.config/st-0.8.4/config.h	/^static char ascii_printable[] =$/;"	v	typeref:typename:char[]
+ascii_printable	st/.config/st-0.8.4/test.h	/^static char ascii_printable[] =$/;"	v	typeref:typename:char[]
+ask_confirmation	i3/.config/i3/scripts/powermenu	/^function ask_confirmation() {$/;"	f
+attr	st/.config/st-0.8.4/st.c	/^	Glyph attr; \/* current char attributes *\/$/;"	m	struct:__anona2c439610108	typeref:typename:Glyph	file:
+attrs	st/.config/st-0.8.4/x.c	/^	XSetWindowAttributes attrs;$/;"	m	struct:__anon52821db20608	typeref:typename:XSetWindowAttributes	file:
+b/boxdraw.c	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^+++ b\/boxdraw.c$/;"	n
+b/boxdraw_data.h	st/.config/st-0.8.4/patches/st-boxdraw_v2-0.8.3.diff	/^+++ b\/boxdraw_data.h$/;"	n
+background	st/.config/st-0.8.4/config.h	/^unsigned int background = 258;$/;"	v	typeref:typename:unsigned int
+background	st/.config/st-0.8.4/test.h	/^unsigned int background = 258;$/;"	v	typeref:typename:unsigned int
+badslant	st/.config/st-0.8.4/x.c	/^	int badslant;$/;"	m	struct:__anon52821db20908	typeref:typename:int	file:
+badweight	st/.config/st-0.8.4/x.c	/^	int badweight;$/;"	m	struct:__anon52821db20908	typeref:typename:int	file:
+base64_digits	st/.config/st-0.8.4/st.c	/^static const char base64_digits[] = {$/;"	v	typeref:typename:const char[]	file:
+base64dec	st/.config/st-0.8.4/st.c	/^base64dec(const char *src)$/;"	f	typeref:typename:char *
+base64dec_getc	st/.config/st-0.8.4/st.c	/^base64dec_getc(const char **src)$/;"	f	typeref:typename:char
+bellvolume	st/.config/st-0.8.4/config.def.h	/^static int bellvolume = 0;$/;"	v	typeref:typename:int
+bellvolume	st/.config/st-0.8.4/config.h	/^static int bellvolume = 0;$/;"	v	typeref:typename:int
+bellvolume	st/.config/st-0.8.4/test.h	/^static int bellvolume = 0;$/;"	v	typeref:typename:int
+bfont	st/.config/st-0.8.4/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon52821db20a08	typeref:typename:Font	file:
+bg	st/.config/st-0.8.4/st.h	/^	uint32_t bg;      \/* background  *\/$/;"	m	struct:__anona2c439660108	typeref:typename:uint32_t
+blinktimeout	st/.config/st-0.8.4/config.def.h	/^static unsigned int blinktimeout = 800;$/;"	v	typeref:typename:unsigned int
+blinktimeout	st/.config/st-0.8.4/config.h	/^static unsigned int blinktimeout = 800;$/;"	v	typeref:typename:unsigned int
+blinktimeout	st/.config/st-0.8.4/test.h	/^static unsigned int blinktimeout = 800;$/;"	v	typeref:typename:unsigned int
+bmotion	st/.config/st-0.8.4/x.c	/^bmotion(XEvent *e)$/;"	f	typeref:typename:void
+borderpx	st/.config/st-0.8.4/config.def.h	/^static int borderpx = 2;$/;"	v	typeref:typename:int
+borderpx	st/.config/st-0.8.4/config.h	/^static int borderpx = 2;$/;"	v	typeref:typename:int
+borderpx	st/.config/st-0.8.4/test.h	/^static int borderpx = 2;$/;"	v	typeref:typename:int
+bot	st/.config/st-0.8.4/st.c	/^	int bot;      \/* bottom scroll limit *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+boxdata	st/.config/st-0.8.4/boxdraw_data.h	/^static const unsigned short boxdata[256] = {$/;"	v	typeref:typename:const unsigned short[256]
+boxdraw	st/.config/st-0.8.4/config.def.h	/^const int boxdraw = 0;$/;"	v	typeref:typename:const int
+boxdraw	st/.config/st-0.8.4/config.h	/^const int boxdraw = 1;$/;"	v	typeref:typename:const int
+boxdraw	st/.config/st-0.8.4/test.h	/^const int boxdraw = 1;$/;"	v	typeref:typename:const int
+boxdraw.o	st/.config/st-0.8.4/Makefile	/^boxdraw.o: config.h st.h boxdraw_data.h$/;"	t
+boxdraw_bold	st/.config/st-0.8.4/config.def.h	/^const int boxdraw_bold = 0;$/;"	v	typeref:typename:const int
+boxdraw_bold	st/.config/st-0.8.4/config.h	/^const int boxdraw_bold = 0;$/;"	v	typeref:typename:const int
+boxdraw_bold	st/.config/st-0.8.4/test.h	/^const int boxdraw_bold = 0;$/;"	v	typeref:typename:const int
+boxdraw_braille	st/.config/st-0.8.4/config.def.h	/^const int boxdraw_braille = 0;$/;"	v	typeref:typename:const int
+boxdraw_braille	st/.config/st-0.8.4/config.h	/^const int boxdraw_braille = 0;$/;"	v	typeref:typename:const int
+boxdraw_braille	st/.config/st-0.8.4/test.h	/^const int boxdraw_braille = 0;$/;"	v	typeref:typename:const int
+boxdraw_xinit	st/.config/st-0.8.4/boxdraw.c	/^boxdraw_xinit(Display *dpy, Colormap cmap, XftDraw *draw, Visual *vis)$/;"	f	typeref:typename:void
+boxdrawindex	st/.config/st-0.8.4/boxdraw.c	/^boxdrawindex(const Glyph *g)$/;"	f	typeref:typename:ushort
+bpress	st/.config/st-0.8.4/x.c	/^bpress(XEvent *e)$/;"	f	typeref:typename:void
+brelease	st/.config/st-0.8.4/x.c	/^brelease(XEvent *e)$/;"	f	typeref:typename:void
+buf	st/.config/st-0.8.4/st.c	/^	char *buf;             \/* allocated raw string *\/$/;"	m	struct:__anona2c439610608	typeref:typename:char *	file:
+buf	st/.config/st-0.8.4/st.c	/^	char buf[ESC_BUF_SIZ]; \/* raw string *\/$/;"	m	struct:__anona2c439610508	typeref:typename:char[]	file:
+buf	st/.config/st-0.8.4/x.c	/^	Drawable buf;$/;"	m	struct:__anon52821db20608	typeref:typename:Drawable	file:
+button	st/.config/st-0.8.4/x.c	/^	uint button;$/;"	m	struct:__anon52821db20208	typeref:typename:uint	file:
+buttonmask	st/.config/st-0.8.4/x.c	/^buttonmask(uint button)$/;"	f	typeref:typename:uint
+c	st/.config/st-0.8.4/st.c	/^	TCursor c;    \/* cursor *\/$/;"	m	struct:__anona2c439610408	typeref:typename:TCursor	file:
+capability	i3/.config/i3/scripts/volume	/^capability() { # Return "Capture" if the device is a capture device$/;"	f
+ch	st/.config/st-0.8.4/x.c	/^	int ch; \/* char height *\/$/;"	m	struct:__anon52821db20508	typeref:typename:int	file:
+charset	st/.config/st-0.8.4/st.c	/^	int charset;  \/* current charset *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+charset	st/.config/st-0.8.4/st.c	/^enum charset {$/;"	g	file:
+check_backspace	nvim/.config/nvim/lua/_cmp.lua	/^local check_backspace = function()$/;"	f
+check_launcher	i3/.config/i3/scripts/powermenu	/^function check_launcher() {$/;"	f
+check_proc_net_dev	i3/.config/i3/scripts/bandwidth2	/^function check_proc_net_dev {$/;"	f
+chscale	st/.config/st-0.8.4/config.def.h	/^static float chscale = 1.0;$/;"	v	typeref:typename:float
+chscale	st/.config/st-0.8.4/config.h	/^static float chscale = 1.0;$/;"	v	typeref:typename:float
+chscale	st/.config/st-0.8.4/test.h	/^static float chscale = 1.0;$/;"	v	typeref:typename:float
+clean	st/.config/st-0.8.4/Makefile	/^clean:$/;"	t
+clipboard	st/.config/st-0.8.4/x.c	/^	char *primary, *clipboard;$/;"	m	struct:__anon52821db20808	typeref:typename:char *	file:
+clipcopy	st/.config/st-0.8.4/x.c	/^clipcopy(const Arg *dummy)$/;"	f	typeref:typename:void
+clippaste	st/.config/st-0.8.4/x.c	/^clippaste(const Arg *dummy)$/;"	f	typeref:typename:void
+cmap	st/.config/st-0.8.4/x.c	/^	Colormap cmap;$/;"	m	struct:__anon52821db20608	typeref:typename:Colormap	file:
+cmdfd	st/.config/st-0.8.4/st.c	/^static int cmdfd;$/;"	v	typeref:typename:int	file:
+cmessage	st/.config/st-0.8.4/x.c	/^cmessage(XEvent *e)$/;"	f	typeref:typename:void
+col	st/.config/st-0.8.4/st.c	/^	int col;      \/* nb col *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+col	st/.config/st-0.8.4/x.c	/^	Color *col;$/;"	m	struct:__anon52821db20a08	typeref:typename:Color *	file:
+collen	st/.config/st-0.8.4/x.c	/^	size_t collen;$/;"	m	struct:__anon52821db20a08	typeref:typename:size_t	file:
+color	i3/.config/i3/i3blocks.conf	/^color=#717171$/;"	k	section:simple-2
+color	i3/.config/i3/scripts/battery2	/^    color = config.get("color_10", "red")$/;"	v
+color	i3/.config/i3/scripts/battery2	/^    color = config.get("color_charging", "yellow")$/;"	v
+color	i3/.config/i3/scripts/battery2	/^    def color(percent):$/;"	f
+color	i3/.config/i3/scripts/openweather.conf	/^color=#7275b3$/;"	k	section:Weather
+colorname	st/.config/st-0.8.4/config.def.h	/^static const char *colorname[] = {$/;"	v	typeref:typename:const char * []
+colorname	st/.config/st-0.8.4/config.h	/^static const char *colorname[] = {$/;"	v	typeref:typename:const char * []
+colorname	st/.config/st-0.8.4/test.h	/^static const char *colorname[] = {$/;"	v	typeref:typename:const char * []
+cols	st/.config/st-0.8.4/config.def.h	/^static unsigned int cols = 80;$/;"	v	typeref:typename:unsigned int
+cols	st/.config/st-0.8.4/config.h	/^static unsigned int cols = 80;$/;"	v	typeref:typename:unsigned int
+cols	st/.config/st-0.8.4/test.h	/^static unsigned int cols = 80;$/;"	v	typeref:typename:unsigned int
+command	i3/.config/i3/i3blocks.conf	/^command=date '+%a %d %b %H:%M:%S'$/;"	k	section:time
+command	i3/.config/i3/i3blocks.conf	/^command=pavucontrol$/;"	k	section:pavucontrol
+command	i3/.config/i3/i3blocks.conf	/^command=~\/.config\/i3\/scripts\/cpu_usage$/;"	k	section:cpu_usage
+command	i3/.config/i3/i3blocks.conf	/^command=~\/.config\/i3\/scripts\/disk$/;"	k	section:disk
+command	i3/.config/i3/i3blocks.conf	/^command=~\/.config\/i3\/scripts\/memory$/;"	k	section:memory
+command	i3/.config/i3/i3blocks.conf	/^command=~\/.config\/i3\/scripts\/powermenu$/;"	k	section:shutdown_menu
+command	i3/.config/i3/i3blocks.conf	/^command=~\/.config\/i3\/scripts\/temperature$/;"	k	section:CPU-temperature
+command	i3/.config/i3/i3blocks.conf	/^command=~\/.config\/i3\/scripts\/volume$/;"	k	section:volume-pulseaudio
+command	i3/.config/i3/scripts/openweather.conf	/^command=~\/.config\/i3\/scripts\/openweather$/;"	k	section:Weather
+command_exists	i3/.config/i3/scripts/powermenu	/^function command_exists() {$/;"	f
+commasplitstatus	i3/.config/i3/scripts/battery2	/^            commasplitstatus = battery.split(", ")$/;"	v
+commasplitstatus	i3/.config/i3/scripts/battery2	/^    commasplitstatus = commasplitstatus_batteries[0]$/;"	v
+commasplitstatus_batteries	i3/.config/i3/scripts/battery2	/^    commasplitstatus_batteries=[]$/;"	v
+config	i3/.config/i3/scripts/battery2	/^config = dict(os.environ)$/;"	v
+config	nvim/.config/nvim/lua/plugins.lua	/^        config = function()$/;"	f
+config.h	st/.config/st-0.8.4/Makefile	/^config.h:$/;"	t
+config_init	st/.config/st-0.8.4/x.c	/^config_init(void)$/;"	f	typeref:typename:void
+copyoutput	st/.config/st-0.8.4/config.h	/^static char *copyoutput[] = { "\/bin\/sh", "-c", "st-copyout", "externalpipe", NULL };$/;"	v	typeref:typename:char * []
+copyoutput	st/.config/st-0.8.4/test.h	/^static char *copyoutput[] = { "\/bin\/sh", "-c", "st-copyout", "externalpipe", NULL };$/;"	v	typeref:typename:char * []
+copyurlcmd	st/.config/st-0.8.4/test.h	/^static char *copyurlcmd[] = { "\/bin\/sh", "-c", "st-urlhandler -c", "externalpipe", NULL };$/;"	v	typeref:typename:char * []
+cpu_usage	i3/.config/i3/i3blocks.conf	/^[cpu_usage]$/;"	s
+cresize	st/.config/st-0.8.4/x.c	/^cresize(int width, int height)$/;"	f	typeref:typename:void
+csidump	st/.config/st-0.8.4/st.c	/^csidump(void)$/;"	f	typeref:typename:void
+csiescseq	st/.config/st-0.8.4/st.c	/^static CSIEscape csiescseq;$/;"	v	typeref:typename:CSIEscape	file:
+csihandle	st/.config/st-0.8.4/st.c	/^csihandle(void)$/;"	f	typeref:typename:void
+csiparse	st/.config/st-0.8.4/st.c	/^csiparse(void)$/;"	f	typeref:typename:void
+csireset	st/.config/st-0.8.4/st.c	/^csireset(void)$/;"	f	typeref:typename:void
+cursor	st/.config/st-0.8.4/x.c	/^	int cursor; \/* cursor style *\/$/;"	m	struct:__anon52821db20508	typeref:typename:int	file:
+cursor_movement	st/.config/st-0.8.4/st.c	/^enum cursor_movement {$/;"	g	file:
+cursor_state	st/.config/st-0.8.4/st.c	/^enum cursor_state {$/;"	g	file:
+cursorshape	st/.config/st-0.8.4/config.def.h	/^static unsigned int cursorshape = 2;$/;"	v	typeref:typename:unsigned int
+cursorshape	st/.config/st-0.8.4/config.h	/^static unsigned int cursorshape = 2;$/;"	v	typeref:typename:unsigned int
+cursorshape	st/.config/st-0.8.4/test.h	/^static unsigned int cursorshape = 2;$/;"	v	typeref:typename:unsigned int
+cursorthickness	st/.config/st-0.8.4/config.def.h	/^static unsigned int cursorthickness = 2;$/;"	v	typeref:typename:unsigned int
+cursorthickness	st/.config/st-0.8.4/config.h	/^static unsigned int cursorthickness = 2;$/;"	v	typeref:typename:unsigned int
+cursorthickness	st/.config/st-0.8.4/test.h	/^static unsigned int cursorthickness = 2;$/;"	v	typeref:typename:unsigned int
+cw	st/.config/st-0.8.4/x.c	/^	int cw; \/* char width  *\/$/;"	m	struct:__anon52821db20508	typeref:typename:int	file:
+cwscale	st/.config/st-0.8.4/config.def.h	/^static float cwscale = 1.0;$/;"	v	typeref:typename:float
+cwscale	st/.config/st-0.8.4/config.h	/^static float cwscale = 1.0;$/;"	v	typeref:typename:float
+cwscale	st/.config/st-0.8.4/test.h	/^static float cwscale = 1.0;$/;"	v	typeref:typename:float
+dc	st/.config/st-0.8.4/x.c	/^static DC dc;$/;"	v	typeref:typename:DC	file:
+default_interface	i3/.config/i3/scripts/bandwidth2	/^function default_interface {$/;"	f
+defaultattr	st/.config/st-0.8.4/config.def.h	/^static unsigned int defaultattr = 11;$/;"	v	typeref:typename:unsigned int
+defaultattr	st/.config/st-0.8.4/config.h	/^static unsigned int defaultattr = 11;$/;"	v	typeref:typename:unsigned int
+defaultattr	st/.config/st-0.8.4/test.h	/^static unsigned int defaultattr = 11;$/;"	v	typeref:typename:unsigned int
+defaultbg	st/.config/st-0.8.4/config.def.h	/^unsigned int defaultbg = 258;$/;"	v	typeref:typename:unsigned int
+defaultbg	st/.config/st-0.8.4/config.h	/^unsigned int defaultbg = 258;$/;"	v	typeref:typename:unsigned int
+defaultbg	st/.config/st-0.8.4/test.h	/^unsigned int defaultbg = 258;$/;"	v	typeref:typename:unsigned int
+defaultcs	st/.config/st-0.8.4/config.def.h	/^static unsigned int defaultcs = 256;$/;"	v	typeref:typename:unsigned int
+defaultcs	st/.config/st-0.8.4/config.h	/^static unsigned int defaultcs = 256;$/;"	v	typeref:typename:unsigned int
+defaultcs	st/.config/st-0.8.4/test.h	/^unsigned int defaultcs = 256;$/;"	v	typeref:typename:unsigned int
+defaultfg	st/.config/st-0.8.4/config.def.h	/^unsigned int defaultfg = 7;$/;"	v	typeref:typename:unsigned int
+defaultfg	st/.config/st-0.8.4/config.h	/^unsigned int defaultfg = 259;$/;"	v	typeref:typename:unsigned int
+defaultfg	st/.config/st-0.8.4/test.h	/^unsigned int defaultfg = 259;$/;"	v	typeref:typename:unsigned int
+defaultfontsize	st/.config/st-0.8.4/x.c	/^static double defaultfontsize = 0;$/;"	v	typeref:typename:double	file:
+defaultrcs	st/.config/st-0.8.4/config.def.h	/^static unsigned int defaultrcs = 257;$/;"	v	typeref:typename:unsigned int
+defaultrcs	st/.config/st-0.8.4/config.h	/^static unsigned int defaultrcs = 257;$/;"	v	typeref:typename:unsigned int
+defaultrcs	st/.config/st-0.8.4/test.h	/^unsigned int defaultrcs = 257;$/;"	v	typeref:typename:unsigned int
+depth	st/.config/st-0.8.4/x.c	/^	int depth; \/* bit depth *\/$/;"	m	struct:__anon52821db20608	typeref:typename:int	file:
+descent	st/.config/st-0.8.4/x.c	/^	int descent;$/;"	m	struct:__anon52821db20908	typeref:typename:int	file:
+die	st/.config/st-0.8.4/st.c	/^die(const char *errstr, ...)$/;"	f	typeref:typename:void
+directory	st/.config/st-0.8.4/compile_commands.json	/^    "directory": "\/home\/oned\/.dotfiles\/st\/.config\/st-0.8.4",$/;"	s	object:0
+directory	st/.config/st-0.8.4/compile_commands.json	/^    "directory": "\/home\/oned\/.dotfiles\/st\/.config\/st-0.8.4",$/;"	s	object:1
+directory	st/.config/st-0.8.4/compile_commands.json	/^    "directory": "\/home\/oned\/.dotfiles\/st\/.config\/st-0.8.4",$/;"	s	object:2
+dirty	st/.config/st-0.8.4/st.c	/^	int *dirty;   \/* dirtyness of lines *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int *	file:
+disk	i3/.config/i3/i3blocks.conf	/^[disk]$/;"	s
+dist	st/.config/st-0.8.4/Makefile	/^dist: clean$/;"	t
+doubleclicktimeout	st/.config/st-0.8.4/config.def.h	/^static unsigned int doubleclicktimeout = 300;$/;"	v	typeref:typename:unsigned int
+doubleclicktimeout	st/.config/st-0.8.4/config.h	/^static unsigned int doubleclicktimeout = 300;$/;"	v	typeref:typename:unsigned int
+doubleclicktimeout	st/.config/st-0.8.4/test.h	/^static unsigned int doubleclicktimeout = 300;$/;"	v	typeref:typename:unsigned int
+dpy	st/.config/st-0.8.4/x.c	/^	Display *dpy;$/;"	m	struct:__anon52821db20608	typeref:typename:Display *	file:
+draw	st/.config/st-0.8.4/st.c	/^draw(void)$/;"	f	typeref:typename:void
+draw	st/.config/st-0.8.4/x.c	/^	Draw draw;$/;"	m	struct:__anon52821db20608	typeref:typename:Draw	file:
+drawbox	st/.config/st-0.8.4/boxdraw.c	/^drawbox(int x, int y, int w, int h, XftColor *fg, XftColor *bg, ushort bd)$/;"	f	typeref:typename:void
+drawboxes	st/.config/st-0.8.4/boxdraw.c	/^drawboxes(int x, int y, int cw, int ch, XftColor *fg, XftColor *bg,$/;"	f	typeref:typename:void
+drawboxlines	st/.config/st-0.8.4/boxdraw.c	/^drawboxlines(int x, int y, int w, int h, XftColor *fg, ushort bd)$/;"	f	typeref:typename:void
+drawregion	st/.config/st-0.8.4/st.c	/^drawregion(int x1, int y1, int x2, int y2)$/;"	f	typeref:typename:void
+dst	st/.config/st-0.8.4/x.c	/^	void *dst;$/;"	m	struct:__anon52821db20408	typeref:typename:void *	file:
+error_msg	nvim/.config/nvim/plugin/packer_compiled.lua	/^local no_errors, error_msg = pcall(function()$/;"	f
+esc	st/.config/st-0.8.4/st.c	/^	int esc;      \/* escape state flags *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+escape_state	st/.config/st-0.8.4/st.c	/^enum escape_state {$/;"	g	file:
+eschandle	st/.config/st-0.8.4/st.c	/^eschandle(uchar ascii)$/;"	f	typeref:typename:int
+evcol	st/.config/st-0.8.4/x.c	/^evcol(XEvent *e)$/;"	f	typeref:typename:int
+evrow	st/.config/st-0.8.4/x.c	/^evrow(XEvent *e)$/;"	f	typeref:typename:int
+execsh	st/.config/st-0.8.4/st.c	/^execsh(char *cmd, char **args)$/;"	f	typeref:typename:void
+expand	nvim/.config/nvim/lua/_cmp.lua	/^        expand = function(args)$/;"	f
+expose	st/.config/st-0.8.4/x.c	/^expose(XEvent *ev)$/;"	f	typeref:typename:void
+externalpipe	st/.config/st-0.8.4/st.c	/^externalpipe(const Arg *arg)$/;"	f	typeref:typename:void
+f	st/.config/st-0.8.4/st.h	/^	float f;$/;"	m	union:__anona2c43966020a	typeref:typename:float
+fg	st/.config/st-0.8.4/st.h	/^	uint32_t fg;      \/* foreground  *\/$/;"	m	struct:__anona2c439660108	typeref:typename:uint32_t
+file	st/.config/st-0.8.4/compile_commands.json	/^    "file": "\/home\/oned\/.dotfiles\/st\/.config\/st-0.8.4\/boxdraw.c"$/;"	s	object:2
+file	st/.config/st-0.8.4/compile_commands.json	/^    "file": "\/home\/oned\/.dotfiles\/st\/.config\/st-0.8.4\/st.c"$/;"	s	object:0
+file	st/.config/st-0.8.4/compile_commands.json	/^    "file": "\/home\/oned\/.dotfiles\/st\/.config\/st-0.8.4\/x.c"$/;"	s	object:1
+flags	st/.config/st-0.8.4/x.c	/^	int flags;$/;"	m	struct:__anon52821db20c08	typeref:typename:int	file:
+focus	st/.config/st-0.8.4/x.c	/^focus(XEvent *ev)$/;"	f	typeref:typename:void
+font	st/.config/st-0.8.4/config.def.h	/^static char *font = "Liberation Mono:pixelsize=16:antialias=true:autohint=true";$/;"	v	typeref:typename:char *
+font	st/.config/st-0.8.4/config.h	/^static char *font = "SauceCodePro Nerd Font:pixelsize=22";$/;"	v	typeref:typename:char *
+font	st/.config/st-0.8.4/test.h	/^static char *font = "mono:pixelsize=12:antialias=true:autohint=true";$/;"	v	typeref:typename:char *
+font	st/.config/st-0.8.4/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon52821db20a08	typeref:typename:Font	file:
+font	st/.config/st-0.8.4/x.c	/^	XftFont *font;$/;"	m	struct:__anon52821db20c08	typeref:typename:XftFont *	file:
+font2	st/.config/st-0.8.4/config.h	/^static char *font2[] = { "JoyPixels:pixelsize=20:antialias=true:autohint=true" };$/;"	v	typeref:typename:char * []
+font2	st/.config/st-0.8.4/test.h	/^static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };$/;"	v	typeref:typename:char * []
+forcemousemod	st/.config/st-0.8.4/config.def.h	/^static uint forcemousemod = ShiftMask;$/;"	v	typeref:typename:uint
+forcemousemod	st/.config/st-0.8.4/config.h	/^static uint forcemousemod = ShiftMask;$/;"	v	typeref:typename:uint
+forcemousemod	st/.config/st-0.8.4/test.h	/^static uint forcemousemod = ShiftMask;$/;"	v	typeref:typename:uint
+form	i3/.config/i3/scripts/battery2	/^    form =  '<span color="{}">{}%<\/span>'$/;"	v
+format	i3/.config/i3/scripts/volume	/^format() {$/;"	f
+format	nvim/.config/nvim/lua/_cmp.lua	/^        format = function(entry, vim_item)$/;"	f
+frc	st/.config/st-0.8.4/x.c	/^static Fontcache *frc = NULL;$/;"	v	typeref:typename:Fontcache *	file:
+frccap	st/.config/st-0.8.4/x.c	/^static int frccap = 0;$/;"	v	typeref:typename:int	file:
+frclen	st/.config/st-0.8.4/x.c	/^static int frclen = 0;$/;"	v	typeref:typename:int	file:
+full_text	i3/.config/i3/i3blocks.conf	/^full_text=[$/;"	k	section:simple-2
+full_text	i3/.config/i3/i3blocks.conf	/^full_text=]$/;"	k	section:simple-2
+full_text	i3/.config/i3/i3blocks.conf	/^full_text=$/;"	k	section:shutdown_menu
+full_text	i3/.config/i3/i3blocks.conf	/^full_text=$/;"	k	section:pavucontrol
+fulltext	i3/.config/i3/scripts/battery2	/^        fulltext = FA_BATTERY + " "$/;"	v
+fulltext	i3/.config/i3/scripts/battery2	/^        fulltext = FA_PLUG + " "$/;"	v
+fulltext	i3/.config/i3/scripts/battery2	/^        fulltext = FA_QUESTION + " " + FA_BATTERY + " "$/;"	v
+fulltext	i3/.config/i3/scripts/battery2	/^    fulltext = "<span color='{}'><span font='FontAwesome'>\\uf00d \\uf240<\/span><\/span>".forma/;"	v
+func	st/.config/st-0.8.4/x.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon52821db20108	typeref:typename:void (*)(const Arg *)	file:
+func	st/.config/st-0.8.4/x.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon52821db20208	typeref:typename:void (*)(const Arg *)	file:
+gc	st/.config/st-0.8.4/x.c	/^	GC gc;$/;"	m	struct:__anon52821db20a08	typeref:typename:GC	file:
+getsel	st/.config/st-0.8.4/st.c	/^getsel(void)$/;"	f	typeref:typename:char *
+glyph_attribute	st/.config/st-0.8.4/st.h	/^enum glyph_attribute {$/;"	g
+gm	st/.config/st-0.8.4/x.c	/^	int gm; \/* geometry mask *\/$/;"	m	struct:__anon52821db20608	typeref:typename:int	file:
+h	st/.config/st-0.8.4/x.c	/^	int w, h; \/* window width and height *\/$/;"	m	struct:__anon52821db20508	typeref:typename:int	file:
+handler	st/.config/st-0.8.4/x.c	/^static void (*handler[LASTEvent])(XEvent *) = {$/;"	v	typeref:typename:void (* [LASTEvent])(XEvent *)	file:
+height	st/.config/st-0.8.4/x.c	/^	int height;$/;"	m	struct:__anon52821db20908	typeref:typename:int	file:
+help	i3/.config/i3/scripts/cpu_usage	/^sub help {$/;"	s
+help	i3/.config/i3/scripts/temperature	/^sub help {$/;"	s
+hist	st/.config/st-0.8.4/st.c	/^	Line hist[HISTSIZE]; \/* history buffer *\/$/;"	m	struct:__anona2c439610408	typeref:typename:Line[]	file:
+histi	st/.config/st-0.8.4/st.c	/^	int histi;    \/* history index *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+i	st/.config/st-0.8.4/st.h	/^	int i;$/;"	m	union:__anona2c43966020a	typeref:typename:int
+ibfont	st/.config/st-0.8.4/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon52821db20a08	typeref:typename:Font	file:
+icharset	st/.config/st-0.8.4/st.c	/^	int icharset; \/* selected charset for sequence *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+ifont	st/.config/st-0.8.4/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon52821db20a08	typeref:typename:Font	file:
+ignoremod	st/.config/st-0.8.4/config.def.h	/^static uint ignoremod = Mod2Mask|XK_SWITCH_MOD;$/;"	v	typeref:typename:uint
+ignoremod	st/.config/st-0.8.4/config.h	/^static uint ignoremod = Mod2Mask|XK_SWITCH_MOD;$/;"	v	typeref:typename:uint
+ignoremod	st/.config/st-0.8.4/test.h	/^static uint ignoremod = Mod2Mask|XK_SWITCH_MOD;$/;"	v	typeref:typename:uint
+ime	st/.config/st-0.8.4/x.c	/^	} ime;$/;"	m	struct:__anon52821db20608	typeref:struct:__anon52821db20608::__anon52821db20708	file:
+install	st/.config/st-0.8.4/Makefile	/^install: st$/;"	t
+instance	i3/.config/i3/i3blocks.conf	/^instance=Master$/;"	k	section:volume-pulseaudio
+instance	i3/.config/i3/i3blocks.conf	/^instance=\/$/;"	k	section:disk
+interval	i3/.config/i3/i3blocks.conf	/^interval=1$/;"	k	section:time
+interval	i3/.config/i3/i3blocks.conf	/^interval=1$/;"	k	section:volume-pulseaudio
+interval	i3/.config/i3/i3blocks.conf	/^interval=2$/;"	k	section:cpu_usage
+interval	i3/.config/i3/i3blocks.conf	/^interval=2$/;"	k	section:memory
+interval	i3/.config/i3/i3blocks.conf	/^interval=30$/;"	k	section:CPU-temperature
+interval	i3/.config/i3/i3blocks.conf	/^interval=30$/;"	k	section:disk
+interval	i3/.config/i3/scripts/openweather.conf	/^interval=1800$/;"	k	section:Weather
+iofd	st/.config/st-0.8.4/st.c	/^static int iofd = 1;$/;"	v	typeref:typename:int	file:
+isboxdraw	st/.config/st-0.8.4/boxdraw.c	/^isboxdraw(Rune u)$/;"	f	typeref:typename:int
+isfixed	st/.config/st-0.8.4/x.c	/^	int isfixed; \/* is fixed geometry? *\/$/;"	m	struct:__anon52821db20608	typeref:typename:int	file:
+k	st/.config/st-0.8.4/x.c	/^	KeySym k;$/;"	m	struct:__anon52821db20308	typeref:typename:KeySym	file:
+key	st/.config/st-0.8.4/config.def.h	/^static Key key[] = {$/;"	v	typeref:typename:Key[]
+key	st/.config/st-0.8.4/config.h	/^static Key key[] = {$/;"	v	typeref:typename:Key[]
+key	st/.config/st-0.8.4/test.h	/^static Key key[] = {$/;"	v	typeref:typename:Key[]
+keysym	st/.config/st-0.8.4/x.c	/^	KeySym keysym;$/;"	m	struct:__anon52821db20108	typeref:typename:KeySym	file:
+kmap	st/.config/st-0.8.4/x.c	/^kmap(KeySym k, uint state)$/;"	f	typeref:typename:char *
+kpress	st/.config/st-0.8.4/x.c	/^kpress(XEvent *ev)$/;"	f	typeref:typename:void
+kscrolldown	st/.config/st-0.8.4/st.c	/^kscrolldown(const Arg* a)$/;"	f	typeref:typename:void
+kscrollup	st/.config/st-0.8.4/st.c	/^kscrollup(const Arg* a)$/;"	f	typeref:typename:void
+l	st/.config/st-0.8.4/x.c	/^	int l, t; \/* left and top offset *\/$/;"	m	struct:__anon52821db20608	typeref:typename:int	file:
+label	i3/.config/i3/i3blocks.conf	/^label=$/;"	k	section:CPU-temperature
+label	i3/.config/i3/i3blocks.conf	/^label=$/;"	k	section:disk
+label	i3/.config/i3/i3blocks.conf	/^label=$/;"	k	section:memory
+label	i3/.config/i3/i3blocks.conf	/^label=$/;"	k	section:cpu_usage
+lastc	st/.config/st-0.8.4/st.c	/^	Rune lastc;   \/* last printed char outside of sequence, 0 if control *\/$/;"	m	struct:__anona2c439610408	typeref:typename:Rune	file:
+lbearing	st/.config/st-0.8.4/x.c	/^	short lbearing;$/;"	m	struct:__anon52821db20908	typeref:typename:short	file:
+len	st/.config/st-0.8.4/st.c	/^	size_t len;            \/* raw string length *\/$/;"	m	struct:__anona2c439610508	typeref:typename:size_t	file:
+len	st/.config/st-0.8.4/st.c	/^	size_t len;            \/* raw string length *\/$/;"	m	struct:__anona2c439610608	typeref:typename:size_t	file:
+line	st/.config/st-0.8.4/st.c	/^	Line *line;   \/* screen *\/$/;"	m	struct:__anona2c439610408	typeref:typename:Line *	file:
+list_interfaces	i3/.config/i3/scripts/bandwidth2	/^function list_interfaces {$/;"	f
+lsp_keymaps	nvim/.config/nvim/lua/lsp/handlers.lua	/^    local function lsp_keymaps()$/;"	f
+main	st/.config/st-0.8.4/x.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+mappedkeys	st/.config/st-0.8.4/config.def.h	/^static KeySym mappedkeys[] = { -1 };$/;"	v	typeref:typename:KeySym[]
+mappedkeys	st/.config/st-0.8.4/config.h	/^static KeySym mappedkeys[] = { -1 };$/;"	v	typeref:typename:KeySym[]
+mappedkeys	st/.config/st-0.8.4/test.h	/^static KeySym mappedkeys[] = { -1 };$/;"	v	typeref:typename:KeySym[]
+markup	i3/.config/i3/i3blocks.conf	/^markup=pango$/;"	k
+mask	st/.config/st-0.8.4/x.c	/^	uint mask;$/;"	m	struct:__anon52821db20308	typeref:typename:uint	file:
+match	st/.config/st-0.8.4/x.c	/^	XftFont *match;$/;"	m	struct:__anon52821db20908	typeref:typename:XftFont *	file:
+match	st/.config/st-0.8.4/x.c	/^match(uint mask, uint state)$/;"	f	typeref:typename:int
+maxlatency	st/.config/st-0.8.4/config.def.h	/^static double maxlatency = 33;$/;"	v	typeref:typename:double
+maxlatency	st/.config/st-0.8.4/config.h	/^static double maxlatency = 33;$/;"	v	typeref:typename:double
+maxlatency	st/.config/st-0.8.4/test.h	/^static double maxlatency = 33;$/;"	v	typeref:typename:double
+memory	i3/.config/i3/i3blocks.conf	/^[memory]$/;"	s
+minlatency	st/.config/st-0.8.4/config.def.h	/^static double minlatency = 8;$/;"	v	typeref:typename:double
+minlatency	st/.config/st-0.8.4/config.h	/^static double minlatency = 8;$/;"	v	typeref:typename:double
+minlatency	st/.config/st-0.8.4/test.h	/^static double minlatency = 8;$/;"	v	typeref:typename:double
+mod	st/.config/st-0.8.4/x.c	/^	uint mod;$/;"	m	struct:__anon52821db20108	typeref:typename:uint	file:
+mod	st/.config/st-0.8.4/x.c	/^	uint mod;$/;"	m	struct:__anon52821db20208	typeref:typename:uint	file:
+mode	st/.config/st-0.8.4/st.c	/^	char mode[2];$/;"	m	struct:__anona2c439610508	typeref:typename:char[2]	file:
+mode	st/.config/st-0.8.4/st.c	/^	int mode;     \/* terminal mode flags *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+mode	st/.config/st-0.8.4/st.c	/^	int mode;$/;"	m	struct:__anona2c439610208	typeref:typename:int	file:
+mode	st/.config/st-0.8.4/st.h	/^	ushort mode;      \/* attribute flags *\/$/;"	m	struct:__anona2c439660108	typeref:typename:ushort
+mode	st/.config/st-0.8.4/x.c	/^	int mode; \/* window state\/mode flags *\/$/;"	m	struct:__anon52821db20508	typeref:typename:int	file:
+mouseaction	st/.config/st-0.8.4/x.c	/^mouseaction(XEvent *e, uint release)$/;"	f	typeref:typename:int
+mousebg	st/.config/st-0.8.4/config.def.h	/^static unsigned int mousebg = 0;$/;"	v	typeref:typename:unsigned int
+mousebg	st/.config/st-0.8.4/config.h	/^static unsigned int mousebg = 0;$/;"	v	typeref:typename:unsigned int
+mousebg	st/.config/st-0.8.4/test.h	/^static unsigned int mousebg = 0;$/;"	v	typeref:typename:unsigned int
+mousefg	st/.config/st-0.8.4/config.def.h	/^static unsigned int mousefg = 7;$/;"	v	typeref:typename:unsigned int
+mousefg	st/.config/st-0.8.4/config.h	/^static unsigned int mousefg = 7;$/;"	v	typeref:typename:unsigned int
+mousefg	st/.config/st-0.8.4/test.h	/^static unsigned int mousefg = 7;$/;"	v	typeref:typename:unsigned int
+mousereport	st/.config/st-0.8.4/x.c	/^mousereport(XEvent *e)$/;"	f	typeref:typename:void
+mousesel	st/.config/st-0.8.4/x.c	/^mousesel(XEvent *e, int done)$/;"	f	typeref:typename:void
+mouseshape	st/.config/st-0.8.4/config.def.h	/^static unsigned int mouseshape = XC_xterm;$/;"	v	typeref:typename:unsigned int
+mouseshape	st/.config/st-0.8.4/config.h	/^static unsigned int mouseshape = XC_xterm;$/;"	v	typeref:typename:unsigned int
+mouseshape	st/.config/st-0.8.4/test.h	/^static unsigned int mouseshape = XC_xterm;$/;"	v	typeref:typename:unsigned int
+mshortcuts	st/.config/st-0.8.4/config.def.h	/^static MouseShortcut mshortcuts[] = {$/;"	v	typeref:typename:MouseShortcut[]
+mshortcuts	st/.config/st-0.8.4/config.h	/^static MouseShortcut mshortcuts[] = {$/;"	v	typeref:typename:MouseShortcut[]
+mshortcuts	st/.config/st-0.8.4/test.h	/^static MouseShortcut mshortcuts[] = {$/;"	v	typeref:typename:MouseShortcut[]
+my_nord	nvim/.config/nvim/lua/_lualine.lua	/^local function my_nord() return {$/;"	f
+name	st/.config/st-0.8.4/x.c	/^	char *name;$/;"	m	struct:__anon52821db20408	typeref:typename:char *	file:
+narg	st/.config/st-0.8.4/st.c	/^	int narg;              \/* nb of args *\/$/;"	m	struct:__anona2c439610508	typeref:typename:int	file:
+narg	st/.config/st-0.8.4/st.c	/^	int narg;              \/* nb of args *\/$/;"	m	struct:__anona2c439610608	typeref:typename:int	file:
+nb	st/.config/st-0.8.4/st.c	/^	} nb, ne, ob, oe;$/;"	m	struct:__anona2c439610208	typeref:struct:__anona2c439610208::__anona2c439610308	file:
+ne	st/.config/st-0.8.4/st.c	/^	} nb, ne, ob, oe;$/;"	m	struct:__anona2c439610208	typeref:struct:__anona2c439610208::__anona2c439610308	file:
+netwmname	st/.config/st-0.8.4/x.c	/^	Atom xembed, wmdeletewin, netwmname, netwmpid;$/;"	m	struct:__anon52821db20608	typeref:typename:Atom	file:
+netwmpid	st/.config/st-0.8.4/x.c	/^	Atom xembed, wmdeletewin, netwmname, netwmpid;$/;"	m	struct:__anon52821db20608	typeref:typename:Atom	file:
+nkeymap	nvim/.config/nvim/lua/lsp/handlers.lua	/^        local function nkeymap(key, map)$/;"	f
+numlock	st/.config/st-0.8.4/x.c	/^numlock(const Arg *dummy)$/;"	f	typeref:typename:void
+ob	st/.config/st-0.8.4/st.c	/^	} nb, ne, ob, oe;$/;"	m	struct:__anona2c439610208	typeref:struct:__anona2c439610208::__anona2c439610308	file:
+ocx	st/.config/st-0.8.4/st.c	/^	int ocx;      \/* old cursor col *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+ocy	st/.config/st-0.8.4/st.c	/^	int ocy;      \/* old cursor row *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+oe	st/.config/st-0.8.4/st.c	/^	} nb, ne, ob, oe;$/;"	m	struct:__anona2c439610208	typeref:struct:__anona2c439610208::__anona2c439610308	file:
+oldbutton	st/.config/st-0.8.4/x.c	/^static int oldbutton = 3; \/* button event on startup: 3 = release *\/$/;"	v	typeref:typename:int	file:
+openurlcmd	st/.config/st-0.8.4/test.h	/^static char *openurlcmd[] = { "\/bin\/sh", "-c", "st-urlhandler -o", "externalpipe", NULL };$/;"	v	typeref:typename:char * []
+opt_alpha	st/.config/st-0.8.4/x.c	/^static char *opt_alpha = NULL;$/;"	v	typeref:typename:char *	file:
+opt_class	st/.config/st-0.8.4/x.c	/^static char *opt_class = NULL;$/;"	v	typeref:typename:char *	file:
+opt_cmd	st/.config/st-0.8.4/x.c	/^static char **opt_cmd  = NULL;$/;"	v	typeref:typename:char **	file:
+opt_embed	st/.config/st-0.8.4/x.c	/^static char *opt_embed = NULL;$/;"	v	typeref:typename:char *	file:
+opt_font	st/.config/st-0.8.4/x.c	/^static char *opt_font  = NULL;$/;"	v	typeref:typename:char *	file:
+opt_io	st/.config/st-0.8.4/x.c	/^static char *opt_io    = NULL;$/;"	v	typeref:typename:char *	file:
+opt_line	st/.config/st-0.8.4/x.c	/^static char *opt_line  = NULL;$/;"	v	typeref:typename:char *	file:
+opt_name	st/.config/st-0.8.4/x.c	/^static char *opt_name  = NULL;$/;"	v	typeref:typename:char *	file:
+opt_title	st/.config/st-0.8.4/x.c	/^static char *opt_title = NULL;$/;"	v	typeref:typename:char *	file:
+options	st/.config/st-0.8.4/Makefile	/^options:$/;"	t
+p	i3/.config/i3/scripts/battery2	/^            p = int(commasplitstatus[1].rstrip("%\\n"))$/;"	v
+pattern	st/.config/st-0.8.4/x.c	/^	FcPattern *pattern;$/;"	m	struct:__anon52821db20908	typeref:typename:FcPattern *	file:
+pavucontrol	i3/.config/i3/i3blocks.conf	/^[pavucontrol]$/;"	s
+percentleft	i3/.config/i3/scripts/battery2	/^        percentleft = int(sum(percentleft_batteries)\/len(percentleft_batteries))$/;"	v
+percentleft	i3/.config/i3/scripts/battery2	/^    percentleft = 100$/;"	v
+percentleft_batteries	i3/.config/i3/scripts/battery2	/^    percentleft_batteries=[]$/;"	v
+pid	st/.config/st-0.8.4/st.c	/^static pid_t pid;$/;"	v	typeref:typename:pid_t	file:
+prepare_launcher	i3/.config/i3/scripts/powermenu	/^function prepare_launcher() {$/;"	f
+primary	st/.config/st-0.8.4/x.c	/^	char *primary, *clipboard;$/;"	m	struct:__anon52821db20808	typeref:typename:char *	file:
+printscreen	st/.config/st-0.8.4/st.c	/^printscreen(const Arg *arg)$/;"	f	typeref:typename:void
+printsel	st/.config/st-0.8.4/st.c	/^printsel(const Arg *arg)$/;"	f	typeref:typename:void
+priv	st/.config/st-0.8.4/st.c	/^	char priv;$/;"	m	struct:__anona2c439610508	typeref:typename:char	file:
+propnotify	st/.config/st-0.8.4/x.c	/^propnotify(XEvent *e)$/;"	f	typeref:typename:void
+rbearing	st/.config/st-0.8.4/x.c	/^	short rbearing;$/;"	m	struct:__anon52821db20908	typeref:typename:short	file:
+redraw	st/.config/st-0.8.4/st.c	/^redraw(void)$/;"	f	typeref:typename:void
+release	st/.config/st-0.8.4/x.c	/^	uint  release;$/;"	m	struct:__anon52821db20208	typeref:typename:uint	file:
+resettitle	st/.config/st-0.8.4/st.c	/^resettitle(void)$/;"	f	typeref:typename:void
+resize	st/.config/st-0.8.4/x.c	/^resize(XEvent *e)$/;"	f	typeref:typename:void
+resource_load	st/.config/st-0.8.4/x.c	/^resource_load(XrmDatabase db, char *name, enum resource_type rtype, void *dst)$/;"	f	typeref:typename:int
+resource_type	st/.config/st-0.8.4/x.c	/^enum resource_type {$/;"	g	file:
+resources	st/.config/st-0.8.4/config.def.h	/^ResourcePref resources[] = {$/;"	v	typeref:typename:ResourcePref[]
+resources	st/.config/st-0.8.4/config.h	/^ResourcePref resources[] = {$/;"	v	typeref:typename:ResourcePref[]
+resources	st/.config/st-0.8.4/test.h	/^ResourcePref resources[] = {$/;"	v	typeref:typename:ResourcePref[]
+row	st/.config/st-0.8.4/st.c	/^	int row;      \/* nb row *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+rows	st/.config/st-0.8.4/config.def.h	/^static unsigned int rows = 24;$/;"	v	typeref:typename:unsigned int
+rows	st/.config/st-0.8.4/config.h	/^static unsigned int rows = 24;$/;"	v	typeref:typename:unsigned int
+rows	st/.config/st-0.8.4/test.h	/^static unsigned int rows = 24;$/;"	v	typeref:typename:unsigned int
+run	nvim/.config/nvim/lua/plugins.lua	/^        run = function() vim.fn['firenvim#install'](0) end$/;"	f
+run	st/.config/st-0.8.4/x.c	/^run(void)$/;"	f	typeref:typename:void
+s	st/.config/st-0.8.4/st.h	/^	const char *s;$/;"	m	union:__anona2c43966020a	typeref:typename:const char *
+s	st/.config/st-0.8.4/x.c	/^	char *s;$/;"	m	struct:__anon52821db20308	typeref:typename:char *	file:
+save_profiles	nvim/.config/nvim/plugin/packer_compiled.lua	/^local function save_profiles(threshold)$/;"	f
+scr	st/.config/st-0.8.4/st.c	/^	int scr;      \/* scroll back *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+scr	st/.config/st-0.8.4/x.c	/^	int scr;$/;"	m	struct:__anon52821db20608	typeref:typename:int	file:
+scroll	st/.config/st-0.8.4/config.def.h	/^char *scroll = NULL;$/;"	v	typeref:typename:char *
+scroll	st/.config/st-0.8.4/config.h	/^char *scroll = NULL;$/;"	v	typeref:typename:char *
+scroll	st/.config/st-0.8.4/test.h	/^char *scroll = NULL;$/;"	v	typeref:typename:char *
+sel	st/.config/st-0.8.4/st.c	/^static Selection sel;$/;"	v	typeref:typename:Selection	file:
+selclear	st/.config/st-0.8.4/st.c	/^selclear(void)$/;"	f	typeref:typename:void
+selclear_	st/.config/st-0.8.4/x.c	/^selclear_(XEvent *e)$/;"	f	typeref:typename:void
+selected	st/.config/st-0.8.4/st.c	/^selected(int x, int y)$/;"	f	typeref:typename:int
+selection_mode	st/.config/st-0.8.4/st.h	/^enum selection_mode {$/;"	g
+selection_snap	st/.config/st-0.8.4/st.h	/^enum selection_snap {$/;"	g
+selection_type	st/.config/st-0.8.4/st.h	/^enum selection_type {$/;"	g
+selextend	st/.config/st-0.8.4/st.c	/^selextend(int col, int row, int type, int done)$/;"	f	typeref:typename:void
+selinit	st/.config/st-0.8.4/st.c	/^selinit(void)$/;"	f	typeref:typename:void
+selmasks	st/.config/st-0.8.4/config.def.h	/^static uint selmasks[] = {$/;"	v	typeref:typename:uint[]
+selmasks	st/.config/st-0.8.4/config.h	/^static uint selmasks[] = {$/;"	v	typeref:typename:uint[]
+selmasks	st/.config/st-0.8.4/test.h	/^static uint selmasks[] = {$/;"	v	typeref:typename:uint[]
+selnormalize	st/.config/st-0.8.4/st.c	/^selnormalize(void)$/;"	f	typeref:typename:void
+selnotify	st/.config/st-0.8.4/x.c	/^selnotify(XEvent *e)$/;"	f	typeref:typename:void
+selpaste	st/.config/st-0.8.4/x.c	/^selpaste(const Arg *dummy)$/;"	f	typeref:typename:void
+selrequest	st/.config/st-0.8.4/x.c	/^selrequest(XEvent *e)$/;"	f	typeref:typename:void
+selscroll	st/.config/st-0.8.4/st.c	/^selscroll(int orig, int n)$/;"	f	typeref:typename:void
+selsnap	st/.config/st-0.8.4/st.c	/^selsnap(int *x, int *y, int direction)$/;"	f	typeref:typename:void
+selstart	st/.config/st-0.8.4/st.c	/^selstart(int col, int row, int snap)$/;"	f	typeref:typename:void
+sendbreak	st/.config/st-0.8.4/st.c	/^sendbreak(const Arg *arg)$/;"	f	typeref:typename:void
+separator	i3/.config/i3/i3blocks.conf	/^separator=false$/;"	k
+set	st/.config/st-0.8.4/x.c	/^	FcFontSet *set;$/;"	m	struct:__anon52821db20908	typeref:typename:FcFontSet *	file:
+setsel	st/.config/st-0.8.4/x.c	/^setsel(char *str, Time t)$/;"	f	typeref:typename:void
+shell	st/.config/st-0.8.4/config.def.h	/^static char *shell = "\/bin\/sh";$/;"	v	typeref:typename:char *
+shell	st/.config/st-0.8.4/config.h	/^static char *shell = "\/bin\/zsh";$/;"	v	typeref:typename:char *
+shell	st/.config/st-0.8.4/test.h	/^static char *shell = "\/bin\/sh";$/;"	v	typeref:typename:char *
+shortcuts	st/.config/st-0.8.4/config.def.h	/^static Shortcut shortcuts[] = {$/;"	v	typeref:typename:Shortcut[]
+shortcuts	st/.config/st-0.8.4/config.h	/^static Shortcut shortcuts[] = {$/;"	v	typeref:typename:Shortcut[]
+shortcuts	st/.config/st-0.8.4/test.h	/^static Shortcut shortcuts[] = {$/;"	v	typeref:typename:Shortcut[]
+shutdown_menu	i3/.config/i3/i3blocks.conf	/^[shutdown_menu]$/;"	s
+sigchld	st/.config/st-0.8.4/st.c	/^sigchld(int a)$/;"	f	typeref:typename:void
+simple-2	i3/.config/i3/i3blocks.conf	/^[simple-2]$/;"	s
+sixd_to_16bit	st/.config/st-0.8.4/x.c	/^sixd_to_16bit(int x)$/;"	f	typeref:typename:ushort
+siz	st/.config/st-0.8.4/st.c	/^	size_t siz;            \/* allocation size *\/$/;"	m	struct:__anona2c439610608	typeref:typename:size_t	file:
+snap	st/.config/st-0.8.4/st.c	/^	int snap;$/;"	m	struct:__anona2c439610208	typeref:typename:int	file:
+specbuf	st/.config/st-0.8.4/x.c	/^	GlyphFontSpec *specbuf; \/* font spec buffer used for rendering *\/$/;"	m	struct:__anon52821db20608	typeref:typename:GlyphFontSpec *	file:
+spot	st/.config/st-0.8.4/x.c	/^		XPoint spot;$/;"	m	struct:__anon52821db20608::__anon52821db20708	typeref:typename:XPoint	file:
+spotlist	st/.config/st-0.8.4/x.c	/^		XVaNestedList spotlist;$/;"	m	struct:__anon52821db20608::__anon52821db20708	typeref:typename:XVaNestedList	file:
+st	st/.config/st-0.8.4/Makefile	/^st: $(OBJ)$/;"	t
+st.o	st/.config/st-0.8.4/Makefile	/^st.o: config.h st.h win.h$/;"	t
+state	i3/.config/i3/scripts/battery2	/^    state = state_batteries[0]$/;"	v
+state	st/.config/st-0.8.4/st.c	/^	char state;$/;"	m	struct:__anona2c439610108	typeref:typename:char	file:
+state_batteries	i3/.config/i3/scripts/battery2	/^    state_batteries=[]$/;"	v
+status	i3/.config/i3/scripts/battery2	/^status = check_output(['acpi'], universal_newlines=True)$/;"	v
+strdump	st/.config/st-0.8.4/st.c	/^strdump(void)$/;"	f	typeref:typename:void
+strescseq	st/.config/st-0.8.4/st.c	/^static STREscape strescseq;$/;"	v	typeref:typename:STREscape	file:
+strhandle	st/.config/st-0.8.4/st.c	/^strhandle(void)$/;"	f	typeref:typename:void
+strparse	st/.config/st-0.8.4/st.c	/^strparse(void)$/;"	f	typeref:typename:void
+strreset	st/.config/st-0.8.4/st.c	/^strreset(void)$/;"	f	typeref:typename:void
+stty	st/.config/st-0.8.4/st.c	/^stty(char **args)$/;"	f	typeref:typename:void
+stty_args	st/.config/st-0.8.4/config.def.h	/^char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";$/;"	v	typeref:typename:char *
+stty_args	st/.config/st-0.8.4/config.h	/^char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";$/;"	v	typeref:typename:char *
+stty_args	st/.config/st-0.8.4/test.h	/^char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";$/;"	v	typeref:typename:char *
+t	st/.config/st-0.8.4/x.c	/^	int l, t; \/* left and top offset *\/$/;"	m	struct:__anon52821db20608	typeref:typename:int	file:
+tabs	st/.config/st-0.8.4/st.c	/^	int *tabs;$/;"	m	struct:__anona2c439610408	typeref:typename:int *	file:
+tabspaces	st/.config/st-0.8.4/config.def.h	/^unsigned int tabspaces = 8;$/;"	v	typeref:typename:unsigned int
+tabspaces	st/.config/st-0.8.4/config.h	/^unsigned int tabspaces = 8;$/;"	v	typeref:typename:unsigned int
+tabspaces	st/.config/st-0.8.4/test.h	/^unsigned int tabspaces = 8;$/;"	v	typeref:typename:unsigned int
+tattrset	st/.config/st-0.8.4/st.c	/^tattrset(int attr)$/;"	f	typeref:typename:int
+tclearregion	st/.config/st-0.8.4/st.c	/^tclearregion(int x1, int y1, int x2, int y2)$/;"	f	typeref:typename:void
+tclick1	st/.config/st-0.8.4/x.c	/^	struct timespec tclick1;$/;"	m	struct:__anon52821db20808	typeref:struct:timespec	file:
+tclick2	st/.config/st-0.8.4/x.c	/^	struct timespec tclick2;$/;"	m	struct:__anon52821db20808	typeref:struct:timespec	file:
+tcontrolcode	st/.config/st-0.8.4/st.c	/^tcontrolcode(uchar ascii)$/;"	f	typeref:typename:void
+tcursor	st/.config/st-0.8.4/st.c	/^tcursor(int mode)$/;"	f	typeref:typename:void
+tdectest	st/.config/st-0.8.4/st.c	/^tdectest(char c)$/;"	f	typeref:typename:void
+tdefcolor	st/.config/st-0.8.4/st.c	/^tdefcolor(int *attr, int *npar, int l)$/;"	f	typeref:typename:int32_t
+tdeftran	st/.config/st-0.8.4/st.c	/^tdeftran(char ascii)$/;"	f	typeref:typename:void
+tdefutf8	st/.config/st-0.8.4/st.c	/^tdefutf8(char ascii)$/;"	f	typeref:typename:void
+tdeletechar	st/.config/st-0.8.4/st.c	/^tdeletechar(int n)$/;"	f	typeref:typename:void
+tdeleteline	st/.config/st-0.8.4/st.c	/^tdeleteline(int n)$/;"	f	typeref:typename:void
+tdump	st/.config/st-0.8.4/st.c	/^tdump(void)$/;"	f	typeref:typename:void
+tdumpline	st/.config/st-0.8.4/st.c	/^tdumpline(int n)$/;"	f	typeref:typename:void
+tdumpsel	st/.config/st-0.8.4/st.c	/^tdumpsel(void)$/;"	f	typeref:typename:void
+term	st/.config/st-0.8.4/st.c	/^static Term term;$/;"	v	typeref:typename:Term	file:
+term_mode	st/.config/st-0.8.4/st.c	/^enum term_mode {$/;"	g	file:
+termname	st/.config/st-0.8.4/config.def.h	/^char *termname = "st-256color";$/;"	v	typeref:typename:char *
+termname	st/.config/st-0.8.4/config.h	/^char *termname = "st-256color";$/;"	v	typeref:typename:char *
+termname	st/.config/st-0.8.4/test.h	/^char *termname = "st-256color";$/;"	v	typeref:typename:char *
+tfulldirt	st/.config/st-0.8.4/st.c	/^tfulldirt(void)$/;"	f	typeref:typename:void
+th	st/.config/st-0.8.4/x.c	/^	int tw, th; \/* tty width and height *\/$/;"	m	struct:__anon52821db20508	typeref:typename:int	file:
+time	i3/.config/i3/i3blocks.conf	/^[time]$/;"	s
+time	i3/.config/i3/scripts/battery2	/^                    time = ":".join(time.groups())$/;"	v
+time	i3/.config/i3/scripts/battery2	/^                time = commasplitstatus[-1].strip()$/;"	v
+time	i3/.config/i3/scripts/battery2	/^                time = re.match(r"(\\d+):(\\d+)", time)$/;"	v
+time	i3/.config/i3/scripts/battery2	/^    time = ""$/;"	v
+time	nvim/.config/nvim/plugin/packer_compiled.lua	/^    time = function(chunk, start) end$/;"	f
+time	nvim/.config/nvim/plugin/packer_compiled.lua	/^    time = function(chunk, start)$/;"	f
+timeleft	i3/.config/i3/scripts/battery2	/^                    timeleft = " ({})".format(time)$/;"	v
+timeleft	i3/.config/i3/scripts/battery2	/^        timeleft = ""$/;"	v
+tinsertblank	st/.config/st-0.8.4/st.c	/^tinsertblank(int n)$/;"	f	typeref:typename:void
+tinsertblankline	st/.config/st-0.8.4/st.c	/^tinsertblankline(int n)$/;"	f	typeref:typename:void
+tlinelen	st/.config/st-0.8.4/st.c	/^tlinelen(int y)$/;"	f	typeref:typename:int
+tmoveato	st/.config/st-0.8.4/st.c	/^tmoveato(int x, int y)$/;"	f	typeref:typename:void
+tmoveto	st/.config/st-0.8.4/st.c	/^tmoveto(int x, int y)$/;"	f	typeref:typename:void
+tnew	st/.config/st-0.8.4/st.c	/^tnew(int col, int row)$/;"	f	typeref:typename:void
+tnewline	st/.config/st-0.8.4/st.c	/^tnewline(int first_col)$/;"	f	typeref:typename:void
+toggleprinter	st/.config/st-0.8.4/st.c	/^toggleprinter(const Arg *arg)$/;"	f	typeref:typename:void
+top	st/.config/st-0.8.4/st.c	/^	int top;      \/* top    scroll limit *\/$/;"	m	struct:__anona2c439610408	typeref:typename:int	file:
+tprinter	st/.config/st-0.8.4/st.c	/^tprinter(char *s, size_t len)$/;"	f	typeref:typename:void
+tputc	st/.config/st-0.8.4/st.c	/^tputc(Rune u)$/;"	f	typeref:typename:void
+tputtab	st/.config/st-0.8.4/st.c	/^tputtab(int n)$/;"	f	typeref:typename:void
+trantbl	st/.config/st-0.8.4/st.c	/^	char trantbl[4]; \/* charset table translation *\/$/;"	m	struct:__anona2c439610408	typeref:typename:char[4]	file:
+treset	st/.config/st-0.8.4/st.c	/^treset(void)$/;"	f	typeref:typename:void
+tresize	st/.config/st-0.8.4/st.c	/^tresize(int col, int row)$/;"	f	typeref:typename:void
+tripleclicktimeout	st/.config/st-0.8.4/config.def.h	/^static unsigned int tripleclicktimeout = 600;$/;"	v	typeref:typename:unsigned int
+tripleclicktimeout	st/.config/st-0.8.4/config.h	/^static unsigned int tripleclicktimeout = 600;$/;"	v	typeref:typename:unsigned int
+tripleclicktimeout	st/.config/st-0.8.4/test.h	/^static unsigned int tripleclicktimeout = 600;$/;"	v	typeref:typename:unsigned int
+try_loadstring	nvim/.config/nvim/plugin/packer_compiled.lua	/^local function try_loadstring(s, component, name)$/;"	f
+tscrolldown	st/.config/st-0.8.4/st.c	/^tscrolldown(int orig, int n, int copyhist)$/;"	f	typeref:typename:void
+tscrollup	st/.config/st-0.8.4/st.c	/^tscrollup(int orig, int n, int copyhist)$/;"	f	typeref:typename:void
+tsetattr	st/.config/st-0.8.4/st.c	/^tsetattr(int *attr, int l)$/;"	f	typeref:typename:void
+tsetchar	st/.config/st-0.8.4/st.c	/^tsetchar(Rune u, Glyph *attr, int x, int y)$/;"	f	typeref:typename:void
+tsetdirt	st/.config/st-0.8.4/st.c	/^tsetdirt(int top, int bot)$/;"	f	typeref:typename:void
+tsetdirtattr	st/.config/st-0.8.4/st.c	/^tsetdirtattr(int attr)$/;"	f	typeref:typename:void
+tsetmode	st/.config/st-0.8.4/st.c	/^tsetmode(int priv, int set, int *args, int narg)$/;"	f	typeref:typename:void
+tsetscroll	st/.config/st-0.8.4/st.c	/^tsetscroll(int t, int b)$/;"	f	typeref:typename:void
+tstrsequence	st/.config/st-0.8.4/st.c	/^tstrsequence(uchar c)$/;"	f	typeref:typename:void
+tswapscreen	st/.config/st-0.8.4/st.c	/^tswapscreen(void)$/;"	f	typeref:typename:void
+ttyhangup	st/.config/st-0.8.4/st.c	/^ttyhangup()$/;"	f	typeref:typename:void
+ttynew	st/.config/st-0.8.4/st.c	/^ttynew(char *line, char *cmd, char *out, char **args)$/;"	f	typeref:typename:int
+ttyread	st/.config/st-0.8.4/st.c	/^ttyread(void)$/;"	f	typeref:typename:size_t
+ttyresize	st/.config/st-0.8.4/st.c	/^ttyresize(int tw, int th)$/;"	f	typeref:typename:void
+ttysend	st/.config/st-0.8.4/x.c	/^ttysend(const Arg *arg)$/;"	f	typeref:typename:void
+ttywrite	st/.config/st-0.8.4/st.c	/^ttywrite(const char *s, size_t n, int may_echo)$/;"	f	typeref:typename:void
+ttywriteraw	st/.config/st-0.8.4/st.c	/^ttywriteraw(const char *s, size_t n)$/;"	f	typeref:typename:void
+tw	st/.config/st-0.8.4/x.c	/^	int tw, th; \/* tty width and height *\/$/;"	m	struct:__anon52821db20508	typeref:typename:int	file:
+twrite	st/.config/st-0.8.4/st.c	/^twrite(const char *buf, int buflen, int show_ctrl)$/;"	f	typeref:typename:int
+type	st/.config/st-0.8.4/st.c	/^	char type;             \/* ESC type ... *\/$/;"	m	struct:__anona2c439610608	typeref:typename:char	file:
+type	st/.config/st-0.8.4/st.c	/^	int type;$/;"	m	struct:__anona2c439610208	typeref:typename:int	file:
+type	st/.config/st-0.8.4/x.c	/^	enum resource_type type;$/;"	m	struct:__anon52821db20408	typeref:enum:resource_type	file:
+u	st/.config/st-0.8.4/st.h	/^	Rune u;           \/* character code *\/$/;"	m	struct:__anona2c439660108	typeref:typename:Rune
+uchar	st/.config/st-0.8.4/st.h	/^typedef unsigned char uchar;$/;"	t	typeref:typename:unsigned char
+ui	st/.config/st-0.8.4/st.h	/^	uint ui;$/;"	m	union:__anona2c43966020a	typeref:typename:uint
+uint	st/.config/st-0.8.4/st.h	/^typedef unsigned int uint;$/;"	t	typeref:typename:unsigned int
+ulong	st/.config/st-0.8.4/st.h	/^typedef unsigned long ulong;$/;"	t	typeref:typename:unsigned long
+unicodep	st/.config/st-0.8.4/x.c	/^	Rune unicodep;$/;"	m	struct:__anon52821db20c08	typeref:typename:Rune	file:
+uninstall	st/.config/st-0.8.4/Makefile	/^uninstall:$/;"	t
+unmap	st/.config/st-0.8.4/x.c	/^unmap(XEvent *ev)$/;"	f	typeref:typename:void
+usage	st/.config/st-0.8.4/x.c	/^usage(void)$/;"	f	typeref:typename:void
+usedfont	st/.config/st-0.8.4/x.c	/^static char *usedfont = NULL;$/;"	v	typeref:typename:char *	file:
+usedfontsize	st/.config/st-0.8.4/x.c	/^static double usedfontsize = 0;$/;"	v	typeref:typename:double	file:
+ushort	st/.config/st-0.8.4/st.h	/^typedef unsigned short ushort;$/;"	t	typeref:typename:unsigned short
+utf8decode	st/.config/st-0.8.4/st.c	/^utf8decode(const char *c, Rune *u, size_t clen)$/;"	f	typeref:typename:size_t
+utf8decodebyte	st/.config/st-0.8.4/st.c	/^utf8decodebyte(char c, size_t *i)$/;"	f	typeref:typename:Rune
+utf8encode	st/.config/st-0.8.4/st.c	/^utf8encode(Rune u, char *c)$/;"	f	typeref:typename:size_t
+utf8encodebyte	st/.config/st-0.8.4/st.c	/^utf8encodebyte(Rune u, size_t i)$/;"	f	typeref:typename:char
+utf8validate	st/.config/st-0.8.4/st.c	/^utf8validate(Rune *u, size_t i)$/;"	f	typeref:typename:size_t
+utfbyte	st/.config/st-0.8.4/st.c	/^static uchar utfbyte[UTF_SIZ + 1] = {0x80,    0, 0xC0, 0xE0, 0xF0};$/;"	v	typeref:typename:uchar[]	file:
+utfmask	st/.config/st-0.8.4/st.c	/^static uchar utfmask[UTF_SIZ + 1] = {0xC0, 0x80, 0xE0, 0xF0, 0xF8};$/;"	v	typeref:typename:uchar[]	file:
+utfmax	st/.config/st-0.8.4/st.c	/^static Rune utfmax[UTF_SIZ + 1] = {0x10FFFF, 0x7F, 0x7FF, 0xFFFF, 0x10FFFF};$/;"	v	typeref:typename:Rune[]	file:
+utfmin	st/.config/st-0.8.4/st.c	/^static Rune utfmin[UTF_SIZ + 1] = {       0,    0,  0x80,  0x800,  0x10000};$/;"	v	typeref:typename:Rune[]	file:
+utmp	st/.config/st-0.8.4/config.def.h	/^char *utmp = NULL;$/;"	v	typeref:typename:char *
+utmp	st/.config/st-0.8.4/config.h	/^char *utmp = NULL;$/;"	v	typeref:typename:char *
+utmp	st/.config/st-0.8.4/test.h	/^char *utmp = NULL;$/;"	v	typeref:typename:char *
+v	st/.config/st-0.8.4/st.h	/^	const void *v;$/;"	m	union:__anona2c43966020a	typeref:typename:const void *
+vis	st/.config/st-0.8.4/x.c	/^	Visual *vis;$/;"	m	struct:__anon52821db20608	typeref:typename:Visual *	file:
+visibility	st/.config/st-0.8.4/x.c	/^visibility(XEvent *ev)$/;"	f	typeref:typename:void
+volume	i3/.config/i3/scripts/volume	/^volume() {$/;"	f
+volume-pulseaudio	i3/.config/i3/i3blocks.conf	/^[volume-pulseaudio]$/;"	s
+vtiden	st/.config/st-0.8.4/config.def.h	/^char *vtiden = "\\033[?6c";$/;"	v	typeref:typename:char *
+vtiden	st/.config/st-0.8.4/config.h	/^char *vtiden = "\\033[?6c";$/;"	v	typeref:typename:char *
+vtiden	st/.config/st-0.8.4/test.h	/^char *vtiden = "\\033[?6c";$/;"	v	typeref:typename:char *
+w	st/.config/st-0.8.4/x.c	/^	int w, h; \/* window width and height *\/$/;"	m	struct:__anon52821db20508	typeref:typename:int	file:
+width	st/.config/st-0.8.4/x.c	/^	int width;$/;"	m	struct:__anon52821db20908	typeref:typename:int	file:
+win	st/.config/st-0.8.4/x.c	/^	Window win;$/;"	m	struct:__anon52821db20608	typeref:typename:Window	file:
+win	st/.config/st-0.8.4/x.c	/^static TermWindow win;$/;"	v	typeref:typename:TermWindow	file:
+win_mode	st/.config/st-0.8.4/win.h	/^enum win_mode {$/;"	g
+wmdeletewin	st/.config/st-0.8.4/x.c	/^	Atom xembed, wmdeletewin, netwmname, netwmpid;$/;"	m	struct:__anon52821db20608	typeref:typename:Atom	file:
+worddelimiters	st/.config/st-0.8.4/config.def.h	/^wchar_t *worddelimiters = L" ";$/;"	v	typeref:typename:wchar_t *
+worddelimiters	st/.config/st-0.8.4/config.h	/^wchar_t *worddelimiters = L" ";$/;"	v	typeref:typename:wchar_t *
+worddelimiters	st/.config/st-0.8.4/test.h	/^wchar_t *worddelimiters = L" ";$/;"	v	typeref:typename:wchar_t *
+x	st/.config/st-0.8.4/st.c	/^		int x, y;$/;"	m	struct:__anona2c439610208::__anona2c439610308	typeref:typename:int	file:
+x	st/.config/st-0.8.4/st.c	/^	int x;$/;"	m	struct:__anona2c439610108	typeref:typename:int	file:
+x.o	st/.config/st-0.8.4/Makefile	/^x.o: arg.h config.h st.h win.h$/;"	t
+xbell	st/.config/st-0.8.4/x.c	/^xbell(void)$/;"	f	typeref:typename:void
+xclear	st/.config/st-0.8.4/x.c	/^xclear(int x1, int y1, int x2, int y2)$/;"	f	typeref:typename:void
+xclipcopy	st/.config/st-0.8.4/x.c	/^xclipcopy(void)$/;"	f	typeref:typename:void
+xcmap	st/.config/st-0.8.4/boxdraw.c	/^static Colormap xcmap;$/;"	v	typeref:typename:Colormap	file:
+xd	st/.config/st-0.8.4/boxdraw.c	/^static XftDraw *xd;$/;"	v	typeref:typename:XftDraw *	file:
+xdpy	st/.config/st-0.8.4/boxdraw.c	/^static Display *xdpy;$/;"	v	typeref:typename:Display *	file:
+xdrawcursor	st/.config/st-0.8.4/x.c	/^xdrawcursor(int cx, int cy, Glyph g, int ox, int oy, Glyph og)$/;"	f	typeref:typename:void
+xdrawglyph	st/.config/st-0.8.4/x.c	/^xdrawglyph(Glyph g, int x, int y)$/;"	f	typeref:typename:void
+xdrawglyphfontspecs	st/.config/st-0.8.4/x.c	/^xdrawglyphfontspecs(const XftGlyphFontSpec *specs, Glyph base, int len, int x, int y)$/;"	f	typeref:typename:void
+xdrawline	st/.config/st-0.8.4/x.c	/^xdrawline(Line line, int x1, int y1, int x2)$/;"	f	typeref:typename:void
+xembed	st/.config/st-0.8.4/x.c	/^	Atom xembed, wmdeletewin, netwmname, netwmpid;$/;"	m	struct:__anon52821db20608	typeref:typename:Atom	file:
+xfinishdraw	st/.config/st-0.8.4/x.c	/^xfinishdraw(void)$/;"	f	typeref:typename:void
+xgeommasktogravity	st/.config/st-0.8.4/x.c	/^xgeommasktogravity(int mask)$/;"	f	typeref:typename:int
+xhints	st/.config/st-0.8.4/x.c	/^xhints(void)$/;"	f	typeref:typename:void
+xic	st/.config/st-0.8.4/x.c	/^		XIC xic;$/;"	m	struct:__anon52821db20608::__anon52821db20708	typeref:typename:XIC	file:
+xicdestroy	st/.config/st-0.8.4/x.c	/^xicdestroy(XIC xim, XPointer client, XPointer call)$/;"	f	typeref:typename:int
+xim	st/.config/st-0.8.4/x.c	/^		XIM xim;$/;"	m	struct:__anon52821db20608::__anon52821db20708	typeref:typename:XIM	file:
+ximdestroy	st/.config/st-0.8.4/x.c	/^ximdestroy(XIM xim, XPointer client, XPointer call)$/;"	f	typeref:typename:void
+ximinstantiate	st/.config/st-0.8.4/x.c	/^ximinstantiate(Display *dpy, XPointer client, XPointer call)$/;"	f	typeref:typename:void
+ximopen	st/.config/st-0.8.4/x.c	/^ximopen(Display *dpy)$/;"	f	typeref:typename:int
+xinit	st/.config/st-0.8.4/x.c	/^xinit(int cols, int rows)$/;"	f	typeref:typename:void
+xloadcolor	st/.config/st-0.8.4/x.c	/^xloadcolor(int i, const char *name, Color *ncolor)$/;"	f	typeref:typename:int
+xloadcols	st/.config/st-0.8.4/x.c	/^xloadcols(void)$/;"	f	typeref:typename:void
+xloadfont	st/.config/st-0.8.4/x.c	/^xloadfont(Font *f, FcPattern *pattern)$/;"	f	typeref:typename:int
+xloadfonts	st/.config/st-0.8.4/x.c	/^xloadfonts(char *fontstr, double fontsize)$/;"	f	typeref:typename:void
+xmakeglyphfontspecs	st/.config/st-0.8.4/x.c	/^xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len, int x, int y)$/;"	f	typeref:typename:int
+xmalloc	st/.config/st-0.8.4/st.c	/^xmalloc(size_t len)$/;"	f	typeref:typename:void *
+xrealloc	st/.config/st-0.8.4/st.c	/^xrealloc(void *p, size_t len)$/;"	f	typeref:typename:void *
+xresize	st/.config/st-0.8.4/x.c	/^xresize(int col, int row)$/;"	f	typeref:typename:void
+xsel	st/.config/st-0.8.4/x.c	/^static XSelection xsel;$/;"	v	typeref:typename:XSelection	file:
+xsetcolorname	st/.config/st-0.8.4/x.c	/^xsetcolorname(int x, const char *name)$/;"	f	typeref:typename:int
+xsetcursor	st/.config/st-0.8.4/x.c	/^xsetcursor(int cursor)$/;"	f	typeref:typename:int
+xsetenv	st/.config/st-0.8.4/x.c	/^xsetenv(void)$/;"	f	typeref:typename:void
+xsetmode	st/.config/st-0.8.4/x.c	/^xsetmode(int set, unsigned int flags)$/;"	f	typeref:typename:void
+xsetpointermotion	st/.config/st-0.8.4/x.c	/^xsetpointermotion(int set)$/;"	f	typeref:typename:void
+xsetsel	st/.config/st-0.8.4/x.c	/^xsetsel(char *str)$/;"	f	typeref:typename:void
+xsettitle	st/.config/st-0.8.4/x.c	/^xsettitle(char *p)$/;"	f	typeref:typename:void
+xseturgency	st/.config/st-0.8.4/x.c	/^xseturgency(int add)$/;"	f	typeref:typename:void
+xstartdraw	st/.config/st-0.8.4/x.c	/^xstartdraw(void)$/;"	f	typeref:typename:int
+xstrdup	st/.config/st-0.8.4/st.c	/^xstrdup(char *s)$/;"	f	typeref:typename:char *
+xtarget	st/.config/st-0.8.4/x.c	/^	Atom xtarget;$/;"	m	struct:__anon52821db20808	typeref:typename:Atom	file:
+xunloadfont	st/.config/st-0.8.4/x.c	/^xunloadfont(Font *f)$/;"	f	typeref:typename:void
+xunloadfonts	st/.config/st-0.8.4/x.c	/^xunloadfonts(void)$/;"	f	typeref:typename:void
+xvis	st/.config/st-0.8.4/boxdraw.c	/^static Visual *xvis;$/;"	v	typeref:typename:Visual *	file:
+xw	st/.config/st-0.8.4/x.c	/^static XWindow xw;$/;"	v	typeref:typename:XWindow	file:
+xwrite	st/.config/st-0.8.4/st.c	/^xwrite(int fd, const char *s, size_t len)$/;"	f	typeref:typename:ssize_t
+xximspot	st/.config/st-0.8.4/x.c	/^xximspot(int x, int y)$/;"	f	typeref:typename:void
+y	st/.config/st-0.8.4/st.c	/^		int x, y;$/;"	m	struct:__anona2c439610208::__anona2c439610308	typeref:typename:int	file:
+y	st/.config/st-0.8.4/st.c	/^	int y;$/;"	m	struct:__anona2c439610108	typeref:typename:int	file:
+zoom	st/.config/st-0.8.4/x.c	/^zoom(const Arg *arg)$/;"	f	typeref:typename:void
+zoomabs	st/.config/st-0.8.4/x.c	/^zoomabs(const Arg *arg)$/;"	f	typeref:typename:void
+zoomreset	st/.config/st-0.8.4/x.c	/^zoomreset(const Arg *arg)$/;"	f	typeref:typename:void

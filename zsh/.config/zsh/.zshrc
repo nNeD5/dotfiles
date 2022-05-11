@@ -69,10 +69,7 @@ ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
 # Load zsh promt
-source $HOME/.config/zsh/themes/common/common.zsh-theme
-
-# Load icons for filetypes
-# source ~/.local/share/icons-in-terminal/icons_bash.sh
+source $HOME/.config/zsh/promts/common/common.zsh-theme
 
 # Load zsh-syntax-highlighting; should be last.
-source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.config/zsh/syntax-highlighting/zsh-syntax-highlighting.zsh
