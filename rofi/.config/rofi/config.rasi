@@ -1,0 +1,32 @@
+configuration {
+  disable-history: false;
+  display-drun: "Applications:";
+  display-window: "Windows:";
+  drun-display-format: "{name}";
+  font: "FiraCi Nerd Font 14";
+  modi: "window,run,drun";
+  icon-theme: "Papirus";
+
+  kb-remove-to-eol: "";
+
+  matching: "fuzzy";
+  sort: true;
+  sorting-method: "fzf";
+  show-icons: true;
+
+  filebrowser {
+    directories-first: true;
+    sorting-method:    "name";
+  }
+
+  kb-accept-entry: "Control+y,Return,KP_Enter";
+  kb-element-next: "Tab,Control+j";
+  kb-element-prev: "ISO_Left_Tab,Control+k";
+}
+
+// @theme "~/.config/rofi/themes/dmenu-theme.rasi"
+@theme "~/.config/rofi/themes/DarkBlue-theme.rasi"
+// @theme "~/.config/rofi/themes/blurry.theme.rasi"
+
+/* vim: ft=sass
+//@theme "/usr/share/rofi/themes/DarkBlue.rasi"
