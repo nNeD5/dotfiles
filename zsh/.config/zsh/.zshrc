@@ -11,8 +11,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Enable colors and change prompt:
-# autoload -U colors && colors
-# PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+autoload -U colors && colors
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 # Basic auto/tab complete:
 autoload -U compinit
@@ -35,6 +35,7 @@ bindkey -v '^?' backward-delete-char
 # Load aliases
 [ -f "$HOME/.config/zsh/aliases.sh" ] && source "$HOME/.config/zsh/aliases.sh"
 [ -f "$HOME/.config/zsh/functions.sh" ] && source "$HOME/.config/zsh/functions.sh"
+[ -f "$HOME/.config/zsh/.p10k.zsh" ] && source "$HOME/.config/zsh/.p10k.zsh"
 
 # Disable underline for file name
 (( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES

@@ -4,16 +4,16 @@ return {
         lazy = true,
         opts = {
             style = "storm",
-            transparent = false,
+            transparent = true,
             styles = {
                 sidebars = "ligth",
                 floats = "light",
             },
             hide_inactive_statusline = true, -- FIX: Do nothig
             on_colors = function(colors)
-                colors.bg = "#000000"
-                colors.bg_float = "#000000"
-                colors.bg_sidebar = "#000000"
+                colors.bg = "#24283b"
+                colors.bg_float = "#24283b"
+                colors.bg_sidebar = "#24283b"
             end,
         },
     },
