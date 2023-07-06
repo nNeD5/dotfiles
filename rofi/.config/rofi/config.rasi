@@ -25,8 +25,8 @@ configuration {
 }
 
 // @theme "~/.config/rofi/themes/dmenu-theme.rasi"
-@theme "~/.config/rofi/themes/DarkBlue-theme.rasi"
-// @theme "~/.config/rofi/themes/blurry.theme.rasi"
+// @theme "~/.config/rofi/themes/DarkBlue-theme.rasi"
+@theme "~/.config/rofi/themes/blurry.theme.rasi"
 
 /* vim: ft=sass
 //@theme "/usr/share/rofi/themes/DarkBlue.rasi"

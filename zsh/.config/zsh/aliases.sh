@@ -1,6 +1,9 @@
 alias p10="sshpass -p 'l;jyfnfy' ssh -p 2210 calc@195.178.145.33 -Y -o 'ServerAliveInterval 60'"
 alias hometiger="sshpass -p 'l;jyfnfy' ssh -p 2210 calc@95.67.26.116 -Y -o 'ServerAliveInterval 60'"
 
+alias osc="sudoedit /etc/nixos/configuration.nix"
+alias osu="sudo nixos-rebuild switch"
+
 # nvim
 # alias vim='nvim'
 alias v="$EDITOR"

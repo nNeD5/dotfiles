@@ -13,6 +13,17 @@ export XINITRC="$XDG_CONFIG_HOME/X11/xinitrc"
 export XSERVERRC="$XDG_CONFIG_HOME/X11/xserverrc"
 
 export TZ="Europe/Kiev"
+export LC_ALL=C
+export LANG="en_US.UTF-8";
+export LC_ADDRESS="uk_UA.UTF-8";
+export LC_IDENTIFICATION="uk_UA.UTF-8";
+export LC_MEASUREMENT="uk_UA.UTF-8";
+export LC_MONETARY="uk_UA.UTF-8";
+export LC_NAME="uk_UA.UTF-8";
+export LC_NUMERIC="uk_UA.UTF-8";
+export LC_PAPER="uk_UA.UTF-8";
+export LC_TELEPHONE="uk_UA.UTF-8";
+export LC_TIME="en_US.UTF-8";
 
 export EDITOR="nvim"
 export VISUAL="nvim"
@@ -23,7 +34,7 @@ export TERM="xterm-256color"
 # History in cache directory:
 export HISTSIZE=10000
 export SAVEHIST=10000
-export HISTFILE="$HOME/.cache/history"
+export HISTFILE="$HOME/.cache/zsh_history"
 # setopt SHARE_HISTORY
 # setopt appendhistory
 
@@ -52,10 +63,11 @@ export LESS_TERMCAP_me=$(tput sgr0)
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border"
 
 # OpenFoam
-source "/opt/OpenFOAM/OpenFOAM-10/etc/bashrc" > /dev/null 2>&1
 
 
 # Path to scripts
 path+=("$HOME/.config/zsh/scripts/")
 path+=("$HOME/.local/bin/")
 export PATH
+
+echo "TEST"
