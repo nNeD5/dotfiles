@@ -11,9 +11,9 @@ vim.api.nvim_create_autocmd("Filetype", {
     command = "set foldmethod=expr",
 })
 -- reset cursor
--- vim.api.nvim_create_autocmd("VimLeave, VimSuspend", {
---     command = [[set guicursor=a:hor10,a:blinkon20]],
--- })
+vim.api.nvim_create_autocmd("VimLeave, VimSuspend", {
+    command = [[set guicursor=a:hor10,a:blinkon20]],
+})
 
 -- =========
 -- Vimwiki

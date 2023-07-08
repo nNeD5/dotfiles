@@ -69,5 +69,3 @@ export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border"
 path+=("$HOME/.config/zsh/scripts/")
 path+=("$HOME/.local/bin/")
 export PATH
-
-echo "TEST"
