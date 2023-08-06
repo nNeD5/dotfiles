@@ -3,7 +3,7 @@ configuration {
   display-drun: "Applications:";
   display-window: "Windows:";
   drun-display-format: "{name}";
-  font: "FiraCi Nerd Font 14";
+  font: "Hack Nerd Font 14";
   modi: "window,run,drun";
   icon-theme: "Papirus";
 
