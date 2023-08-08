@@ -1,4 +1,13 @@
-alias connect="sshpass -p 'l;jyfnfy' ssh -p 2210 calc@195.178.145.33 -Y -o 'ServerAliveInterval 60'"
+# work
+alias p10="sshpass -p 'l;jyfnfy' ssh -p 2210 calc@195.178.145.33 -Y -o 'ServerAliveInterval 60'"
+alias hometiger="sshpass -p 'l;jyfnfy' ssh -p 2210 calc@95.67.26.116 -Y -o 'ServerAliveInterval 60'"
+alias hometiger_sftp="sshpass -p 'l;jyfnfy' sftp -P 2210 calc@95.67.26.116"
+
+# system
+alias osc="sudoedit /etc/nixos/configuration.nix"
+alias osu="sudo nixos-rebuild switch"
+
+alias batt="cat /sys/class/power_supply/BAT0/capacity"
 
 # nvim
 # alias vim='nvim'

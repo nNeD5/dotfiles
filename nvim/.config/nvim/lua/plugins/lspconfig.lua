@@ -1,6 +1,7 @@
 return {
     "neovim/nvim-lspconfig",
     opts = {
+        ensure_installed = {},
         servers = {
             texlab = {
                 settings = {

@@ -3,7 +3,7 @@ configuration {
   display-drun: "Applications:";
   display-window: "Windows:";
   drun-display-format: "{name}";
-  font: "FiraCi Nerd Font 14";
+  font: "Hack Nerd Font 14";
   modi: "window,run,drun";
   icon-theme: "Papirus";
 
@@ -25,8 +25,8 @@ configuration {
 }
 
 // @theme "~/.config/rofi/themes/dmenu-theme.rasi"
-@theme "~/.config/rofi/themes/DarkBlue-theme.rasi"
-// @theme "~/.config/rofi/themes/blurry.theme.rasi"
+// @theme "~/.config/rofi/themes/DarkBlue-theme.rasi"
+@theme "~/.config/rofi/themes/blurry.theme.rasi"
 
 /* vim: ft=sass
 //@theme "/usr/share/rofi/themes/DarkBlue.rasi"

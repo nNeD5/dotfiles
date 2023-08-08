@@ -1,0 +1,54 @@
+;; NOTE: DO NOT CHANGE
+(defsrc
+  esc        f1      f2    f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  prtsc scrlck  pause
+  grv  1     2     3    4    5    6    7    8    9    0    -     =    bspc   ins home pgdn
+  tab  q     w     e    r    t    y    u    i    o    p    [     ]    \      del end  pgup
+  caps  a     s     d    f    g    h    j    k    l         ;    '    ret
+  lsft z     x     c    v    b    n    m    ,    .    /              rsft        up
+  lctl lmet lalt          spc                  ralt rmet wkup rctl       left down rght
+)
+
+(defalias
+  tvsp   (layer-toggle vim-navigation)
+)
+
+(defalias
+    vsp   (tap-hold 200 200 spc @tvsp) ;; tap: spc       hold: super layer
+)
+
+;; one-shot mod action
+(defalias
+    mod1 (one-shot-press 1000 lmet)
+)
+
+
+
+(deflayer base-en
+  esc        f1      f2    f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  prtsc scrlck  pause
+  grv  1     2     3    4    5    6    7    8    9    0    -     =    bspc   ins home pgdn
+  tab  q     w     e    r    t    y    u    i    o    p    [     ]    \      del end  pgup
+  esc  a     s     d    f    g    h    j    k    l         ;    '    ret
+  lsft z     x     c    v    b    n    m    ,    .    /              rsft        up
+  lctl @mod1 lalt          @vsp                  ralt @mod1 wkup rctl       left down rght
+)
+;; swith to english
+(defalias
+    swen M-A-S-1
+)
+;; swith to russian
+(defalias
+    swru M-A-S-2
+)
+;; swith to ukraine
+(defalias
+    swuk M-A-S-3
+)
+
+(deflayer vim-navigation
+  esc        f1      f2    f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  prtsc scrlck  pause
+  grv  1     2     3    4    5    6    7    8    9    0    -     =    bspc   ins home pgdn
+  tab  q     w     e    r    t    y    u    i    o    p    [     ]    \      del end  pgup
+  esc  a     s     d    f    g    left down up   rght ;    '    ret
+  lsft z     x     c    v    b    n    m    ,    .    /              rsft        up
+  lctl @mod1 lalt          @vsp                  ralt @mod1 wkup rctl       left down rght
+)
