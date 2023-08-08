@@ -10,34 +10,29 @@ vim.api.nvim_create_autocmd("Filetype", {
     pattern = { "vimwiki", "markdown" },
     command = "set foldmethod=expr",
 })
+
 -- reset cursor
 vim.api.nvim_create_autocmd("VimLeave, VimSuspend", {
     command = [[set guicursor=a:hor10,a:blinkon20]],
 })
 
--- =========
--- Vimwiki
 -- ========
-vim.api.nvim_create_autocmd("FileType", {
-    pattern = { "vimwiki" },
-    command = "nnoremap <buffer> <leader>wc :VimwikiToggleListItem<CR>",
-})
-vim.api.nvim_create_autocmd("FileType", {
-    pattern = { "vimwiki" },
-    command = "nnoremap <buffer> <leader>nd :VimwikiDeleteFile<CR>",
-})
-vim.api.nvim_create_autocmd("FileType", {
-    pattern = { "vimwiki" },
-    command = "setlocal  spell",
+-- sh
+-- =======
+vim.api.nvim_create_autocmd("BufNewFile", {
+    pattern = "*.sh",
+    command = "set filetype=sh",
 })
 vim.api.nvim_create_autocmd("BufNewFile", {
-    pattern = vim.fn.expand("$HOME") .. "/vimwiki/diary/*.md",
-    command = [[silen 0put =execute('luafile /home/ned/.config/nvim/templates/diary.lua') | norm gg"_dd]],
+    pattern = "*.sh",
+    command = "silen 0r !" .. vim.fn.expand("$HOME") .. "/.config/nvim/templates/sh.sh",
 })
-vim.api.nvim_create_autocmd("BufNewFile", {
-    pattern = vim.fn.expand("$HOME") .. "/vimwiki/lang-point/hw-*.md",
-    command = "silen 0r !lua " .. vim.fn.expand("$HOME") .. "/.config/nvim/templates/lang-point-hw.lua",
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = "sh",
+    command = "w | silen !chmod +x %:p",
 })
+
+
 
 -- =========
 -- Python

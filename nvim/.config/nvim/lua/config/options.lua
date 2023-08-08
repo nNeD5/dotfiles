@@ -43,7 +43,7 @@ vim.wo.wrap = true
 vim.opt.linebreak = true
 vim.opt.textwidth = 60
 vim.opt.formatoptions = "cqnj"
-vim.opt.conceallevel = 0
+-- vim.opt.conceallevel = 0
 
 -- Foldings by treesitter --
 vim.opt.foldmethod = "expr"
