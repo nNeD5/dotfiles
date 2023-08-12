@@ -7,7 +7,7 @@ in
     programs.zsh = {
         enable = true;
         dotDir = "${config_dir}/zsh_output";
-        history.path = "${home}/${config_dir}/zsh_history";
+        history.path = "${home}/${config_dir}/zsh_output/zsh_history";
 
         syntaxHighlighting.enable = true;
         enableAutosuggestions = true;
