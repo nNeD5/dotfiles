@@ -7,7 +7,7 @@
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
 import:
-   - ~/.config/alacritty/themes/tokyo-night.yaml
+  - ~/.config/alacritty/themes/tokyo-night.yaml
   #- ~/.config/alacritty/themes/github_dark_default.yml
 
 # Any items in the `env` entry below will be added as
@@ -389,7 +389,7 @@ cursor:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    shape: underline # vim can overwrite it
+    shape: Underline # vim can overwrite it
 
     # Cursor blinking state
     #
@@ -398,7 +398,7 @@ cursor:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-    blinking: On
+  blinking: On
 
   # Vi mode cursor style
   #

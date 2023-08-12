@@ -1,8 +1,8 @@
+{ lib, pkgs, config, ... }:
 let
     config_dir = ".config/home-manager/zsh";
-    home = "/home/ned";
+    home = "${config.home.homeDirectory}";
 in
-{ lib, pkgs, ... }:
 {
     programs.zsh = {
         enable = true;
