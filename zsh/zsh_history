@@ -1,0 +1,4043 @@
+home-manager edit
+home-manager s
+home-manager switch
+home-manager edit
+home-manager switch
+home-manager edit
+home-manager switch
+home-manager edit
+home-manager switch
+home-manager edit
+home-manager switch
+reboot
+la
+v /home/ned/.config/home-manager/zsh/zsh_output/.zshenv
+ls
+cd ..
+cd 
+ls
+v zshenv
+home-manager switch
+la
+cd
+sl
+ls
+v zsh.nix
+p10k
+cd
+la
+cd zsh
+ls
+cd zsh_outpu
+ls
+cd zsh_output
+ls
+cd plugins
+ls
+cd ..
+\cd plugins
+cd ..
+cd 
+ls
+cd 
+ls
+v zsh-powerlevel10k
+hist
+history
+la 
+la ~
+rm ~/.zsh_history
+ls
+la
+history
+hyprctl kyeword monitor eDP-1,disable
+hyprctl keyword monitor eDP-1,disable
+cd 
+ls
+v zsh-powerlevel10k
+cd ..
+v zsh.nix
+home-manager switch
+v zsh.nix
+home-manager switch
+ls
+cd plugins
+v zsh.nix
+la
+v zsh-powerlevel10k
+cd zh
+cd
+la
+cd
+cd .
+v enhancd
+v ../zhs.nix
+v ../zsh.nix
+cd ..
+v zsh.nix
+cd -
+cd .
+cd *
+cd ..
+cd **
+cd ..
+cd *
+cd ..
+cd -
+v zsh.nix
+cd -
+v zsh.nix
+home-manager switch
+v zsh.nix
+p10k
+echo $PATH
+cd /home/ned/.config/home-manager/zsh/zsh_output/plugins/zsh-powerlevel10k
+ls
+ls config
+ls
+home-manager switch
+fcd
+v launch.sh
+./launch.sh
+eww -c . kill
+./launch.sh
+eww -c . kill
+eww -c open bar
+eww -c . open bar
+v launch.sh
+ls .config/eww
+
+p10k --help
+p10k segment
+p10k reload 
+exi
+eww -c . --force-wayland --restart open-many bar, bar1\
+
+eww -c . --restart open-many bar, bar1\
+
+eww -c . kill
+eww -c . open bar\
+
+v launch.sh
+./launch.sh
+ls
+la
+cp ~/.config/zsh.backup/.p10k.zsh p10k.zsh
+
+la
+fcd
+ls
+la
+diff .p10k.zsh ../p10k.zsh
+diff -u .p10k.zsh ../p10k.zsh
+la
+ls
+la
+p10k relaod ../p10k.zsh
+p10k display ../p10k.zsh
+ls
+powerlevel10k.zsh-theme
+cd ..
+v zshrc
+
+
+ls
+home-manager switch
+
+v zshrc
+
+
+ls .local/share
+v dotfiles
+
+ls
+cd dotfiles
+g reset --soft HEAD~5
+ls
+v zsh/.config/zsh/.zshrc
+git checkout HEAR
+git checkout HEAD
+git checkout origin/master
+git checkout HEAD
+git reset --hard HEAR~5
+git reset --hard HEAD~5
+la
+v zsh/.config/zsh/.zshrc
+git checkout HEAD
+la
+
+git reset --hard HEAD
+git reset --hard 80ca5c
+git reflog
+git reset --hard 80cad5c
+la
+ls
+git reflog
+git log
+git reset --hard 00726ec
+ls
+git reflog
+git tree
+git --tree
+fe ~
+cd
+fcd
+v alacritty.yml
+osc
+git reflog
+git show
+git reflog show
+git fsck --lost-found
+git rest --hard @HEAD{2}
+git rest --hard HEAD@{2}
+git reset --hard HEAD@{2}
+la
+ls
+
+ls
+export ZDOTDIR=$HOME
+alacritty
+
+
+echo $ZDOTDIR
+echo $ZDOTDIR=$HOME; p10k configure
+c
+cd
+fcd
+ls
+chmod +w .zshrc
+sudo chmod +w .zshrc
+sudo chmod g+rw .zshrc
+rm .zshrc
+touch .zshrc
+ls
+la
+p10k configure
+la
+home-manager switch
+rm .zshrc
+home-manager switch
+ls
+ls plugins
+la
+
+ls
+fcd
+cd ..
+v zshrc
+home-manager switch
+
+v zshrc
+
+cd .cache
+ls
+ls | rg p10k
+fd zsh-powerlevel10k.zsh-theme
+fd zsh-powerlevel10k.zsh-theme /
+fd powerlevel10k.zsh-theme /
+ls
+cd
+fcd
+pwd
+cd /home/ned/.config/home-manager/zsh\
+
+v zshrc
+ls
+v zshrc
+la
+
+v zshrc
+
+
+
+fcd
+cd zsh
+la
+cd ~/.config/home-manager/zsh/
+la
+
+
+home-manager switch
+la
+ls
+fe
+la
+ls
+p10k configure
+osc
+cv
+v plugins/disabled.lua
+v
+osc
+osu
+cd
+p10 configure
+p10k configure
+fcd
+cd ../
+v p10k.zsh
+p10 configure
+p10k configure
+osc
+fcd
+cp .p10k.zsh ../p10k.zsh
+cd ..
+la
+p10k configure
+ls
+fcd
+cd ..
+sl
+ls
+v p10k.zsh
+p10
+hometiger
+fg nsxiv
+fd nsxiv
+cd .config
+ls
+help nsixv
+help nsxiv
+la
+man nsxiv
+imv
+nix-shell -p imv
+imv 
+imv ~/Art/pictures/
+cd
+exit
+home-manager edit
+home-manager switch
+la
+python
+unar Java\ Middle-20230517T194935Z-001.zip
+ls
+cd Java\ Middle
+ls
+cd uA
+cd UA
+ls
+cd 2\ Semester
+ls
+cd Lesson\ 27
+la
+cd ../Lesson\ 26
+la
+n
+ls
+cd ..
+mv Lesson*/* .
+ls
+unar ~/ilovepdf_converted.zip
+zathura ~/*.pdf
+zathura *.pdf
+rm *.pdf
+ls
+trash-restore *.pdf
+unar ~/ilovepdf_converted.zip
+zathura *20
+zathura For\ Students\ Java\ Middle\ Lesson20\ UA.pptx
+home-manager edit
+home-manager switch
+home-manager edit
+ls
+zathura ~/For-Students-JavaMiddle-Lesson28-UA.pdf
+zathura ~/*.pdf
+jobs
+cd
+la
+mv *.pdf Java\ Middle/.
+ls
+rm *.zip
+imv *.png
+rm *.png
+ls
+mv Java\ Middle Work/robocode/JavaMiddle
+cd Work/robocode/JavaMiddle
+ls
+mkdir presentaion
+ls 1Semester
+ls 2Semester
+ls Java\ Middle
+mv Java\ Middle JavaMiddle
+ls
+ls JavaMiddle
+ls JavaMiddle/UA
+rm JavaMiddle/UA
+mv JavaMiddle pdf
+mv pdf 1Semester 2Semester presentaion/.
+ls
+mkdir webchat
+cd webchat
+v index.html
+ls
+cd ..
+la
+ls
+tar -xzf webchat.tar.gz webcaht
+help tar
+tar czf webchat.tar.gz webchat
+ls
+p10
+poweroff
+nmtui
+poweroff
+fcd
+ls
+brave index.html&
+ls
+v index.html
+fcd
+ls
+mkdir test
+cd test
+v index.html
+ls
+v index.html
+v
+poweroff
+hyprctl keyword monitor eDP-1,disable
+killall hyprpaper 
+hyprpaper &; disown
+la
+ls
+bluetoothctl
+rfkill
+rfkill unblock bluetooth
+bluetoothctl
+fcd
+ls
+./launch.sh
+ду�
+ls
+la
+ls
+la
+v .w3m
+la .w3m
+hsc
+hsu
+hme
+hmc
+hmu
+fe
+hmc
+osc
+osu
+osc
+osu
+ls
+hmu
+hmc
+oscc
+osc
+osu
+osc
+osu
+hmu
+osc
+hmu
+osu
+osc
+hmu
+hmc
+hmu
+osu
+nix-collect-garbage -d
+du /
+df
+osc
+hmc
+hmu
+fe 
+fcd
+hmc
+hmu
+la
+ls
+hmc
+fcd
+rg virt
+osc
+osu
+osc
+hmc
+osu
+hmu
+hmc
+hmu
+osc
+hmc
+hmu
+osu
+osc
+osu
+osc
+hmc
+hmu
+ls
+la 
+ls ~
+osc
+hmc
+gotop
+ls
+v packages.nix
+ls
+cd
+cd Work/
+ls
+cd ACP_GUI
+ls
+cd ..
+ls
+rm -r ACP_GUI
+poetry new ACP_GUI
+cd ACP_GUI
+ls
+v pyproject.toml
+poetry add pyside6
+python -v
+python -V
+poetry add pyside6
+rm /home/ned/.cache/pypoetry/virtualenvs/acp-gui-QcVlF-0j-py3.1
+rm /home/ned/.cache/pypoetry/virtualenvs/acp-gui-*
+ls
+ls /home/ned/.cache/pypoetry/virtualenvs/
+poetry env remove --all
+ls /home/ned/.cache/pypoetry/virtualenvs
+ls /home/ned/.cache/pypoetry/virtualenvs/envs.toml
+ls /home/ned/.cache/pypoetry
+rm /home/ned/.cache/pypoetry/virtualenvs
+ls
+poetry env list
+ls /home/ned/.cache/pypoetry
+poetry config 
+s
+ls
+poetry config --help
+poetry list
+poetry env --help
+poetry config  virtualenvs.in-project = true --local
+poetry config  virtualenvs.in-project true --local
+v poetry.toml
+v pyproject.toml
+poetry install
+ls
+la
+v pyproject.toml
+poetry add pyside6
+v pyproject.toml
+poetry add pyside6
+v pyproject.toml
+poetry add pyside6
+poetry python -v
+poetry run python -V
+v pyproject.toml 
+poetry add pyside6
+v pyproject.toml
+poetry run app
+ls
+ls acp_gui
+v pyproject.toml
+a
+ls
+poetry run app
+echo $LD
+python 
+ls
+fe
+ls
+fe hypr
+hyprctl reload
+iwlist
+lscpi
+lspci
+lshw
+nmcli connection show
+nmcli connection show  | head -2
+nmcli connection show  | head 1-2
+nmcli connection show  | head -1 -2
+nmcli connection show  | head -2
+nmcli connection show  | head +1 -2
+man head
+head -l1 -2
+head -n1 -2
+nmcli connection show  | head -n1 -2
+time nmcli connection show
+time nmcli connection show | sed "2p"
+time nmcli connection show | sed -n "2p" 
+time nmcli connection show | head -2 | tail +2
+ls
+fcd ~
+ls
+cd statsubar
+ls
+mkdir network
+cd network
+ls
+la
+ls
+v network.sh
+nmcli connection show | head -2 | tail +2
+v network.sh
+chmod +x network.sh
+nmcli connection show | head -2 | tail +2
+./network.sh | nmcli -f GENERAL,WIFI-PROPERITES dev show 
+nmcli -f GENERAL,WIFI-PROPERITES dev show 
+./network.sh
+nmcli -f GENERAL,WIFI-PROPERITES dev show wlp20
+nmcli -f GENERAL,WIFI-PROPERITES dev show wlp2s0
+./network.sh | nmcli -f GENERAL,WIFI-PROPERTIES dev show 
+iwconfig
+nmcli dev wifi
+./network.sh
+cat /proc/net/wireless
+watch -n 1 cat /proc/net/wireless
+wicd
+ls
+p10
+tmux new -s p10
+p10
+ls
+mv *.iso Downloads/.
+ls
+la
+v .gitconfig
+v .nix-profile
+ls .nix-profile
+ls .nix-profile/lib
+udev
+udevadm --h
+udevadm info
+man udevadm
+ls
+fe
+hyprctl reload
+killall hyprpaper 
+hyprpaper &; disown
+fcd
+./launch.sh
+ls
+la
+tmux attach
+ls
+tmux attach 
+tmux attach
+p10
+tmux attach
+p10_sftp
+n
+v
+python
+p10_sftp
+ls
+mv ek_energy ek_energy.dat
+rm ek_energy.txt
+ls
+mv ek_energy.dat ek_energy_C06.dat
+v
+p10_sftp
+ls
+n
+v
+python
+p10_sftp
+ls
+v ek_bonds_C10.dat
+v
+p10_sftp
+mv ek_energy.txt ek_energy_C12.txt
+n
+v
+p10_sftp
+n
+ls
+rm *.txt *.dat
+ls
+p10_sftp
+ls
+v ek_bonds_C12.txt
+n
+sls
+la
+v
+ls
+fe
+ls
+fe
+la
+ls
+la
+ls
+fe
+gotop
+osc
+fe
+ls
+fe
+zsh
+exit
+ls
+history
+zsh --help
+v .zshrc
+zsh
+exit
+export ZDOTDIR=$HOME; zsh
+exit
+v .zshrc
+export ZDOTDIR=$HOME; zsh
+ls
+exit
+zsh
+p10k configure instant
+p10k configure
+cat "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh\
+\
+\
+\
+\
+
+cat "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+hmc
+hmu
+osc
+hmc
+hmu
+fe
+bahs
+bash
+exit
+rm .zshrc
+ls
+fcd
+ls
+cd ..
+ls
+v zshrc
+v zsh_output
+v .
+g .
+v .
+fcd
+cv
+git commit -m "test" 
+git add .
+git commit -m "test"
+ls
+gst
+cd .
+cd
+cd dotfiles
+ga .
+git commit -m "test"
+ls
+git log
+ls
+fcd
+cv
+cd plugins
+v oil.lua
+v
+\:wq
+v
+v .
+la
+v .
+v alpha.lua
+ls
+v oil.lua
+v
+v .
+la
+v .
+v oil.lua
+v .
+v
+v .
+bash
+exit
+alacritty -e bash
+alacritty -e zsh
+time alacritty -e bash
+time alacritty -e zsh
+time alacritty -e bash
+fcd
+ls
+v .
+cd ..
+v zsh.nix
+hmc
+hmu
+ls
+rm *.tt
+fcd
+ls
+cd acp_gui
+poetry run app
+nix-shell -p pyside
+nix-shell -p pyside6
+ls
+cd ..
+ls
+poetry run app
+ls
+nix-shell --pure -p python3Packages.pyside6
+poetry run app
+hyprctl reload
+fcd
+./launch.sh
+v launch.sh
+./launch.sh
+ls
+fcd
+ls
+cd acp_gui
+ls
+v app.py
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+ls
+v app.py
+ls
+v app.py
+python -v
+ls
+python app.py
+ls
+imv ~/Art/pictures/
+imv ~/Art/pictures/16.png
+imv ~/Art/pictures/103.png
+imv ~/Art/pictures/62.png
+imv ~/Art/pictures/98.png
+ls
+fe
+killall hyprpaper 
+hyprpaper 
+imv ~/Art/pictures/98.png
+hyprpaper &
+fe 
+hyprpaper 
+hyprpaper & 
+disown
+fcd
+./launch.sh
+ls
+cd
+fcd
+imv 
+imv .
+bg
+help imv
+man imv
+ls
+fe ~
+killall hyprpaper 
+hyprpaper & 
+disown
+ls
+osc
+imv-wayland
+imv Art/pictures
+fe
+imv Art/pictures
+hyprpaper & 
+killall hyprpaper 
+hyprpaper & 
+killall hyprpaper 
+hyprpaper & 
+disown
+ls
+fcd
+ls
+fcd
+ls
+cd acp_gui
+ls
+poetry app run
+poetry run app
+fe ~
+ls
+v app.py
+fcd
+./launch.sh
+ls
+v colors.scss
+ls
+poetry run app
+v nix.shell
+nix-shell
+v
+ls
+nix-shell --pure -p python3Packages.pandas\
+
+nix-shell --pure -p python3Packages.pyside6\
+
+v nix.shell
+rm nix.shell
+which pythn
+which python
+python app.py
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+python app.py
+which pythno
+which python
+v shell.nix
+echo use_nix
+v
+hash -r
+fd origin /
+cd /home/ned/.local/share/applications/
+ls
+cd ..
+rm -r applications
+v
+p10
+v
+ls
+fcd
+ls
+la ~
+ls
+poetry run app
+cd .venv/lib/python3.11/site-packages/
+ldd ./PySide6
+ls
+ls shiboken6
+ldd ./shiboken6
+ldd ./shiboken6/libshiboken6.abi3.so.6.5
+find /nix/store -name 'libstd++.so.6'
+find /nix/store -name 'libstdc++.so.6'
+nix-collect-garbage -d
+find /nix/store -name 'libstdc++.so.6'
+nix-shell -p translate-shell
+trans recipe
+exit
+ls
+export LD_LIBRARY_PATH=/nix/store; poetry run app
+unset LD_LIBRARY_PATH
+find /nix/store -name 'libstdc++.so.6'
+export LD_LIBRARY_PATH=/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/; poetry run app
+ldd ./shiboken6/libshiboken6.abi3.so.6.5
+cd ..
+ls
+cd site-packages
+ls
+cd PySide6
+ls
+poetry run app
+find /nix/store -name 'libgib-2.0.so.0'
+find /nix/store -name 'libglib-2.0.so.0'
+export LD_LIBRARY_PATH:=/nix/store/sn7gwwdfqyh4lmakhn5nfxlf5l8kffpw-glib-2.76.3/lib/; poetry run app
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH /nix/store/sn7gwwdfqyh4lmakhn5nfxlf5l8kffpw-glib-2.76.3/lib/"; poetry run app
+echo $LD_LIBRARY_PATH
+echo $PATH
+export LD_LIBRARY_PATH=/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/; poetry run app
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/sn7gwwdfqyh4lmakhn5nfxlf5l8kffpw-glib-2.76.3/lib/"; poetry run app
+export LD_LIBRARY_PATH=/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/; poetry run app
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/"; poetry run app
+find libGL.so.1
+find /nix/store -name 'libGL.so.1'
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/"; poetry run app
+echo $LD_LIBRARY_PATH
+find /nix/store -name 'libxkbcommon.so.0'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib/libxkbcommon.so.0"; poetry run app
+unset LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/"\
+
+poetry run app
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib/"; poetry run app
+find /nix/store -name 'libfontconfig.so.1'
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fzq6r310r2grgyd0d7aap8v8hqm3v9vp-fontconfig-2.14.2-lib/lib/libfontconfig.so.1"; poetry run app
+unset LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib/\
+"; poetry run app
+find /nix/store -name 'libxkbcommon.so.0'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib/"; poetry run app
+echo $LD_LIBRARY_PATH
+find /nix/store -name 'libfontconfig.so.1'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fzq6r310r2grgyd0d7aap8v8hqm3v9vp-fontconfig-2.14.2-lib/lib/"; poetry run app
+unset LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib/\
+"
+poetry run app
+echo $LD_LIBRARY_PATH
+ls /nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib/
+poetry run app
+find /nix/store -name 'libxkbcommon.so.0'
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib"
+poetry run app
+find /nix/store -name 'libfontconfig.so.1'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/"; poetry run app
+find /nix/store -name 'libX11.so.6'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/zvdmyxbghr0c241s4a64znwnv7wz555n-libX11-1.8.6/lib/"; poetry run app
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib"
+ls
+poetry run app
+find /nix/store -name 'libfontconfig.so.1'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fzq6r310r2grgyd0d7aap8v8hqm3v9vp-fontconfig-2.14.2-lib/lib/libfontconfig.so.1"; poetry run app
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fzq6r310r2grgyd0d7aap8v8hqm3v9vp-fontconfig-2.14.2-lib/lib/"; poetry run app
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib"
+find /nix/store -name 'libfontconfig.so.1'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fzq6r310r2grgyd0d7aap8v8hqm3v9vp-fontconfig-2.14.2-lib/lib/"; poetry run app
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/"; poetry run app
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/"
+ls
+poetry run app
+find /nix/store -name 'libX11.so.6'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/"; poetry run app
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/"
+poetry run app
+find /nix/store -name 'libfreetype.so.6'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/"; poetry run app
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/"
+poetry run app
+find /nix/store -name 'libdbus-1.so.3'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/fzh93gfndvw6jg0408w8j5wjah3kqvn1-dbus-1.14.8-lib/lib/"; poetry run app
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/"
+find /nix/store -name 'libdbus-1.so.3'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/"; poetry run app
+echo $LD_LIBRARY_PATH
+v 
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/"
+poetry run app
+ls
+poetry run app
+poetry search pyside6
+poetry run app
+echo $QT_PLUGIN_PATH
+find /nix/store -name 'libxcd'
+fd /nix/store libxcd'
+fd /nix/store 'libxcd'
+fd 'libxcd' /nix/store 
+fd 'libxcb' /nix/store 
+fd 'libxcb-cursor' /nix/store 
+ls
+fd 'libxcb-cursor' /nix/store 
+po l
+poetry run app
+echo $QT_QPA_PLATFORM
+export QT_QPA_PLATFORM=wayland
+poetry run app
+v
+export QT_QPA_PLATFORM=xcb
+poetry run app
+export QT_QPA_PLATFORM=wayland
+poetry run app
+export QT_QPA_PLATFORM=wayland vlc
+poetry run app
+export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORM=wayland-egl
+poetry run app
+export QT_QPA_PLATFORM=minimal
+poetry run app
+gotop
+killall python
+ls
+cd ..
+ls
+rm acp_gui/shell.nix
+v acp_gui/app.py
+export QT_QPA_PLATFORM=offscreen
+fcd 
+ls
+poetry run app
+v
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/"\
+
+poetry run app
+killall python
+ls
+export QT_QPA_PLATFORM=wayland
+poetry run app
+export QT_DEBUG_PLUGINS=1
+poetry run app
+poetry run app > debug.log
+v debug.log
+rm debug.log
+find /nix/store -name 'libwayland-client.so.0'
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"
+poetry run app > debug.log
+ls
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/\
+"
+fcd
+poetry run app 
+export QT_QPA_PLATFORM=wayland
+poetry run app 
+echo $LD_LIBRARY_PATH
+poetry run app
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"\
+
+poetry run app
+v acp_gui/app.py
+v
+poetry run app
+ls
+v debug.log
+rm debug.log
+poetry self add poetry-dotenv-plugin
+ls
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry self add poetry-dotenv-plugin
+ls
+la
+poetry self add poetry-dotenv-plugin --local
+poetry add poetry-dotenv-plugin 
+la
+poetry shell
+la
+cd ..
+ls
+exit
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+ls
+sl
+ls
+la
+echo $POETRY_DONT_LOAD_DOTENV
+exit
+v .env
+v
+echo $LD_LIBRARY_PATH
+fcd
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+echo $LD_LIBRARY_PATH
+python app.py
+python acp_gui/app.py
+v .env
+fcd
+ls
+poetry run -vvv python acp_gui/app.py
+v .env
+poetry self show plugins
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry self show plugins
+poetry shell
+echo $LD_LIBRARY_PATH
+exit
+ls
+v pyproject.toml
+poetry update
+poetry self add poetry-dotenv-plugin
+cd ..
+poetry self add poetry-dotenv-plugin
+ls
+poetry self add poetry-dotenv-plugin
+ls
+poetry self add poetry-dotenv-plugin
+ls
+cd ACP_GUI
+ls
+poetry run poetry self add poetry-dotenv-plugin
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry run poetry self add poetry-dotenv-plugin
+poetry self add poetry-dotenv-plugin
+poetry add poetry-dotenv-plugin
+poetry run app
+fcd
+ls
+poetry run app
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry run app
+v pyproject.toml
+poetry run app
+v pyproject.toml
+poetry install
+poetry run app
+python acp_gui/app.py
+poetry run app
+v
+cd
+p10
+tmux attachq
+tmux attach
+la
+ls
+fcd
+ls
+v pyproject.toml
+poetry install
+v pyproject.toml
+poetry install
+poetry update
+poetry self show plugins
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry self show plugins
+ls
+v acp_gui/
+exit 
+cd
+cd .config/nvim
+ls
+cd ftplugin
+la
+cd ..
+ls
+cd ftplugin
+v norg.lua
+ls
+cv
+cd config
+ls
+v package
+v package-lock.json
+v package.json
+v options.lua
+cd
+v 
+ls
+v 
+ls
+la
+man seq
+p10_sftp
+ls
+fcd
+./launch.sh
+ls
+cd
+killall hyprpaper 
+hyprpaper & 
+disown
+killall hyprpaper 
+hyprpaper & ; disown
+fcd
+ls
+./launch.sh
+fcd
+./launch.sh
+ls
+rm bonds_C02.txt
+rm energy_C02.txt
+tmux attach
+fcd
+cv
+cd plugins
+v n
+v no
+v norg.lua
+ls
+v neorg.lua
+cv
+cd plugins
+v neorg.lua
+cd
+v
+cv
+v plugins/neorg.lua
+v
+fe
+v
+fe
+v
+ls
+v Notes/index.norg
+ls
+v
+v Notes/index.norg
+v
+fe
+cv
+v plugins/zen-mode.lua
+alacritty msg font=20
+alacritty msg --help
+fe
+alacritty msg config "font.size: 20.0:\
+
+alacritty msg config "font.size: 20.0:"\
+
+alacritty msg config "font.size: 20.0"\
+
+alacritty msg --help
+v plugins/zen-mode.lua
+alacritty msg --help
+ls
+v plugins/zen-mode.lua
+cd
+v
+rm .config/hypr/hyprpaper.conf
+hmc
+oc
+osc
+osu
+imv Art/pictures
+man imv
+imv Art/pictures
+hmu
+swaybg -h
+man swaybg
+hmc
+hmu
+hmc
+hmu
+swaybg -h
+killall hyprpaper 
+swaybg -c green
+swaybg -c "#000000"
+swaybg -c "#ffffff"
+swaybg -h
+swaybg --image Art/pictures/98.png
+fe ~
+\:w
+ls
+fe
+ls
+cd Art/pictures
+ls
+swaybg --image 103.png
+swaybg --image 103.png 62.png
+swaybg --image 62.png &
+fcd
+ls
+v eww.yuck
+tmux new
+cd
+cd .config/alacritty
+v alacritty.yml
+cd Art l
+cd Art/pictures
+ls
+swaybg --image 103.png
+fg
+swaybg --image peakpx.jpg
+swaybg --image wall-01.png
+swaybg --image yxzrIJv.png
+swaybg --image uwp3056646.jpeg
+ls
+./launch.sh
+v eww.yuck
+swaybg --image uwp3056646.jpeg
+v eww.yuck
+swaybg --image uwp3056646.jpeg
+ls
+imv .
+ls
+man imv
+touch $XDG_CONFIG_HOME/imv/config
+touch - $XDG_CONFIG_HOME/imv/config
+help touch
+touch -p $XDG_CONFIG_HOME/imv/config
+man touch
+mkdir -p $XDG_CONFIG_HOME/imv/
+touch $XDG_CONFIG_HOME/imv/config
+v $XDG_CONFIG_HOME/imv/config
+man imv
+man 5 imv
+imv Art/pictures
+man imv
+ls
+cd ~/.config/imv
+ls
+cd 
+cd -
+ls
+v config
+imv Art/pictures
+v config
+imv Art/pictures
+\:w
+imv Art/pictures
+fe 
+fe ~
+swaybg --image Art/pictures/peakpx.jpg
+swaybg --image Art/pictures/yxzrIJv.png
+swaybg --image Art/pictures/uwp3056646.jpeg
+killall swaybg
+fe
+imv Art/pictures
+killall -h
+imv Art/pictures
+ls
+imv Art/pictures
+fe ~
+fe
+la
+ls
+fcd
+fe
+ls
+l
+imv Art/pictures
+fe
+imv Art/pictures
+ls
+fe ~
+eww -c .config/eww/statsubar/ 
+eww -c .config/eww/statsubar/ u
+eww -c .config/eww/statsubar/ reload
+fe
+imv Art/pictures
+ls
+fcd
+ls
+v eww.
+v eww.yuck
+imv Art/pictures
+ls
+cd
+fe
+imv Art/pictures
+ls
+ду�
+ls
+la
+ls
+fe
+hmc
+osc
+ls
+hmc
+fcd
+rm zshenv
+v zshenv
+touch zshenv
+reboot
+ls
+cd /home/
+ls
+cd ned
+ls
+osc
+lfe
+fe
+killall -q swaybg; --image Art/pictures/uwp3056646.jpeg &
+killall -q swaybg;swaybg --image Art/pictures/uwp3056646.jpeg &
+n
+reboot
+osu
+fe
+killall -q swaybg; swaybg --image Art/pictures/uwp3056646.jpeg &
+killall -q swaybg
+reboot
+ls
+fe
+ls
+osc
+hmc
+hmu
+osu
+hmc
+hmu
+hmc
+hmu
+echo $TEST
+hmc
+hmu
+ls
+la
+dragon .bash_history
+v .gtkrc-2.0
+dragon .bash_history
+v .gtkrc-2.0
+ls
+v .icons/default/index.theme 
+ls
+osc
+hmc
+ls
+rm .gtkrc-2.0
+ls
+cd .config/
+cd gtk-3.0
+ls
+cd ..
+rm gtk-3.0
+ls
+dragon .bash_history
+cd
+dragon .bash_history
+ls
+reboot
+ls
+fe
+ls
+osc
+ls
+osc
+ls
+soc
+osc
+ls
+fe
+hmc
+fcd
+ls
+v nix.lua
+cd
+hmc
+osc
+hmc
+hmu
+hmc
+hmu
+hmc
+hc
+hmu
+hmc
+hmu
+fcd
+ls
+cd bookmarks
+ls
+v ned/
+ls
+hmc
+hmu
+hmc
+hmu
+ls
+cd
+la
+ls
+touch test.txt
+ls
+hmc
+echo $NNN_T
+echo $NNN_TRASH
+hmc
+hmu
+hmc
+hmu
+fe
+ls
+osc
+reboot
+fe
+reboot
+cd Art/pictures
+ls
+imv .
+cd
+n
+echo $NIX_PATH
+echo $NNN_TRASH
+ls
+osc
+osu
+ls
+hmc
+hmu
+n
+hmc
+n
+echo $NUKE
+fcd ~
+v nuke
+man nohup
+ls
+n
+nohup zathura 1.pdf
+ls
+v nohup.out
+rm nohup.out
+ls
+n
+hmc
+ls
+tmux attach
+at
+python
+notify-send -h
+notify-send --help
+sleep 600 && notify-send -u=critical "C02"
+otify-send -u=critical "C02"
+notify-send -u=critical "C02"
+notify-send -u critical "C02"
+sleep 600 && notify-send -u=critical "C02" && exit
+fcd
+imv .
+bg
+disown
+fcd
+imv .
+fe
+imv .
+ls
+v
+ls
+imv . & ; disown
+imv Art/pi
+imv Art/pictures
+ls
+fd
+fcd
+ls
+v .
+imv .
+imv . 
+fe ~
+imv . 
+imv Art/pictures
+l
+ls
+imv Art/pictures
+fe
+osc
+fe
+ls
+fcd
+ls
+grim
+ls
+v 20230807_18h02m00s_grim.png
+imv 20230807_18h02m00s_grim.png
+rm 20230807_18h02m00s_grim.png
+echo $XGD_PICTURES_DIR
+osc
+sleep 300 && notify-send -u critical "C02" && exit
+ls ~
+fcd
+ls
+ls $HOME"/Art/pictures/screenshots/
+ls "$HOME"/Art/pictures/screenshots/
+ls
+watch -n 1 ls
+grim "/home/ned/Art/pictures/screenshots/"$(date +'%s_grim.png') -g "$(slurp)"\
+
+grim "$HOME"/"Art/screenshots"/$(date +'%s_grim.png') -g "$(slurp)"\
+
+grim $HOME 
+grim -o "$HOME"/"Art/screenshots"/$(date +'%s_grim.png') -g "$(slurp)"\
+
+ls
+rm *png
+ls
+grim -o /home/ned/Art/pictures/screenshots/test.png
+grim -o /home/ned/Art/pictures/screenshots/
+grim -o /home/ned/Art/pictures/screenshots/test_grim.png
+grim -o /home/ned/Art/pictures/screenshots/test_grim.jpg
+grim /home/ned/Art/pictures/screenshots/test_grim.jpg
+grim  "$HOME"/"Art/pictures/screenshots"/$(date +'%s_grim.png') -g "$(slurp)"\
+
+grim  $HOME/"Art/pictures/screenshots"/$(date +'%s_grim.png') -g "$(slurp)"\
+
+grim  "$HOME"/Art/pictures/screenshots/"$(date +'%s_grim.png')" -g "$(slurp)"\
+
+echo  "$HOME"/Art/pictures/screenshots/"$(date +'%s_grim.png')" \
+
+ls /home/ned/Art/pictures/screenshots
+grim  ~/Art/pictures/screenshots/$(date +'%s_grim.png') -g "$(slurp)"\
+
+grim  "~/Art/pictures/screenshots"/$(date +'%s_grim.png') -g "$(slurp)"\
+
+grim  "Art/pictures/screenshots"/$(date +'%s_grim.png') -g "$(slurp)"\
+
+echo  "Art/pictures/screenshots"/$(date +'%s_grim.png') \
+
+echo  "$HOME/Art/pictures/screenshots"/$(date +'%s_grim.png') \
+
+grim  "$HOMEArt/pictures/screenshots"/$(date +'%s_grim.png') -g "$(slurp)"\
+
+grim  "$HOME/Art/pictures/screenshots"/$(date +'%s_grim.png') -g "$(slurp)"\
+
+grim  "$HOME/Art/pictures/screenshots"/$(date +'%s_grim.png') \
+
+slurp
+slurp -h
+hyprctl monitors
+slurp -o HDMI-A-1
+"$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "$(slurp)"\
+
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "$(slurp)"\
+
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" 
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "$(slurp -o HDMI-1)"\
+
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "$(slurp -o HDMI-A-1)"\
+
+slurp 
+man grim
+slurp 
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "3087,206 1051x775"\
+
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "1024,206 1051x775"\
+
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "10,10 1051x775"\
+
+man grim
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g -\
+
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "-"
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g 100,100 400 400
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "100,100 400 400"
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')"
+grim -g "10,20 300x400"
+ls
+rm *.png
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "10,20 400x400"
+grim  "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')" -g "10,20 300x400"
+grim   -g "10,20 400x400" "$HOME/Art/pictures/screenshots/$(date +'%s_grim.png')"
+tmux new -s p10
+p10
+v
+p10
+ls
+la
+ls
+rm test.txt
+v
+fe
+fv
+cv
+cd plugins
+v neorg.lua
+v
+v neorg.lua
+v 
+ls
+v neorg.lua
+cd
+cd .local/share/nvim/lazy/neorg/lua/neorg/core/
+v modules.lua
+n
+v
+v 
+v
+fcd
+pwd
+cd /home/ned/.local/share/nvim/lazy/neorg\
+
+tree
+lt
+nn
+n
+ls
+sl
+ls
+v res
+v
+n
+v --version
+nix-shell -p john
+nix-shell -p john 
+exit
+ls
+v --versoin
+v --version
+v
+nix-shell -p john 
+gotop
+cat rockyou.txt | wc -l
+fe 
+v
+n
+cd
+ls
+gotop
+exit
+v
+fe
+cv
+v plugins/neorg.lua
+nix-env -p join
+nix-env -Ai join
+nix-env -Ai john
+hmc
+hmu
+john --show path2.txt
+john --show path1.txt 
+v .john/john.pot
+john path2.txt
+v path1.txt
+nvim path1.txt
+ls
+v path2.txt
+nvim path2.txt
+man john
+john --hlep
+john --help
+john --wordlist path1.txt 
+cat path1.txt 
+cat path2.txt
+john --wordlist path2.txt
+ls
+la
+ls -a
+v path2.txt
+nvim path2.txt
+john -show paswd
+john -show passwd
+john --show
+john --show path2.txt
+cat rockyou.txt | wc -l
+du rockyou.txt 
+du -h rockyou.txt 
+john --show
+john --show rockyou.txt 
+v rockyou.txt 
+nvim rockyou.txt 
+gotop
+v plugins/neorg.lua
+v
+ls
+v plugins/neorg.lua
+hmc
+hmu
+v plugins/neorg.lua
+ls
+ssh 91.242.194.2 
+ssh 127.0.0.1
+ls
+ssh 127.0.0.1
+ls
+la
+fe
+alias p10
+ssh 127.0.0.1 -p 22
+exit
+exit
+ls
+la
+ls
+ssh ned@arch-pc
+ssh pwd@arch-pc
+ssh arch-pc
+ssh ned
+ssh ned@127.0.0.1
+la
+ls
+ssh --help
+ls
+exit
+sftp ned@127.0.0.1
+exit
+curl ifconfig.me
+ip addr
+ssh ned@192.168.10.104
+ssh ned@192.168.10.104 -p 2210
+ssh ned@192.168.10.104 -p 24
+ssh ned@192.168.10.104
+nmcli -p device show
+ip a
+hostname -I
+hostname -i
+hostname -I
+hostname --all-ip-addresses
+hostname --help
+hostname -i
+hostname I
+ifconfig
+ssh 192.168.10.104
+fcd
+ls
+fcd
+.lexgrog-wrapped
+./launch.sh
+ls
+la
+tmux new -s p10
+l
+exit
+ls
+p10
+tail -f path2.txt
+ls
+fd telegram-send
+v dotfiles/zsh/.config/zsh/scripts/telegram-send.sh
+ls
+v
+ls
+rm path1.txt path2.txt rockyou.txt
+cd
+fcd
+./launch.sh
+cv
+v plugins/neorg.lua
+v
+fe
+cv
+v  config/options.lua
+ls
+sudo virsh net-list --all
+sudo virsh net-start default
+trash-restore *.iso
+trash-list
+trash-list | grep .iso
+trash-list | rg win
+ls
+v 
+ls
+cv
+v config/keymaps.lua
+v
+ls
+v
+ls
+cd
+cd Notes
+ls
+v index.md
+ls
+cd ..
+ls
+v MdNotes
+v Notes
+ls
+rm test
+rm Notes
+ls
+mkdir Notes
+mv Md* Notes/.
+ls
+cd Notes
+ls
+v move.sh ; chmod +x move.sh
+v move
+cd
+cv
+cd ../ftplugin
+ls
+v sh.lua
+l
+cv
+cd config/
+v autocmds.lua
+v
+tmux attach
+v sh.lua
+v test.sh
+ls
+cd ../../ftplugin/
+ls
+la
+cd 
+fg sh.lua
+fd sh.lua
+fd -h
+fd -p sh.lua
+fd -h
+cd -
+cd ..
+find . -name "sh.lua"
+v sh.lua
+ls
+cv
+v config/autocmds.lua
+v test.sh
+v config/autocmds.lua
+v
+v test.sh
+ls
+rm \;\ \!chmod\ +x\ test.sh 
+v test.sh
+v config/autocmds.lua
+v
+v test.sh
+rm test.sh
+v test.sh
+ls
+v test.sh
+v ../templates/sh.sh
+v test.sh
+ls
+rm test.sh
+v test.sh
+ls
+rm test.sh
+ls
+cd 
+ls
+cd -
+rm test.sh
+cd
+ls
+tmux attach
+ls
+cd Notes
+ls
+rm move
+v move.sh
+./move.sh
+v move.sh
+./move.sh
+ls
+rm move.sh 
+ls
+cp Notes/index.md .
+rm NO
+\rm -d Notes
+ls
+rm Notes
+ls
+tmux
+exit
+tmux attach
+tmux kill
+tmux kill-session -a
+tmux new -s p10
+tmux list-sessions
+tmux attach
+ls
+tmux kill-session p10
+tmux kill-session 
+tmux kill-session -a .
+tmux kill-window -a .
+ls
+tmux attach
+tmux new -s p10
+p10
+ls
+fe ~
+cv
+ls
+v config/keymaps.lua
+v
+v config/keymaps.lua
+v
+v config/keymaps.lua
+ls
+cd
+v config/keymaps.lua
+cv
+v config/keymaps.lua
+v
+v tes
+v
+v config/keymaps.lua
+v
+v config/keymaps.lua
+ls
+c
+xs
+cd ../
+./scripts/generate_dairy_today_file.sh
+v
+cd scripts
+v
+ls
+rm :\!.
+rm e\ \!.
+v generate_dairy_today_file.sh
+ls
+la
+v generate_dairy_today_file.sh
+v test.lua
+v generate_dairy_today_file.sh
+v Notes/in
+v Notes/index.md
+ls
+v create_and_open_dairy_note.lua
+nix-shell -p lua
+ls
+exit
+hmc
+hmu
+v create_and_open_dairy_note.lua
+unalias rm
+v create_and_open_dairy_note.lua
+rm -h
+v create_and_open_dairy_note.lua
+ls
+cd .local/share/nvim/mason
+ls
+cd packages
+ls
+ls lua-language-server
+rm lua-language-server
+\rm -r lua-language-server
+rm -f lua-language-server
+\rm -rf lua-language-server
+sudo \rm -rf lua-language-server
+v create_and_open_dairy_note.lua
+fcd
+cd libexec
+ls
+cd bin
+ls
+v lua-language-server
+ldd lua-language-server
+export CC=g++; v create_and_open_dairy_note.lua
+v
+cd Notes/dairy/2023/08/2
+ls
+v
+cv
+v config/keymaps.lua
+export CC=g++; v create_and_open_dairy_note.lua
+ls
+v create_and_open_dairy_week_note.lua
+v plugins/lspconfig.lua
+v create_and_open_dairy_week_note.lua
+cv
+v plugins/disabled.lua
+v create_and_open_dairy_week_note.lua
+fcd
+ls
+cd lua
+s
+ls
+cd lazyvim
+ls
+rg ensure
+cd plugins/extras
+ls
+cd lang
+ls
+cd ..
+cd coding
+ls
+cd ..
+ls ..
+cd ../lsp
+ls
+rg ensure
+v init.lua
+v create_and_open_dairy_week_note.lua
+fcd
+ls
+cd ..
+rm -r mason
+v create_and_open_dairy_week_note.lua
+cd Notes/dairy/2023/08/2
+ls
+touch test1.md
+touch test2.md
+touch test3.md
+v Notes/index.md
+v
+ls
+v create_and_open_dairy_week_note.lua
+v
+v create_and_open_dairy_week_note.lua
+v
+v create_and_open_dairy_
+v create_and_open_dairy_week_note.lua
+v create_and_open_dairy_
+v create_and_open_dairy_week_note.lua
+v create_and_open_dairy_note.lua
+v create_and_open_dairy_week_note.lua
+ls
+la
+killall telegram-desktop
+pgrep telegram
+kill 101125
+kill 101126
+kill 10126
+cd
+ls
+cd dotfiles
+git add .
+git commit -m "config for notes"
+git push
+git push origin HEAD:master
+cd checkout origin HEAD:master
+g checkout origin HEAD:master
+g branches
+g branch list
+g branch --help
+g branch --list
+g checkout master
+ls
+fe 
+git checkout bfb669f 
+git branch checkout bfb669f 
+git commit -m "wtf"
+git add .
+git commit -m "wtf"
+git branch checkout bfb669f 
+git branch --help
+git log
+git checkout bfb669f4
+ls
+l
+ls
+git branch --list
+git branch --delete checkout
+git branch --delete list
+ls
+git branch --list
+git merge master
+v nvim/.config/nvim/lazy-lock.json
+fcd
+v options.lua
+git add nvim/.config/nvim/lazy-lock.json
+git merge
+git merge --continue 
+git checkout -b master
+git checkout master
+git merge bfb669f
+ls
+gst
+git add .
+v ../.gitconfig
+cd ..
+la
+cd dotfiles
+ls
+v .gitignore
+git add .
+ls
+git commit -m "merged"
+git push
+ls
+tmux attach
+ls
+fcd
+cd ..
+ls
+cd scripts
+ls
+v create_and_open_dairy_week_note.lua
+cd ..
+ls
+cd ftplugin
+ls
+v markdown.lua
+fcd
+vv
+cv
+cd ..
+cd scripts
+ls
+v create_and_open_dairy_today_note.lua
+cv
+v plugins/disabled.lua
+v
+ls
+v plugins/disabled.lua
+ls
+v
+nano plugins/disabled.lua
+ls
+v plugins/disabled.lua
+ls
+cd
+fcd
+ls
+mkdir C02
+cd C02
+p10_sftp
+ls
+v bonds_C02.txt
+v gap.txt
+sort -V gap.txt > gap_sorted.dat
+v gap_sorted.dat
+tmux attach
+ls
+rm gap.txt
+cut gap_sorted.dat -d" " -f1
+cut gap_sorted.dat -d" " -f1 | tail +1
+cut gap_sorted.dat -d" " -f1 | tail -1
+cut gap_sorted.dat -d" " -f1 | tail -1 +n
+cut gap_sorted.dat -d" " -f1 | tail -1n
+cut gap_sorted.dat -d" " -f1 | head +1 | tail -1
+cut gap_sorted.dat -d" " -f1 | head -1 | tail -1
+cut gap_sorted.dat -d" " -f1 | head n+1 | tail -1
+cut gap_sorted.dat -d" " -f1 | head +n | tail -1
+cut gap_sorted.dat -d" " -f1 | head -n1 | tail -1
+cut gap_sorted.dat -d" " -f1 | tail -1
+cut gap_sorted.dat -d" " -f1 | tail n -1
+man tail
+cut gap_sorted.dat -d" " -f1 | tail -n 1
+cut gap_sorted.dat -d" " -f1 | tail -n +1
+cut gap_sorted.dat -d" " -f1 | tail -n +2
+fcd
+rg head 
+nmcli connection show | head -2 | tail +2
+nmcli connection show 
+cut gap_sorted.dat -d" " -f1 | tail -n +2 
+cut gap_sorted.dat -d" " -f1 | tail -n +2 | xargs -i grep -w '{}' bonds_C02.txt
+cut gap_sorted.dat -d" " -f1 | tail -n +2 | xargs -i grep -w '{}' bonds_C02.txt > ek_bonds_C02.txt
+cut gap_sorted.dat -d" " -f1 | tail -n +2 | xargs -i grep -w '{}' energy_C02.txt > ek_energy_C02.txt
+ls
+v ek_bonds_C02.txt
+ls
+rm bonds_C02.txt energy_C02.txt
+ls
+dragon --all *
+ls
+fcd
+ls
+v gap_sorted.dat
+tmux attach
+gotop
+tmux attach
+help tmux
+tmux kill-session -t p10 -
+tmux kill-session -t p10 
+tmux new -s p10
+p10
+hometiger
+fcd
+ls
+cd ..
+mv statsubar statusbar
+cd statusbar
+./launch.sh
+v launch.sh
+./launch.sh
+ls
+eww -c . kill
+./launch.sh
+fcd
+eww -c . kill
+killall eww
+./launch.sh
+p10
+cd
+tmux new -s p10
+tmux attach
+v
+imv Art/pictures
+fcd
+ls
+v colors.scss
+killall telegram-desktop
+ls
+tmux attach
+ls
+mkdir Repositories
+cd Repositories
+git clone https://github.com/Fmstrat/winapps.git
+fd freerdp2 /
+cd winapps
+ls
+v ~/.config/winapps/winapps.conf
+ls ~/.config
+v ~/.config/winapps/winapps.conf
+ls
+bin/winapps check
+nix-shell -p freerdp 
+bin/winapps check
+virsh start RDPWindows
+exit
+hmc
+fg
+ls
+bin/winapps check
+hmu
+bin/winapps check
+virsh start RDPWindows
+virsh start 'RDPWindows'
+bin/winapps check
+virsh start 'RDPWindows'
+bin/winapps check
+v ~/.config/winapps/winapps.conf 
+bin/winapps check
+v ~/.local/share/winapps/winapps.log
+virsh start RDPWindows
+virsh list -all
+virsh list --all
+sudo virsh list --all
+sudo virsh start RDPWindows
+bin/winapps check
+sudo bin/winapps check
+sudo -E bin/winapps check
+osc
+osu
+sudo -E bin/winapps check
+osc
+osu
+sudo -E bin/winapps check
+bin/winapps check
+man usermod
+virsh --connect qemu:///system net-list
+fd libvirt.conf /
+v /nix/store/24b7hr7b888w9sxb5jzfl9z1zwjzq3b8-libvirt-9.4.0/var/lib/libvirt/libvirt.conf\
+
+cp /nix/store/24b7hr7b888w9sxb5jzfl9z1zwjzq3b8-libvirt-9.4.0/var/lib/libvirt/libvirt.conf\
+~/.config/libvirt/.
+sudo cp /nix/store/24b7hr7b888w9sxb5jzfl9z1zwjzq3b8-libvirt-9.4.0/var/lib/libvirt/libvirt.conf\
+~/.config/libvirt/.
+virsh list
+virsh list --all
+v ~/.config/libvirt/libvirt.conf
+virsh list --all
+virsh start RDPWindows
+bin/winapps check
+sudo bin/winapps check
+nmcli
+freerdp-shadow-cli
+xfreerdp /v:192.168.122.1
+xfreerdp /d /u:ned /p: /v:192.168.122.1
+sudo bin/winapps check
+bin/winapps check
+xfreerdp /d /u:ned /p:123 /v:192.168.122.1
+xfreerdp /d: /u:ned /p:123 /v:192.168.122.1
+v ~/.config/libvirt/libvirt.conf
+xfreerdp /d: /u:ned /p:123 /v:192.168.122.1
+v ~/.config/w
+v ~/.config/winapps/winapps.conf 
+bin/winapps check
+v ~/.config/winapps/winapps.conf 
+v ~/.local/share/winapps/winapps.log
+bin/winapps check
+v ~/.config/winapps/winapps.conf 
+bin/winapps check
+ls
+v ~/.config/winapps/winapps.conf 
+bin/winapps check
+virsh start RDPWindows
+bin/winapps check
+ls
+./installer.sh
+nix-shell -p bc
+./installer.sh 
+l
+ls
+cd apps/
+ls
+ls ex
+cd excel
+ls
+v info 
+nvim info
+cd ..
+ls
+cd ..
+ls
+./installer.sh --user
+./installer.sh --user --uninstall
+./installer.sh 
+./installer.sh 
+exit
+ls
+ls apps
+ls ~/.local/share/winapps/apps/mip.exe
+./bin/winapps manual ~/.local/share/winapps/apps/mip.exe
+./bin/winapps apps/excel/
+cd install
+ls
+cd ..
+ls
+./installer.sh
+hmc
+./installer.sh
+hmu
+./installer.sh
+./bin/winapps execl
+./bin/winapps manual  "C:\Program Files\OriginLab\Origin2015
+./bin/winapps manual  "C:\Program Files\OriginLab\Origin2015\Origin92_64.exe"
+sudo ./bin/winapps manual  "C:\Program Files\OriginLab\Origin2015\Origin92_64.exe"
+sudo -E ./bin/winapps manual  "C:\Program Files\OriginLab\Origin2015\Origin92_64.exe"
+v /etc/passwd
+ls
+id
+osc
+osu
+id
+getent group libvirtd
+getent group libvirtd 
+getent group wheel
+getent group kvm
+getent group libvirtd
+osc
+osu
+getent group libvirtd
+ls
+./installer.sh
+bin/winapps check
+./installer.sh
+ls
+bin/winapps powershell
+ls
+bin/winapps origin
+bin/winapps originpro
+ls
+cd apps
+ls
+v powershell/info
+cp powershell originlab
+cp -r powershell originlab
+cd originlab
+ls
+imv icon.svg
+brave icon.svg
+ls
+v info 
+cd ..
+ls
+cd ..
+./installer.sh
+v ~/.config/winapps/winapps.conf 
+htop
+gotop
+cd apps
+s
+ls
+ls excel
+v indesign-cc
+ls
+v excel/info
+cd ..
+./installer.sh
+bin/winapps originpro
+v apps/originlab
+bin/winapps OriginLab
+bin/winapps --list
+ls
+ls demo
+ls icons
+bin/winapps powershell
+v apps/powershell
+bat apps/originlab/info
+bin/winapps Origin92_64.exe
+bin/winapps Origin92_64
+./installer.sh
+bin/winapps originlab
+poweroff
+fcd
+cd
+fc
+cd
+fcd
+./launch.sh 
+cd
+v
+cv
+cd ..
+cd scripts
+v create_and_open_dairy_week_note.lua
+v
+fcd
+v create_and_open_dairy_week_note.lua
+ls ~/Notes/
+ls ~/Notes/dairy
+v create_and_open_dairy_week_note.lua
+v
+ls
+cd 
+fcd
+ls
+cd ..
+mv ACP_GUI tmp
+g clone https://github.com/nNeD5/ACP_GUI.git
+mv tmp/* ACP_GUI/.
+ls
+rm tmp/
+cd ACP_GUI
+ls
+gst
+v .gitignore
+ls
+v poetry.toml
+v pyproject.toml
+poetry add loguru
+v pyproject.toml
+ls
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+ls
+cd acp_gui
+ls
+v app.py
+v
+ls
+v app.py
+poetry run app
+cd ..
+poetry install
+poetry run app
+ls
+la
+v pyproject.toml 
+exit
+poetry run app
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+python acp_gui/app.py
+poetry run app
+ls
+la
+v .venv
+la
+cd ..
+ls
+ls poetry-test
+rm poetry-test
+cd ACP_GUI
+ls
+v poetry.toml
+poetry self
+poetry self show
+poetry self show plugins
+la
+cd ..
+ls
+mv ACP_GUI tmp
+ls
+trash-list | rg ACP_GUI
+trash-restore tmp
+ls
+mv tmp ACP_GUI
+trash-restore tmp
+cd tmp
+exit
+la
+poetry run app
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry run app
+ls
+la
+v .venv
+v poetry.
+v poetry.toml
+ls acp_gui
+la acp_gui
+la tests
+la
+lt
+la --tree
+ls -a --tree
+echo $POETRY_ACTIVE
+echo $POETRY_DONT_LOAD_DOTENV
+cat .env
+la
+cd ..
+cd
+fd .env
+fd .env --type=d
+fd \.env --type=d
+fd ".env" --type=d
+cd -
+ls
+rm -r tmp
+cd ACP_GUI
+ls
+v .env
+v
+exit
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry run app
+v acp_gui/app.py
+poetry run app
+v acp_gui/app.py
+poetry run app
+v acp_gui/app.py
+poetry run app
+v acp_gui/app.py
+poetry run app
+v acp_gui/app.py
+poetry run app
+v acp_gui/app.py
+poetry run app
+ls
+poetry run app
+ls
+v acp_gui/app.py
+ls
+tmux  attach
+ls
+fe
+la
+v .tldrc
+fe
+tmux
+exit
+tmux new -s p10
+p10
+tmux attach
+tmux list-sessions
+tmux attach
+la
+p10
+ls
+fcd
+la
+cd
+fe
+v
+ls
+tmux attach
+v
+hometiger
+ls
+tmux attach
+winapps originlab
+virsh start RDPWindows
+virsh net-list
+virsh start RDPWindows
+sudo virsh start RDPWindows
+ls
+sudo virsh net-list --all
+virsh net-autostart default
+sudo virsh net-list --all
+virsh start RDPWindows
+virsh net-start default
+virsh start RDPWindows
+fcd
+ls
+winapps originlab
+winapps osdj;flsad
+winapps originlab
+cd
+cd Repositories
+ls
+cd winapps
+ls
+cd apps
+ls
+cd ..
+bin/winapps originlab
+freerdp-shadow-cli
+bin/winapps originlab
+la
+bin/winapps check
+v ~/.config/winapps/winapps.conf 
+bin/winapps check
+winapps originlab
+ls
+v ~/.config/winapps/winapps.conf 
+winapps originlab
+virsh reboot RDPWindows
+winapps originlab
+tmux kill-session -t p10 
+tmux new -s p10
+ls
+p10
+gooto
+gootop
+gotop
+winapps originlab
+ls
+winapps originlab
+cd Work/robocode/
+ls
+cd JavaMiddle
+ls
+cd webchat
+ls
+brave index.html
+v index.html
+ls
+cd Work/robocode/JavaMiddle
+ls
+v webchat
+poweroff
+fcd
+v hyprland.conf
+fcd ~
+./launch.sh
+winapps originlab
+ls
+la
+ls
+originlab 
+v
+cd Notes
+cd dairy
+ls
+cd 2023
+ls
+cd 08
+ls
+ls 4
+date %w
+date +%w
+cd Art
+ls
+mkdir books
+fc
+mkdir books
+fcd
+ls
+wget http://zipansion.com/2Bu9E
+curl http://zipansion.com/2Bu9E > test.epb
+ls
+v test.epb
+curl http://zipansion.com/2Bu9E 
+ls
+rm test.epb
+ls
+cd ..
+ls
+cd Art
+ls
+cd bo
+ls pictures
+cd books
+ls
+fcd
+ls
+la
+ls
+cd ..
+la
+rm books
+cd Art/books
+ls
+curl http://zipansion.com/2Bu9E 
+ls
+fcd 
+la
+nix-shell -p wgetg
+nix-shell -p wget
+cd Art/books/
+ls
+zathura Durarara\!\!\ -\ LN\ 01.epub 
+wget http://zipansion.com/2BuAu
+exut
+exit
+ls
+nmli
+fcd
+ls
+cd Art/books/
+ls
+v
+unar Durarara\!\!\ -\ LN\ 12.zip
+ls
+rm *.zip
+l
+ls
+unar Durarara\!\!\ -\ LN\ 13.zip
+ls
+rm *.zip
+v .
+ls
+v
+originlab 
+ls
+la
+v .nix-profile
+originlab 
+gotop
+tmux attach
+tmux new -s p10
+tmux attach
+p10
+hometiger
+tmux attach
+ls
+cd Work
+ls
+cd ACP_GUI
+ls
+cd acp_gui
+ls
+cd ..
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+ls
+v poetry.toml
+v pyproject.toml
+poetry run app
+ls
+v acp_gui l
+poetry search qt
+nix-shell -p qtcreator-qt6
+cd Art/books
+ls
+mkdir Durarara
+mv *.epub Durarara/.
+ls
+cd Durarara
+sl
+ls
+cd ..
+ls
+qtcreator
+exit
+
+
+fcd
+poetry shell
+emulate bash -c '. /home/ned/.cache/pypoetry/virtualenvs/acp-gui-REPTQkRd-py3.11/bin/activate'
+exit
+exit
+fcd
+cd
+fcd
+ls
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+fd pyside6-designre .venv
+fd pyside6-desi
+fd desinger
+fd desi
+fd desi /
+fd designre /
+fd designer /
+ls .venv
+cd .venv/bin
+ls
+pyside6-designer
+poetry run pyside6-designer
+poetry run app
+poetry run pyside6-designer
+poetry run python pyside6-designer
+ls
+python pyside6-designer
+v pyside6-de
+v pyside6-designer
+poetry run python pyside6-designer
+cd ..
+cd lib
+cd python3.11/site-packages
+fd designer
+cd PySide6
+la
+ls | rg desi
+v designer
+ls
+fd des
+fd . desi
+fd designer
+ls | rg desi
+fd designer
+\fd designer
+fd --no-ignore desig
+fd --no-ignore designer
+cd ..
+cd bin
+ls
+fd --no-ignore desig
+pyside6-designer
+poetry run python pyside6-designer
+poetry run pyside6-designer
+cat /home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/designer
+ls
+poetry run pyside6-designer
+v py l
+v pyside6-designer
+ls ~/Work/ACP_GUI/.venv
+ls ~/Work/ACP_GUI/.venv/lib
+ls ~/Work/ACP_GUI/.venv/lib/python3.11/
+ls ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages
+ls ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6
+poetry run pyside6-designer
+ls ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/designer
+poetry shell
+python pyside6-designer
+poetry run pyside6-designer
+ls ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts
+ls ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+poetry run pyside6-designer  | rg test
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v /home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/designer
+\ls
+v /home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/designer
+ls
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+type -a designer
+cd ../lib/python3.11/site-packages/PySide6/
+type -a designer
+ls
+ls | grep desi
+type -a designer
+l designer
+ls --dereference
+v ~/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+cd ../lib/python3.11/site-packages/PySide6/
+cd
+fcd
+ls
+poetry run pyside6-designer
+cd ..
+poetry search pyside6
+fcd
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry add pyqt6-tools
+ls
+poetry run pyside6-designer
+ls
+cd acp_gui
+ls
+cd ..
+ls
+cd .venv
+cd bin
+ls
+poetry run pyside6-designer
+cd ..
+ls
+cd lib
+ls
+cd python3.11/site-packages
+ls
+cd pyqt6_tools
+ls
+cd badplugin
+la
+cd ..
+ls tests
+cd ..
+ls
+cd ..
+cd python3.11/site-packages
+cd qt6_applications
+ls
+cd QT
+cd Qt
+ls
+cd bin
+ls
+./designer
+l
+python designer
+cat designer
+bat designer
+./designer
+la
+designer
+./designer 
+la
+./designer
+exec designer
+exec ./designer
+fcd
+ls
+fcd
+cd -
+cd .ve
+ls
+cd ..
+fcd
+ls
+cd bin
+ls
+./designer
+poetry run designer
+poetry run ./designer
+poetry run python designer
+poetry run designer
+poetry run $(pwd)/designer
+ls 
+ls | rg desi
+designer
+./designer
+v designer
+ls
+./designer
+zsh designer
+ls
+./designer
+./designer  
+cat designer
+ls
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+./designer
+exit
+exit
+fcd
+cd bi
+cd bin
+ls
+cd Qt
+ls
+cd bin
+ls
+./designer
+cd
+fcd
+ls
+cd acp_gui
+s
+ls
+la
+ls
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+ls
+cd ..
+v pyproject.toml 
+poetry install
+poetry remove pyqt6-tools
+v pyproject.toml 
+pyside6-designer
+poetry run pysi l
+poetry run pyside6-designer
+fd --no-ignore pyside6-deisgner
+fd --no-ignore pyside6-designer
+v .venv/bin/pyside6-designer
+poetry run pyside6-designer
+v .venv/bin/pyside6-designer
+poetry run pyside6-designer
+v .venv/bin/pyside6-designer
+poetry run pyside6-designer
+v .venv/bin/pyside6-designer
+ls .venv/bin/ | rg desig
+poetry run pyside6-designer
+ls .venv/bin/ | rg desig
+ls .venv
+ls .venv/bin
+l .venv/bin
+v pyproject.toml
+poetry run pyside6-designer
+v .venv/bin/pyside6-designer
+poetry run pyside6-designer
+v .venv/bin/pyside6-designer
+poetry run pyside6-designer
+v .venv/bin/pyside6-designer
+nix-shell -p pyside6
+ls
+poetry run pyside6-designer
+v .venv/bin/pyside6-designer 
+v .venv/bin/pyside6-designer
+poetry run pyside6-designer
+v .venv/bin/pyside6-designer
+ls
+poetry run pyside6-designer
+cd ..
+cd -
+ls
+poetry remove pyside6
+ls .venv/bin
+ls .venv/lib
+ls .venv/lib/python3.11/site-packages/
+fd --no-ignore qt
+poetry add pyside6
+ls
+pyside6-designer
+poetry run pysdie6
+poetry run pyside6-designer
+/usr/bin/env 
+l /usr/bin/env 
+which designer
+poetry which designer
+poetry run which designer
+which telegram-desktop
+fcd
+ls
+cd ..
+fd --no-ignore designer
+lib/python3.11/site-packages/PySide6/designer\
+
+./lib/python3.11/site-packages/PySide6/designer\
+
+cd lib/python3.11/site-packages/PySide6
+ls
+la
+la | rg desi
+./designer
+type designer
+file designer
+ldd designer
+poetry run ldd designer
+poetry run designer
+poetry run ./designer
+poetry run exec designer
+poetry run exe designer
+poetry run designer 
+v test.cpp
+g++ test.cpp
+./a
+./ao
+a.out
+./a.out
+poetry run a.out
+poetry run ./a.out
+poetry run ./designer
+file a.out
+rm a.out test.cpp
+poetry run ./designer
+cd
+fcd
+poetry run pyside6-designer
+source .venv/bin/activate
+poetry run ./designer
+poetry run pyside6-designer
+pyside6-designer
+poetry run pyside6-designer
+poetry shell
+poetry run pyside6-designer
+exit
+fcd
+ls
+echo $PYTHONPATH
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry run $PYTHONNOUSERSITE
+poetry run $PYTHONPATH
+poetry run echo $PYTHONPATH
+echo $PYTHONPATH
+export PYTHONPATH=/home/ned/Work/ACP_GUI/.venv/bin/
+poetry run echo $PYTHONPATH
+pyside6-designer
+poetry run pyside6-designer
+cp '/home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/designer' .venv/bin/.
+pyside6-designer 
+poetry run echo $PYTHONPATH
+poetry run pyside6-designer
+ls .venv/bin
+v /home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+poetry run pyside6-designer
+ls .venv/bin
+v /home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/scripts/pyside_tool.py
+export PYTHONPATH=$PYTHONPATH:/home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6
+poetry run pyside6-designer
+echo $PYTHONPATH
+rm .venv/bin/designer
+ls
+poetry run pyside6-designer
+pyside6-uic
+poetry run pyside6-uic
+bat /home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/Qt/libexec/uic
+v acp_gui/ l
+v acp_gui/app.py
+ls
+cd .venv
+cd bin
+ls
+./desi
+ls
+cd ..
+cd bin
+ls
+trash-restore pyside6-designer
+trash-list | pyside
+trash-list | rg pyside
+la
+poetry run pyside6-designer
+cd ../lib/python3.11/site-packages/PySide6
+ls
+./designer
+ls
+./designer
+pwd
+$(pwd)/designer
+(pwd)/designer
+./designer
+ls
+./designer
+ll
+ll designer
+ll -lha designer
+mc
+./designer
+sudo ./designer
+chmod +x designer
+ll -lha designer
+sudo ./designer
+cat designer
+designer
+./designer
+pwd
+/home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/designer
+./home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/designer
+/home/ned/Work/ACP_GUI/.venv/lib/python3.11/site-packages/PySide6/
+ldd designer
+poetry run ldd ./designer
+touch test.txt
+./test.txt
+chmod +x test.txt
+./test.txt 
+rm test.txt
+poetry run echo $LD_LIBRARY_PATH
+fcd
+v .env
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"\
+
+poetry run echo $LD_LIBRARY_PATH 
+python ~/Work/ACP_GUI/acp_gui/app.py
+export QT_QPA_PLATFORM=wayland\
+
+ls
+python ~/Work/ACP_GUI/acp_gui/app.py
+ls
+python -V
+python --version
+python -b s
+ls
+./designer
+ldd designer
+nix-index libz.so.1
+nix-index -h
+nix-locate libz.so.1
+find /nix/store -name -type f libz.so.1 
+find /nix/store -name  libz.so.1 -type f
+find /nix/store -name "libz.so.1" -type f
+find /nix/store -name "libz.so.1"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/"\
+
+./designer
+ldd designer
+find /nix/store -name "libgssapi_krb5.so.2"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/"\
+
+./designer
+ldd designer
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/"\
+
+ldd designer 
+echo $LD_LIBRARY_PATH
+ls /nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/:/nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/
+find /nix/store -name "libgssapi_krb5.so.2"
+ls /nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"\
+
+ldd designer
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"\
+
+find /nix/store -name "libgssapi_krb5.so.2"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/xmzwp1bcamvr3sbaabi2kgqkw926rrl0-libkrb5-1.20.1/lib/"\
+
+ldd des
+ldd designer
+echo $LD_LIBRARY_PATH
+find /nix/store -name "libz.so.1"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/libz.so.1"\
+
+ldd designer
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/"\
+
+ldd designer
+ldd designer | rg not
+ldd designer | rg found
+./designer
+ls
+./designer
+chmod +x designer
+./designer
+bash
+./designer 
+exit
+nix-shell
+./designer
+strace ./designer
+readelf ./designer h
+readelf ./designer 
+readelf -a ./designer 
+readelf -a ./designer  | bat
+file ./designer
+fe
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"\
+
+export QT_QPA_PLATFORM=wayland\
+
+ldd designer
+find /nix/store -name "libz.so.1"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/libz.so.1"\
+
+ldd designer
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"\
+
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/"\
+
+ldd designer
+find /nix/store -name "libgssapi_krb5.so.2"
+file /nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/libgssapi_krb5.so.2
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/"\
+
+./designer
+ldd designer
+ls /nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/libgssapi_krb5.so.2
+ls /nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/
+echo $?
+ls /nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/nix/store/7wkksnxx15frba78vl032qixpxv6z7cn-libkrb5-1.20.1/lib/"\
+
+echo $LD_LIBRARY_PATH
+find /nix/store -name "libgssapi_krb5.so.2"
+ldd designer
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"\
+
+ldd designer
+find /nix/store -name "libz.so.1"
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/:/nix/store/pmr4q5l3s75id5f6haqinq9f8rdrjs9g-zlib-1.2.13/lib/libz.so.1"\
+
+ldd designer e
+ldd designer 
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/"\
+
+find /nix/store -name "libz.so.1"
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/"\
+
+ldd designer
+find /nix/store -name "libgssapi_krb5.so.2"
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/:/nix/store/xmzwp1bcamvr3sbaabi2kgqkw926rrl0-libkrb5-1.20.1/lib/"\
+
+ldd designer
+file designer
+find /nix/store -name "ld-linux-x86-64.so.2"
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/:/nix/store/xmzwp1bcamvr3sbaabi2kgqkw926rrl0-libkrb5-1.20.1/lib/:/nix/store/3n58xw4373jp0ljirf06d8077j15pc4j-glibc-2.37-8/lib/"\
+
+./designer
+ldd designer
+file designer
+sudo mkdir /lib64/
+cp /nix/store/3n58xw4373jp0ljirf06d8077j15pc4j-glibc-2.37-8/lib/ld-linux-x86-64.so.2 /lib64/.
+sudo cp /nix/store/3n58xw4373jp0ljirf06d8077j15pc4j-glibc-2.37-8/lib/ld-linux-x86-64.so.2 /lib64/.
+./designer
+fd
+fcd 
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+pyside6-designer 
+poetry run pyside6-designer I
+poetry run pyside6-designer 
+cd ..
+cd ../../../../
+v .env
+exit
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry run pyside6-designer 
+v
+originlab
+virsh reboot RDPWindows
+ls
+virsh reboot RDPWindows
+originlab
+hyprctl monitors
+hyprctl 
+hyprctl workpsces
+hyprctl workspaces
+fe
+fcd
+fe
+originlab
+fe
+originlab
+fe
+originlab
+virsh reboot RDPWindows
+originlab
+fe
+originlab
+nix-shell -p mutt-wizard
+originlab
+osc
+fe
+hyprctl workspaces
+hyprctl reload
+cd .config/hypr
+v hyprland.conf
+originlab
+virsh reboot RDPWindows
+originlab
+hyprctl reload
+hyprctl 
+hyprctl  workspaces
+fcd
+v hyprland.conf
+gotop
+originlab
+hyprctl  workspaces
+fcd
+./launch.sh
+cd
+fcd
+ls
+v hyprland.conf
+hyprctl  workspaces
+alacritty --class "Origin Pro 2015 C:\User\jdlkasjfdf"
+bgg
+bg
+disown
+fcd
+v hyprland.conf
+hyprctl  workspaces
+alacritty --title "Origin Pro 2015 C:\User\jdlkasjfdf"
+bg
+alacritty --title "Origin Pro 2015 C:\User\jdlkasjfdf"
+bg
+disown
+hyprctl  workspaces
+ls
+v hyprland.conf
+fcd
+cd
+fcd
+v hyprland.conf
+originlab
+reboot
+fcd
+v hyprland.conf
+cd ..
+cd eww
+ls
+cd statusbar
+./launch.sh
+cd ..
+cd
+gotop
+fcd
+ls
+v hyprland.conf
+originlab
+ls
+fcd
+ls
+v hyprland.conf
+originlab
+ls
+v hyprland.conf
+ls
+cd Downloads
+ls
+v ls
+ls
+cd hypr/'
+cd hypr/
+ls
+v rules.conf
+ls
+fcd
+ls
+cd Downloads/hypr
+ls
+v import-gsettings
+v rules.conf
+cd
+fcd
+ls
+v  l
+v hyprland.conf
+originlab 
+ls
+virsh reboot RDPWindows
+originlab
+ls
+fcd
+v  l
+v hyprland.conf
+originlab
+virsh reboot RDPWindows
+originlab
+virsh reboot RDPWindows
+v hyprland.conf
+originlab
+fcd
+cd
+fcd
+v hyprland.conf
+originlab
+reboot
+fcd
+ls
+cd
+fcd
+ls
+./launch.sh
+fe ~
+originlab
+hyprctl
+hyprctl activeiwindow
+hyprctl activeiwindows
+hyprctl activewindow
+which hyprctl activewindow
+which "hyprctl activewindow"
+which -m hyprctl activewindow
+watch "hyprctl activewindow"
+watch "hyprctl activewindow"h
+watch "hyprctl activewindow"
+hyprctl dispatch togglegroup
+hyprctl dispatch fakefullscreen
+hyprctl dispatch "Origin Pro 2015", fakefullscreen
+fe 
+hyprctl reload
+originlab
+watch "hyprctl activewindow"
+ls
+fc
+ls
+fe
+originlab
+ls
+cd Repositories
+ls
+cd winapps
+ls
+./installer.sh 
+./installer.sh --uninstall --all
+./installer.sh --user --u l
+./installer.sh --user --uninstall
+ls /home/ned/.local/share/
+originlab 
+ls
+cd ..
+rm -r winapps
+hmc
+hmu
+cd ..
+\rm -r Repositories
+bluetoothctl
+ls
+ls Downloads
+ls
+mkdir Windows
+mv virtio-win-0.1.229.iso Windows/.
+mv Win10_22H2_EnglishInternational_x64v1.iso Windows/.
+ls
+cd Windows
+ls
+la
+cd ..
+ls
+music
+pulsemixer 
+hmu
+ls
+ls Windows
+sudo blkid
+gotoop
+gotop
+ls
+v hyprland.conf
+la
+cd .config
+cd hypr/
+ls
+v hyprland.conf
+virsh shutdown win10
+fcd
+./launch.sh
+nix-shell -p mutt-wizard
+mt
+mw
+exit
+hmc
+hmu
+mw
+v
+nemutt
+osc
+hmc
+pass
+nix-shell -p gettext
+gettext
+hmu
+hmc
+nix-shell -p msmtp
+exit
+hmu
+hmc
+hmu
+crontab
+nemutt
+neomutt
+ls
+man mw
+mw 
+man pass
+pass init oned.study@gmail.com
+mv
+mw
+mw add
+mw
+mw 
+mw -a oned.study@gmail.com
+mw -a oned.study@gmail.com -n "Oleksii Nedozdhii" -x "kamaz145" -t 30
+mw -a oned.study@gmail.com -n "Oleksii Nedozdhii" -x "kamaz145"
+pass init oned.study@gmail.com
+pass -h
+pass --help
+pass ls
+pass show
+pass insert 
+pass insert kamaz145
+pass insert study_mail
+nix-shell -p gpg
+nix-shell -p gpg-mdp
+gpg-mdp 
+man gpg-mdp
+ls
+exit
+gpasswd 
+man gpg-mdp
+man gpasswd
+gpg
+gph 
+alias gph 
+mw -a oned.study@gmail.com -n "Oleksii Nedozdhii"
+pass
+pass insert oned.study@gmail.com
+gpg
+nix-shell -p gpg
+nix-shell -p gnupg
+gpg
+exit
+osc
+hmc
+hmu
+mw -a oned.study@gmail.com -n "Oleksii Nedozdhii"
+pass insert oned.study@gmail.com
+gpg --full-gen-key
+pass show 
+pass show oned.study@gmail.com
+ls
+gph --reload gpg-agent
+gpg --reload gpg-agent
+ls
+cd Work
+ls
+cd ACP_GUI
+ls
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+ls
+hmc
+hmu
+ls
+cd ACP_GUI/
+cd Work/ACP_GUI
+ls
+poetry shell
+emulate bash -c '. /home/ned/Work/ACP_GUI/.venv/bin/activate'
+poetry run app
+ls
+poetry run pyside6-designer & ; disown
+poetry run pyside6-designer 
+export QT_QPA_PLATFORM=wayland\
+
+poetry run pyside6-designer 
+export QT_QPA_PLATFORM=x11; poetry run pyside6-designer 
+ls
+poetry run pyside6-designer 
+echo $LD_PRELOAD
+find /nix/store -name "libpython3.11.so"
+v .env
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/:/nix/store/xmzwp1bcamvr3sbaabi2kgqkw926rrl0-libkrb5-1.20.1/lib/:/nix/store/3n58xw4373jp0ljirf06d8077j15pc4j-glibc-2.37-8/lib/"\
+
+export LD_LIBRARY_PATH="/nix/store/v286z87irid5vn13y2z6fphfrzmgj0kf-gcc-12.3.0-lib/lib/:/nix/store/fr53rm643lg0rp4qmgzzpwsz5xxdqwk0-glib-2.76.3/lib/:/nix/store/4a2wldbmd9pmnkkv3ayn6gzl2hj2v2xh-libglvnd-1.6.0/lib/:/nix/store/fssi1gil411dkarbdh086p03yww64lfp-libxkbcommon-1.5.0/lib:/nix/store/mfgpfwn7sig9fkzbqyzbfk4gswbzyjbg-fontconfig-2.14.2-lib/lib/:/nix/store/idj6yy3j1gxd4d6z0vy4smm9as6d9iyg-libX11-1.8.6/lib/:/nix/store/7y7wnzsnqcznpy59xakmcslklm5viqw1-freetype-2.13.0/lib/:/nix/store/692cfd3dd89y43ppbqgdfmymv7aazaq5-dbus-1.14.8-lib/lib/:/nix/store/3ycvv2k8j2nj4ia3rnlf47fdc5cyg5n4-wayland-1.22.0/lib/:/nix/store/wmi7ifah7ggl9bah85zpmsgxv6lk04a7-zlib-1.2.13/lib/:/nix/store/xmzwp1bcamvr3sbaabi2kgqkw926rrl0-libkrb5-1.20.1/lib/:/nix/store/3n58xw4373jp0ljirf06d8077j15pc4j-glibc-2.37-8/lib/:/nix/store/mms3mxfv4m7mr3kmmkhdm2whckn1pbjn-home-manager-path/lib/"\
+
+pyside6-designer 
+v .env
+export QT_QPA_PLATFORM=wayland\
+
+pyside6-designer 
+export PYSIDE_DESIGNER_PLUGINS="."
+pyside6-designer 
+export PYSIDE_DESIGNER_PLUGINS="./acp_gui"
+pyside6-designer 
+ls .venv
+export PYSIDE_DESIGNER_PLUGINS="./venv/bin"
+pyside6-designer 
+export PYSIDE_DESIGNER_PLUGINS="./.venv/bin"
+pyside6-designer 
+export QT_PYSIDEPLUGIN=0
+pyside6-designer 
+ls
+pyside6-designer 
+export PYSIDE_DESIGNER_PLUGINS="."
+pyside6-designer 
+hmc
+hmu
+mc
+hmc
+hmu
+ls
+hmc
+mpv
+hmc
+hmu
+ls
+mpv
+ls
+fcd
+cd acp_gui
+python app.py
+v app.py
+e app.py
+python app.py
+pyside6-designer 
+hmu
+python -i
+python -v
+python -V
+python3.11 
+e Work/ACP_GUI/acp_gui/app.py
+python3.11 
+hm
+hmc
+hcm
+hmc
+ls
+cd .config
+la
+cd eww/statusbar
+ls
+cd workspaces
+ls
+mkdir with-icons
+mv active-yarik.sh with-icons/active.sh
+mv change-yarik.sh with-icons/change-workspace.sh
+mv list-yarik.sh with-icons/get-workspaces-list.sh
+ls
+mv yarik-icons.config with-icons/config
+ls
+mv yarik.yuck with-icons/workspace-with-icons.yuck
+ls
+cd with-icons
+ls
+v workspace-with-icons.yuck
+e workspace-with-icons.yuck
+ls
+e active.sh
+rg yarick
+v workspace-with-icons.yuck
+e workspace-with-icons.yuck
+rg config
+v get-workspaces-list.sh
+e workspace-with-icons.yuck
+e get-workspaces-list.sh
+ls
+e active.sh
+ls
+cd ..
+git init
+ls
+la
+git add .
+gst
+git remote add https://github.com/nNeD5/eww-statusbar-hyprland
+git commit -m "Status bar for hyprland using eww"
+git remote add origin https://github.com/nNeD5/eww-statusbar-hyprland
+git remote -v
+git push origin main
+ls ~/.ssh
+hmc
+hmu
+fcd
+ls
+gpg --full-generate-key
+gpg --version
+gpg --full-generate-key
+ssh-agent
+ls
+cd workspaces
+ls
+rm -r .git
+cd ..
+git init
+git add .
+git commit -m "Status bar for hyprland using eww"
+git push
+git remote add origin https://github.com/nNeD5/eww-statusbar-hyprland
+git push
+git push origin main
+: 1691791535:0;ls
+: 1691791540:0;fcd
+: 1691791544:0;ls
+: 1691791549:0;git push origin main
+: 1691791665:0;ssh-keygen -t ed25519 -C "oned.reg@gmail.com"
+: 1691791689:0;eval "$(ssh-agent -s)"
+: 1691791693:0;git push origin main
+: 1691791700:0;ssh-agent -s
+: 1691791725:0;ssh-add ~/.ssh/id_ed25519
+: 1691791729:0;git push origin main
+: 1691791754:0;ssh-keygen -t ed25519 -C "oned.reg@gmail.com"
+: 1691791781:0;eval "$(ssh-agent -s)"
+: 1691791787:0;ssh-add ~/.ssh/id_ed25519
+: 1691791824:0;wl-copy 
+: 1691791836:0;cat ~/.ssh/id_ed25519.pub | wl-copy
+: 1691791838:0;[200~ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFnXqEiVncSskDUxackVDOTefnuQ7pSzMDNlKt+DDu14 oned.reg@gmail.com
+: 1691791881:0;git push origin main
+: 1691792132:0;ssh
+: 1691792138:0;ssh-add ~/.ssh/id_ed25519
+: 1691792195:0;git push origin main
+: 1691792281:0;fcd
+: 1691792287:0;git push origin main
+: 1691792301:0;ssh-agent -s
+: 1691792316:0;eval $(ssh-agent -s)
+: 1691792325:0;ssh-add ~/.ssh/id_ed25519
+: 1691792328:0;git push origin main
+: 1691792494:0;ssh-keygen -o -t ed25519 -C "oned.reg@gmail.com"
+: 1691792558:0;cat ~/.ssh/id_rsa.pub | wl-copy
+: 1691792619:0;ls
+: 1691792624:0;cd .config/eww/statusbar
+: 1691792625:0;git push origin main
+: 1691792638:0;eval $(ssh-agent -s)
+: 1691792639:0;git push origin main
+: 1691792673:0;cd ..
+: 1691792680:0;git clone ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCoXf2YUoYFjJ4o3UO0G3f5I1CImb8Huw1Q/WV4UhAhU84cNkFOyM3p2semhsilzXEqqvykBQrhH23wlOP/OZqzJordqmaombUqgomzK/3UnBXccjzEC9dcPTrglNttYxD7cuQujcU4xprbu9TG+qCXA7byKQWFgvNzhI3VdmV7EAxH82HVFilClkUqBsK7na/E/xsZuJt6Vep5PlNZIYFU/8FiN4BgWoGcnCo65V86k0WtE7ljhuYt9SEesWa6FLieEsKMo8khxENqwzINdc9JmGSf7A0TlyHaUoLE/v1KO5O0n+xLMe2/tWJw1r0cRVgHhcwk+DlUx99ev6GDhtQoHr3fscThw1k59wvxHFKOVjfm1vPs+Sn+SW0EICniL0feT1YjQKQlNIPTtjGYhvB+UUNSgThhRBTsH4f+JAwop7K3KpbVFu+WG22lBi9LsE2LKEYkae+35YZkj4hZlsMtGvRzLSOGW5kHyS868edafecxCbiel9s674d9Cch9lnM= ned@nixos\
+
+: 1691792684:0;git push origin main
+: 1691792707:0;cd statusbar
+: 1691792707:0;ls
+: 1691792712:0;git push origin main
+: 1691792715:0;cd ..
+: 1691792821:0;ssh-keygen -o -t ed25519 -C "oned.reg@gmail.com"
+: 1691792836:0;cat ~/.ssh/id_rsa.pub | wl-copy
+: 1691792856:0;ssh-keygen -o -t ed25520 -C "oned.reg@gmail.com"
+: 1691792861:0;ls
+: 1691811028:0;p10
+: 1691811068:0;poweroff
+: 1691861610:0;ls
+: 1691861616:0;cd .config/n
+: 1691861618:0;cd .config
+: 1691861619:0;ls
+: 1691861630:0;cd eww
+: 1691861631:0;ls
+: 1691861633:0;cd statusbar
+: 1691861634:0;ls
+: 1691861637:0;git push origin main
+: 1691861647:0;./launch.sh
+: 1691861691:0;git push origin main
+: 1691861728:0;ssh-keygen -t ed25519 -C "oned.reg@gmail.com"
+: 1691861751:0;eval "$(ssh-agent -s)"
+: 1691861757:0;ssh-add ~/.ssh/id_ed25519
+: 1691861838:0;cat ~/.ssh/id_ed25519.pub | wl-copy
+: 1691861852:0;git config --email
+: 1691861860:0;git config --global 
+: 1691861872:0;v ~/.gitconfig
+: 1691861877:0;e ~/.gitconfig
+: 1691861892:0;git  push origin master
+: 1691861900:0;git push origin main
+: 1691861912:0;ls
+: 1691862006:0;git config --list 
+: 1691862022:0;git config user.email=oned.reg@gmail.com
+: 1691862034:0;git config --global user.email=oned.reg@gmail.com
+: 1691862046:0;git config user.email "oned.reg@gmail.com"
+: 1691862050:0;git config --list 
+: 1691862062:0;git config --global user.email "oned.reg@gmail.com"
+: 1691862064:0;git config --list 
+: 1691862077:0;e ~/.gitconfig
+: 1691862090:0;git push origin main
+: 1691862106:0;git config --list 
+: 1691862165:0;git config  revert
+: 1691862174:0;git config  revert user.email=oned.reg@gmail.com
+: 1691862217:0;git config edit
+: 1691862221:0;git config --edit
+: 1691862237:0;git push origin main
+: 1691862292:0;git remote add origin https://github.com/nNeD5/eww-statusbar-hyprland
+: 1691862295:0;git remove -v
+: 1691862298:0;git remote -v
+: 1691862304:0;git push origin main
+: 1691862372:0;ssh -T -p 433 git@ssh.github.com
+: 1691862455:0;ssh -vT git@github.com
+: 1691862508:0;rm ~/.ssh/known_hosts
+: 1691862510:0;rm ~/.ssh/known_hosts.old 
+: 1691862513:0;ssh -vT git@github.com
+: 1691862521:0;git push origin main
+: 1691862529:0;rm ~/.ssh/known_hosts.old 
+: 1691862531:0;rm ~/.ssh/known_hosts
+: 1691862535:0;git push origin main
+: 1691862579:0;cat ~/.ssh/id_rsa.pub | wl-copy
+: 1691862598:0;git push origin main
+: 1691862604:0;ls ~/.ssh
+: 1691862609:0;la ~/.ssh
+: 1691862616:0;ssh -vT git@github.com
+: 1691862682:0;la
+: 1691862685:0;ls
+: 1691862694:0;git config --local show
+: 1691862698:0;git config  show
+: 1691862704:0;git config  --local --show
+: 1691862709:0;git config --show
+: 1691862714:0;git config --list --local
+: 1691862727:0;git config --lsit
+: 1691862730:0;git config --list
+: 1691862759:0;export GIT_SSH_COMMAND="ssh -v"
+: 1691862765:0;ssh -vT git@github.com
+: 1691862788:0;echo $GIT_SSH_COMMAND
+: 1691862798:0;git fetch
+: 1691862830:0;ssh-agent -s
+: 1691862843:0;eval $(ssh-agent -s)
+: 1691862856:0;ssh-add ~/.ssh/id_rsa
+: 1691862862:0;ssh -vT git@github.com
+: 1691862866:0;git push origin main
+: 1691863079:0;fcd
+: 1691863083:0;git push origin main
+: 1691863126:0;ls
+: 1691863183:0;ssh-keygen -t ed25519 -C "oned.reg@gmail.com"
+: 1691863261:0;eval "$(ssh-agent -s)"
+: 1691863288:0;e ~/.ssh/config
+: 1691863409:0;ssh-add ~/.ssh/id_ed25519
+: 1691863481:0;cat ~/.ssh/id_ed25519.pub
+: 1691863576:0;ssh -T git@github.com
+: 1691863584:0;rm ~/.ssh/known_hosts
+: 1691863586:0;rm ~/.ssh/known_hosts.old
+: 1691863589:0;ssh -T git@github.com
+: 1691863612:0;ls
+: 1691863620:0;git push origin main
+: 1691863627:0;ls
+: 1691863674:0;git clone git@github.com:nNeD5/eww-statusbar-hyprland.git
+: 1691863679:0;ls
+: 1691863692:0;mv eww-statusbar-hyprland ../.
+: 1691863693:0;ls
+: 1691863695:0;cd ..
+: 1691863696:0;ls
+: 1691863702:0;mv statusbar/* eww-statusbar-hyprland/.
+: 1691863702:0;ls
+: 1691863707:0;rm -d statusbart
+: 1691863712:0;rm -d statusbar-yarik.tar.gz
+: 1691863712:0;ls
+: 1691863715:0;rm statusbar
+: 1691863717:0;cd eww-statusbar-hyprland
+: 1691863717:0;ls
+: 1691863723:0;git remove -v
+: 1691863728:0;git remote -v
+: 1691863733:0;git add .
+: 1691863734:0;ls
+: 1691863739:0;git commit -m "Status bar for hyprland using eww"
+: 1691863742:0;git push
+: 1691863793:0;ls
+: 1691863795:0;v eww.yuck
+: 1691863798:0;e eww.yuck
+: 1691863800:0;ls
+: 1691863820:0;cd ..
+: 1691863821:0;ls
+: 1691863833:0;cd ..
+: 1691863833:0;ls
+: 1691863937:0;l
+: 1691863938:0;ls
+: 1691863953:0;cd imv
+: 1691863953:0;ls
+: 1691863954:0;v config
+: 1691863957:0;e config
+: 1691863961:0;cd ..
+: 1691863962:0;cd home-manager
+: 1691863963:0;ls
+: 1691863965:0;v home.nix
+: 1691863966:0;e home.nix om
+: 1691863972:0;e home.nix
+: 1691864129:0;ls
+: 1691864133:0;e home.nix
+: 1691864137:0;ls
+: 1691864143:0;cd dotfiles
+: 1691864144:0;la
+: 1691864148:0;ls
+: 1691864176:0;mkdir not_used_in_manager
+: 1691864195:0;cp ~/dotfiles/clang/*  not_used_in_manager/.
+: 1691864195:0;ls
+: 1691864224:0;cp ~/dotfiles/awesome/.config/awesome/  not_used_in_manager/.
+: 1691864229:0;cp -r ~/dotfiles/awesome/.config/awesome/  not_used_in_manager/.
+: 1691864230:0;ls
+: 1691864256:0;v home.nix
+: 1691864258:0;e home.nix 
+: 1691864266:0;mkdir alacritty
+: 1691864268:0;cd alacritty
+: 1691864274:0;cp ~/.config/alacritty/alacritty.yml .
+: 1691864288:0;cp -r ~/.config/alacritty/themes .
+: 1691864288:0;ls
+: 1691864289:0;cd ..
+: 1691864290:0;ls
+: 1691864302:0;cd alacritty
+: 1691864308:0;e alacritty.nix
+: 1691864324:0;cd ..
+: 1691864326:0;git init 
+: 1691864326:0;ls
+: 1691864354:0;git commit -m "add packages to install and zsh config\
+start alacritty config"
+: 1691864358:0;git add .
