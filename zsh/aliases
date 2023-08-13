@@ -53,7 +53,7 @@ alias fd="fd --hidden\
             --exclude .config/nvim/undodir"
 
 # git
-alias ga='git add'
+alias ga='git add .'
 alias gcm='git commit -m'
 alias gc='git clone'
 
