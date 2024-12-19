@@ -1,0 +1,204 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+
+#define SPLIT_USB_DETECT
+#define DEFAULT 0
+#define LOWER   1
+#define RAISE   2
+#define ADJUST  3
+#define LWR LOWER
+#define RSE RAISE
+#define ADJ ADJUST
+
+&lt {
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
+};
+
+/ {
+    behaviors {
+        //                 Key positions
+        //       0  1  2  3  4  5    6  7  8  9 10 11
+        //      12 13 14 15 16 17   18 19 20 21 22 23
+        //      24 25 26 27 28 29   30 31 32 33 34 35
+        //               36 37 38   39 40 41
+
+        hml: homerow_mods_left {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_LEFT";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+            quick-tap-ms = <180>;
+            bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <
+                                         6  7  8  9 10
+                       13 14 15 16      18 19 20 21 22
+                          26            30 31 32 33 34
+                             36 37 38   39 40 41
+            >;
+
+            // <---[[right-hand keys + all homerow mods + all thumbs]]
+        };
+
+        hmr: homerow_mods_right {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_RIGHT";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+            quick-tap-ms = <180>;
+            bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <
+                        1  2  3  4  5
+                       13 14 15 16 17      19 20 21 22
+                       25 26 27 28 29            33
+                             36 37 38   39 40 41
+            >;
+
+            // <---[[left-hand keys + all homerow mods + all thumbs]]
+
+            retro-tap;
+        };
+
+        shift_lt: shift_lt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SHIFT_LT";
+            bindings = <&mo>, <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "tap-preferred";
+        };
+
+        question_or_exclamation: question_or_exclamation {
+            compatible = "zmk,behavior-mod-morph";
+            label = "?/!";
+            bindings = <&kp QUESTION>, <&kp EXCL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        to_layers_1_3: to_layers_1_3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TO_LAYERS_1_3";
+            #binding-cells = <0>;
+            bindings = <&to 1>, <&to 3>;
+
+            tapping-term-ms = <350>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        return {
+            bindings = <&kp RET>;
+            key-positions = <19 20>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+        };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <36 41>;
+        };
+
+        right_atl {
+            bindings = <&sk RIGHT_ALT>;
+            key-positions = <39 38>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 15>;
+        };
+
+        layer_2 {
+            bindings = <&to 2>;
+            key-positions = <37 40>;
+        };
+    };
+
+    conditional_layers { compatible = "zmk,conditional-layers"; };
+
+    macros {
+        Cyrillic_letter_compose: Cyrillic {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings =
+                <&macro_press &kp K_CONTEXT_MENU>,
+                <&macro_param_1to1>,
+                <&macro_tap &kp MACRO_PLACEHOLDER>,
+                <&macro_release &kp K_CONTEXT_MENU>;
+
+            label = "CYRILLIC";
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+&none  &kp Q  &kp W  &kp E           &kp R    &kp T        &kp Y     &kp U              &kp I            &kp O       &kp P                     &none
+&none  &kp A  &kp S  &kp D           &lt 4 F  &kp G        &kp H     &kp J              &kp K            &kp L       &kp ESCAPE                &none
+&none  &kp Z  &kp X  &kp C           &kp V    &kp B        &kp N     &kp M              &kp COMMA        &kp PERIOD  &question_or_exclamation  &none
+                     &to_layers_1_3  &to 0    &kp SPACE    &sk RGUI  &sk RIGHT_CONTROL  &sk RIGHT_SHIFT
+            >;
+        };
+
+        numbers {
+            bindings = <
+&none  &none  &kp N1  &kp N2  &kp N3  &none           &question_or_exclamation  &kp STAR           &kp SLASH        &none      &none   &none
+&none  &none  &kp N4  &kp N5  &kp N6  &kp NUMBER_0    &kp CARET                 &kp PLUS           &kp MINUS        &kp EQUAL  &trans  &none
+&none  &none  &kp N7  &kp N8  &kp N9  &none           &none                     &kp PERCENT        &trans           &trans     &trans  &none
+                      &trans  &trans  &trans          &sk RGUI                  &sk RIGHT_CONTROL  &sk RIGHT_SHIFT
+            >;
+
+            label = "num";
+        };
+
+        symbols {
+            label = "sym";
+            bindings = <
+&none  &none      &kp AT_SIGN    &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &kp AMPERSAND  &kp BACKSLASH      &kp SLASH        &kp PIPE           &none   &none
+&none  &kp COLON  &kp SEMICOLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &kp DOLLAR     &kp GRAVE          &kp SQT          &kp DOUBLE_QUOTES  &trans  &none
+&none  &none      &kp HASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none             &kp LESS_THAN  &kp GREATER_THAN   &trans           &trans             &trans  &none
+                                 &trans                &trans                 &trans            &sk RGUI       &sk RIGHT_CONTROL  &sk RIGHT_SHIFT
+            >;
+        };
+
+        arrows {
+            label = "arr";
+            bindings = <
+&none  &bt BT_CLR_ALL  &none  &none   &none   &sys_reset    &kp HOME  &kp PG_UP          &kp PAGE_DOWN    &kp END          &none   &none
+&none  &bt BT_SEL 0    &none  &none   &none   &none         &kp LEFT  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &none
+&none  &bt BT_DISC 0   &none  &none   &none   &none         &none     &kp PAGE_UP        &kp PAGE_DOWN    &none            &none   &none
+                              &trans  &trans  &trans        &sk RGUI  &sk RIGHT_CONTROL  &sk RIGHT_SHIFT
+            >;
+        };
+
+        ua_ru {
+            bindings = <
+&trans  &gresc  &trans  &trans  &trans  &trans    &trans  &trans  &trans                      &Cyrillic_letter_compose X  &Cyrillic_letter_compose I  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                      &Cyrillic_letter_compose J  &Cyrillic_letter_compose E  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &Cyrillic_letter_compose B  &Cyrillic_letter_compose U  &trans                      &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+    };
+};

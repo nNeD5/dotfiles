@@ -1,0 +1,54 @@
+#!/usr/bin/env sh
+
+
+WORKSPACE="scratch"
+FILE_TMP="$HOME/.config/hypr/hypr-scratchpad/scratchpad_tmp"
+cmd="${@:1}"
+cmd_pid=""
+
+get_cmd_pid() {
+  # TODO delete only one line with sed
+  cmd_pid=$(grep "$cmd" "$FILE_TMP" | cut -d';' -f2)
+  if ! ps -a | grep -qw "$cmd_pid"
+  then
+    rm "$FILE_TMP"
+    cmd_pid=""
+  fi
+}
+
+run_cmd() {
+  $cmd &
+  cmd_pid=$(jobs -p)
+  echo "$cmd;$cmd_pid" >> $FILE_TMP
+}
+
+hide_cmd() {
+  hyprctl dispatch movetoworkspacesilent special:$WORKSPACE,pid:$cmd_pid
+}
+
+show_cmd() {
+  active_workspace=$(hyprctl activeworkspace -j | jq ".id")
+  hyprctl dispatch movetoworkspacesilent $active_workspace,pid:$cmd_pid
+  hyprctl dispatch focuswindow pid:$cmd_pid
+}
+
+toggle_cmd() {
+  get_cmd_pid
+  if [ "$cmd_pid" == "" ]
+  then
+    run_cmd
+  fi
+
+  active_workspace=$(hyprctl activeworkspace -j | jq ".id")
+  window_workspace=$(hyprctl clients -j  | jq ".[] | {pid,workspace} | select(.pid==$cmd_pid).workspace.id")
+
+  if [ "$window_workspace" == "$active_workspace" ]  
+  then
+     hide_cmd 
+  elif [ "$window_workspace" != "$active_workspace" ]
+  then
+     show_cmd
+  fi
+}
+
+toggle_cmd
