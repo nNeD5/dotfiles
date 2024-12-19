@@ -1,0 +1,41 @@
+-- local function toggle_float_term()
+--   local bufnr = vim.api.nvim_get_current_buf()
+--   local win_id = vim.api.nvim_get_current_win()
+--
+--   -- Check if the current buffer is a terminal buffer
+--   if vim.api.nvim_buf_get_option(bufnr, "buftype") == "terminal" then
+--     -- Close the terminal window
+--     vim.api.nvim_win_close(win_id, true)
+--   else
+--     -- Create a new floating terminal window
+--     local width = math.floor(vim.o.columns * 0.8)
+--     local height = math.floor(vim.o.lines * 0.6)
+--     local row = math.floor((vim.o.lines - height) * 0.5)
+--     local col = math.floor((vim.o.columns - width) * 0.5)
+--
+--     local opts = {
+--       relative = "editor",
+--       width = width,
+--       height = height,
+--       row = row,
+--       col = col,
+--       style = "minimal",
+--       border = "rounded",
+--     }
+--
+--     local term_bufnr = vim.api.nvim_create_buf(false, true)
+--     local term_win_id = vim.api.nvim_open_win(term_bufnr, true, opts)
+--
+--     -- Set the terminal options
+--     vim.api.nvim_buf_set_option(term_bufnr, "buftype", "terminal")
+--     vim.api.nvim_buf_set_option(term_bufnr, "swapfile", false)
+--     vim.api.nvim_buf_set_option(term_bufnr, "buflisted", false)
+--
+--     -- Start the terminal in the new window
+--     vim.api.nvim_command("terminal")
+--   end
+-- end
+--
+-- -- Map the toggle function to a keybinding
+-- vim.keymap.set("n", "<leader>b", toggle_float_term, {desc = "Toggle floating terminal"})
+--

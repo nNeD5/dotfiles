@@ -1,0 +1,11 @@
+# /home/ned/.config/tmuxinator/zsh.yml
+
+name: zhs
+root: ~/
+
+windows:
+  - zsh-cofig:
+    - nvim .zshrc .zshenv
+  - zsh-old:
+    - cd ~/.config/old/zsh
+    - nvim

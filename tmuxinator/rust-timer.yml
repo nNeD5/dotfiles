@@ -1,0 +1,6 @@
+name: rust-timer
+root: ~/Work/personal/rust/cli_timer
+
+windows:
+  - editor:
+      - nvim src/main.rs

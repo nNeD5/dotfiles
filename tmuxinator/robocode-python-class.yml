@@ -1,0 +1,13 @@
+# /home/ned/.config/tmuxinator/robocode-python.yml
+
+name: robocode-python-class
+root: ~/Work/robocode/2024/python/class
+
+windows:
+  - editor:
+    - micromamba activate robocode
+    - nvim
+  - run: micromamba activate robocode
+  - python:
+    - micromamba activate robocode
+    - python

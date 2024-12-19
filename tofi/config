@@ -1,0 +1,24 @@
+# mocha
+text-color = #cdd6f4
+prompt-color = #f38ba8
+selection-color = #f9e2af
+background-color = #1e1e2ef0
+
+border-color = #fa00f090
+border-width = 1
+corner-radius = 15
+
+prompt-color = #fa00f090
+prompt-background = #00000000
+prompt-background-padding = 5
+
+selection-color = #fa00f090
+
+#rusult-spacing = 100
+
+outline-width = 0
+
+text-cursor = true
+
+fuzzy-match = true
+

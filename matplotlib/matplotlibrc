@@ -1,0 +1,29 @@
+# text.usetex: True
+# font.family: "New Computer Modern"
+
+axes.facecolor: "#EBEBEB"
+
+axes.grid: True
+axes.grid.which: "both"
+grid.linewidth: 1.5
+grid.color: "white"
+
+# axes.xmargin: 0.0
+# axes.ymargin: 0.0
+
+lines.linewidth: 1
+lines.linestyle: "-"
+lines.marker: "o"
+lines.markersize: 3
+axes.prop_cycle: cycler('color', ['black', '1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+
+axes.labelsize: 15
+xtick.labelsize: 15
+ytick.labelsize: 15
+legend.fontsize: 15
+legend.facecolor: "white"
+legend.loc: "upper right"
+
+figure.constrained_layout.use: True
+
+savefig.format: "svg"

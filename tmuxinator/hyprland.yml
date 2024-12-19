@@ -1,0 +1,8 @@
+# /home/ned/.config/tmuxinator/hyprland.yml
+
+name: hyprland
+root: ~/.config/hypr
+
+windows:
+  - hypr-config:
+      - nvim .

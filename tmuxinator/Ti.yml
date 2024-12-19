@@ -1,0 +1,12 @@
+# /home/ned/.config/tmuxinator/Ti.yml
+
+name: Ti
+root: ~/Work/institute/vasp/TiMe/
+
+windows:
+  - editor:
+    - cd dat
+    - nvim
+  - run: cd dat
+  - python:
+    - python

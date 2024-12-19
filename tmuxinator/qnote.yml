@@ -1,0 +1,11 @@
+# /home/ned/.config/tmuxinator/qnote.yml
+
+name: qnote
+root: ~/Work/personal/bash/qnote
+
+windows:
+  - editor:
+    - nvim
+  - run:
+  - notes:
+    - cd ~/Notes

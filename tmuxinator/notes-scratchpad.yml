@@ -1,0 +1,9 @@
+name: notes-scratchpad
+root: ~/
+
+windows:
+  - info-todo:
+    - nvim -p todo.md info.md
+  - Notes:
+    - cd Notes
+    - nvim

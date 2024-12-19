@@ -1,0 +1,14 @@
+# /home/ned/.config/tmuxinator/robocode-python.yml
+
+name: tmux
+root: ~/.config/tmux/
+
+windows:
+  - tmux-config:
+      - nvim tmux.conf
+  - tmuxinator:
+    - cd ~/.config/tmuxinator
+    - nvim .
+  - tmux-session:
+    - cd ~/Work/personal/bash
+    - nvim tmux-session
