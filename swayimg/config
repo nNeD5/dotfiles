@@ -34,7 +34,7 @@ app_id = swayimg
 ################################################################################
 [viewer]
 # Window background color (RGBA)
-window = #00000000
+window = #000000FF
 # Background for transparent images (grid/RGBA)
 transparency = grid
 # Default image scale (optimal/fit/width/height/fill/real)
@@ -98,7 +98,7 @@ name = monospace
 # Font size (pt)
 size = 14
 # Font color (RGBA)
-color = #ccccccff
+color = #ffffffff
 # Shadow color (RGBA)
 shadow = #000000a0
 

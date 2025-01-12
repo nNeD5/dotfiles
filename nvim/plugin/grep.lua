@@ -1,3 +1,4 @@
+-- Replace it with Telescope livegrep
 local function grep(...)
   local args = table.concat({ ... }, " ")
   local cmd = vim.fn.expandcmd(vim.o.grepprg .. " " .. args)

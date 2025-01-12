@@ -25,6 +25,7 @@
         "title",
         "dnd",
         "notifications",
+        "battery",
         "backlight",
         "volume",
         "mpris"

@@ -12,20 +12,26 @@ zstyle :compinstall filename '/home/ned/.zshrc'
 
 export COLORTERM=truecolor
 export TERM='tmux-256color'
-export EDITOR='nvim'
+export EDITOR='/home/ned/.local/bin/nvim'
 
 path+=('/home/ned/.local/bin')
 
 
 export GOPATH="$HOME/.config/go"
 export GOMODCACHE="$HOME/.config/go/pkg/mod"
+export XDG_DATA_DIRS="${XDG_DATA_DIRS}:~/.local/share/flatpak/exports/share/applications"
+
 
 export FZF_DEFAULT_OPTS="
     --layout=reverse
     --no-separator
     --border
-    --pointer='>'
-    --color='current-fg:bold:white'
+    --pointer=''
     --color='current-bg:-1'
-    --color='label:bold:#FF935C'
-    --color='border:#4893D7'"
+    --color='prompt:#f6c177'
+    --color='current-fg:bold:#EBBCBA'
+    --color='current-hl:bold:#EB6F92'
+    --color='hl:#EB6F92'
+    --color='label:bold:#f6c177'
+    --color='border:#eb6f92'"
+

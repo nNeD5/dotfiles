@@ -1,0 +1,9 @@
+name: speach-text
+root: ~/Work/personal/python/speach-recognition/
+
+pre_window: micromamba activate data-scince
+
+windows:
+  - editor:
+    - nvim recognize-speach.py
+  - term:

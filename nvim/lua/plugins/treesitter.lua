@@ -9,6 +9,10 @@ return {
     },
     indent = {
       enable = true,
+      disable = {
+         "typst",
+        "markdown"
+      }
     }
   },
 }

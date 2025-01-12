@@ -21,6 +21,7 @@ compinit
 _comp_options+=(globdots)       # Include hidden files.
 
 # Vi mode
+# bindkey -e
 bindkey -v
 autoload -Uz edit-command-line
 zle -N edit-command-line
@@ -37,8 +38,7 @@ zle-keymap-select () {
 }
 precmd_functions+=(zle-keymap-select)
 zle -N zle-keymap-select
-# zle -N zle-keymap-select
-# precmd_functions+=(_set_beam_cursor) #
+# precmd_functions+=(_set_beam_cursor)
 # zle-line-init() { zle -K viins; _set_beam_cursor }
 # zle-line-finish() { _set_block_cursor }
 # zle -N zle-line-finish
@@ -63,8 +63,9 @@ zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
 bindkey  -s '^F' 'zi\n'
 
-alias ls='ls --color=auto'
-alias la='ls -A'
+alias ls='lsd'
+alias la='lsd -A'
+alias lt='lsd --tree'
 alias e='$EDITOR'
 # alias ee='nvim +"Autosession search"'
 alias n='$EDITOR Notes/diary/$(date "+%Y/%W/%d-%m-%y").md'
@@ -73,7 +74,8 @@ alias uni='cd ~/Work/university/semester11/'
 alias headset='bluetoothctl connect 98:67:2E:A8:18:E7 && sleep 1 && bluetoothctl connect 98:67:2E:A8:18:E7'
 alias t='tmuxinator start today'
 alias s='tmux-session'
-function ch() { curl cheat.sh/"$1" | bat }
+alias b='blobdrop'
+function ch() { curl cheat.sh/"$1" | bat; }
 function en() { cli-dictionary "$1" en; }
 function o() { xdg-open $1 & disown ;}
 function tpython() { mypy "$1" && python "$1"; }

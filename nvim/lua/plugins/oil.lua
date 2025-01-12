@@ -1,15 +1,14 @@
 return {
   "stevearc/oil.nvim",
-  dependencies = { "echasnovski/mini.icons" },
+  dependencies = { { "echasnovski/mini.icons", opts = {} } },
   opts = {
+    -- new/moved/renamed
+    skip_confirm_for_simple_edits = true,
     float = {
       padding = 2,
       max_width = 80,
       max_height = 25,
       border = "rounded",
-      win_options = {
-        winblend = 0,
-      },
     },
   },
 

@@ -6,6 +6,7 @@
 {"_id":"defaultPlayback","value":1.25}
 {"_id":"defaultTheatreMode","value":true}
 {"_id":"displayVideoPlayButton","value":false}
+{"_id":"downloadAskPath","value":true}
 {"_id":"downloadBehavior","value":"download"}
 {"_id":"enableScreenshot","value":false}
 {"_id":"expandSideBar","value":false}

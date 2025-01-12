@@ -1,9 +1,12 @@
+-- vim.keymap.set("n", "<leader>w", "<cmd>writeCR>")
+-- vim.keymap.set("n", ":", "q:i")
+
 vim.keymap.set("v", "<leader>x", ":lua<CR>")
 vim.keymap.set("n", "<leader>x", "<cmd>.lua<CR>")
 
-vim.keymap.set("t", "<C-t>", "<C-\\><C-n>")
+vim.keymap.set("n", "<leader>bd", "<cmd>bdelete<CR>")
 
--- vim.keymap.set("n", ":", "q:i")
+vim.keymap.set("t", "<C-t>", "<C-\\><C-n>")
 
 vim.keymap.set("n", "m", "\'")
 vim.keymap.set("n", "M", "m")
