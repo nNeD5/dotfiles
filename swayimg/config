@@ -155,7 +155,7 @@ Equal = zoom +10
 Plus = zoom +10
 Minus = zoom -10
 w = zoom width
-Shift+w = zoom height
+# Shift+w = zoom height
 z = zoom fit
 Shift+z = zoom fill
 0 = zoom real
@@ -199,6 +199,7 @@ a = antialiasing
 r = reload
 i = info
 Shift+X = exec rm "%"; skip_file
+Shift+w = exec hyprpaper-change-wallpaper.sh $(realpath "%")
 # Mouse related
 ScrollLeft = step_right
 ScrollRight = step_left

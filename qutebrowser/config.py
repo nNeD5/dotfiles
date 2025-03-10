@@ -106,7 +106,7 @@ config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}) AppleWebKit/{w
 # between 5.12 and 5.14 (inclusive), changing the value exposed to
 # JavaScript requires a restart.
 # Type: FormatString
-config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}; rv:131.0) Gecko/20100101 Firefox/131.0', 'https://accounts.google.com/*')
+config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}; rv:133.0) Gecko/20100101 Firefox/133.0', 'https://accounts.google.com/*')
 
 # Which method of blocking ads should be used.  Support for Adblock Plus
 # (ABP) syntax blocklists using Brave's Rust library requires the
@@ -131,12 +131,14 @@ config.set('content.images', True, 'devtools://*')
 
 # Allow JavaScript to read from or write to the clipboard. With
 # QtWebEngine, writing the clipboard as response to a user interaction
-# is always allowed.
-# Type: String
+# is always allowed. On Qt < 6.8, the `ask` setting is equivalent to
+# `none` and permission needs to be granted manually via this setting.
+# Type: JSClipboardPermission
 # Valid values:
 #   - none: Disable access to clipboard.
 #   - access: Allow reading from and writing to the clipboard.
 #   - access-paste: Allow accessing the clipboard and pasting clipboard content.
+#   - ask: Prompt when requested (grants 'access-paste' permission).
 c.content.javascript.clipboard = 'access'
 
 # Enable JavaScript.

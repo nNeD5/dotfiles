@@ -1,0 +1,6 @@
+name: chains
+root: ~/Work/institute/vasp/chains/
+
+windows:
+  - editor:
+    - nvim .

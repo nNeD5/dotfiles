@@ -1,4 +1,5 @@
 return {
+  enables = false,
   "sourproton/tunnell.nvim",
   opts = {},
   keys = {

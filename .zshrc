@@ -75,6 +75,7 @@ alias headset='bluetoothctl connect 98:67:2E:A8:18:E7 && sleep 1 && bluetoothctl
 alias t='tmuxinator start today'
 alias s='tmux-session'
 alias b='blobdrop'
+alias mem="df -lh -t ext4"
 function ch() { curl cheat.sh/"$1" | bat; }
 function en() { cli-dictionary "$1" en; }
 function o() { xdg-open $1 & disown ;}

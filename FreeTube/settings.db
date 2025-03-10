@@ -3,8 +3,9 @@
 {"_id":"barColor","value":false}
 {"_id":"baseTheme","value":"catppuccinMocha"}
 {"_id":"bounds","value":{"x":2,"y":2,"width":2556,"height":1436,"maximized":false,"fullScreen":true}}
+{"_id":"channelsHidden","value":"[]"}
 {"_id":"defaultPlayback","value":1.25}
-{"_id":"defaultTheatreMode","value":true}
+{"_id":"defaultViewingMode","value":"theatre"}
 {"_id":"displayVideoPlayButton","value":false}
 {"_id":"downloadAskPath","value":true}
 {"_id":"downloadBehavior","value":"download"}

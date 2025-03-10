@@ -53,6 +53,8 @@ image/x-xcf=swayimg.desktop
 image/x-xcursor=swayimg.desktop
 image/x-xpixmap=swayimg.desktop
 image/x-xwindowdump=swayimg.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
 
 [Added Associations]
 x-scheme-handler/tg=org.telegram.desktop.desktop;

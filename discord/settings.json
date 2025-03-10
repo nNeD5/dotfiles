@@ -5,10 +5,11 @@
   "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 2570,
-    "y": 10,
-    "width": 2540,
-    "height": 1420
+    "x": 2562,
+    "y": 2,
+    "width": 2556,
+    "height": 1436
   },
-  "SKIP_HOST_UPDATE": true
+  "SKIP_HOST_UPDATE": true,
+  "BACKGROUND_COLOR": "#2e2e2e"
 }
