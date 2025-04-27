@@ -1,0 +1,10 @@
+name: master-work
+root: ~/Work/university/master-work
+
+windows:
+  - editor:
+    - nvim .
+  - term:
+  - tectonic:
+    - o build/nedozhdii-diploma/nedozhdii-diploma.pdf
+    - tectonic -X watch

@@ -1,0 +1,11 @@
+name: python-young
+root: ~/Work/robocode/2025/python-young/contactbook-tkinter
+
+windows:
+  - editor:
+    - micromamba activate robocode
+    - nvim main.py
+  - term: micromamba activate robocode
+  - python:
+    - micromamba activate robocode
+    - python

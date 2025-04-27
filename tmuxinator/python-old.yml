@@ -1,11 +1,11 @@
-name: robocode-python
-root: ~/Work/robocode/2024/python/pygame-basic
+name: python-old
+root: ~/Work/robocode/2025/python-old/pyqt-contactbook/
 
 windows:
   - editor:
     - micromamba activate robocode
     - nvim .
-  - run: micromamba activate robocode
+  - term: micromamba activate robocode
   - python:
     - micromamba activate robocode
     - python

@@ -1,0 +1,11 @@
+# /home/ned/.config/tmuxinator/Ti.yml
+
+name: TiNb
+root: ~/Work/imp/vasp/TiMe/chains
+
+windows:
+  - editor:
+    - nvim .
+  - term:
+  - jupyter:
+    - jupyter-lab

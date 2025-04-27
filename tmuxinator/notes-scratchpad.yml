@@ -4,6 +4,8 @@ root: ~/
 windows:
   - info-todo:
     - nvim -p todo.md info.md
+  - today-note:
+    - qn w
   - Notes:
     - cd Notes
     - nvim
