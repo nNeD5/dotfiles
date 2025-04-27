@@ -10,6 +10,9 @@ return {
       max_height = 25,
       border = "rounded",
     },
+   win_options = {
+    -- winbar = "%#@attribute.builtin#%{substitute(v:lua.require('oil').get_current_dir(), '^' . $HOME, '~', '')}",
+   }
   },
 
   config = function(_, opts)

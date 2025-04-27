@@ -47,11 +47,11 @@ return {
       desc = "clear harpoon list",
       callback = remove_on_term_close
     })
-    vim.api.nvim_create_autocmd({ "TermOpen", "BufEnter" }, {
-      group = vim.api.nvim_create_augroup("auto-insert-grup", { clear = true }),
-      desc = "auto insert mode when open term",
-      pattern = "term://*",
-      command = "startinsert"
-    })
+    -- vim.api.nvim_create_autocmd({ "TermOpen", "BufEnter" }, {
+    --   group = vim.api.nvim_create_augroup("auto-insert-grup", { clear = true }),
+    --   desc = "auto insert mode when open term",
+    --   pattern = "term://*",
+    --   command = "startinsert"
+    -- })
   end
 }

@@ -21,8 +21,8 @@ return {
     },
     checkbox = {
       custom = {
-        todo = { raw = "[-]", rendered = "󰥔", highlight = "RenderMarkdownTodo" },
-        cancel = { raw = "[!]", rendered = "", highlight = "RenderMarkdownTodo" },
+        todo = { raw = "[-]", rendered = "󰥔 ", highlight = "RenderMarkdownTodo" },
+        cancel = { raw = "[!]", rendered = " ", highlight = "RenderMarkdownTodo" },
       },
     },
   },

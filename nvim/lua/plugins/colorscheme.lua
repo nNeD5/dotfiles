@@ -11,6 +11,8 @@ return {
       Pmenu = { bg = "overlay" },
       PmenuSel = { fg = "love" },
       PmenuKindSel = { fg = "love" },
+      WinBar = { bg = "none", fg = "rose" },
+      WinBarNc = { bg = "none", fg = "overlay" }
     },
   }
 }

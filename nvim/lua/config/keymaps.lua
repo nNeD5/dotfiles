@@ -2,7 +2,7 @@
 -- vim.keymap.set("n", ":", "q:i")
 
 vim.keymap.set("v", "<leader>x", ":lua<CR>")
-vim.keymap.set("n", "<leader>x", "<cmd>.lua<CR>")
+vim.keymap.set("n", "<leader>x", "<cmd>luafile %<CR>")
 
 vim.keymap.set("n", "<leader>bd", "<cmd>bdelete<CR>")
 
