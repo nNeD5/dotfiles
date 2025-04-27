@@ -20,9 +20,7 @@ path+=('/home/ned/.local/bin')
 export GOPATH="$HOME/.config/go"
 export GOMODCACHE="$HOME/.config/go/pkg/mod"
 export XDG_DATA_DIRS="${XDG_DATA_DIRS}:${HOME}/.local/share/flatpak/exports/share/applications"
-export PYTHONPATH="${HOME}/Work/institute/vasp:${PYTHONPATH}"
-
-
+export PYTHONPATH="${HOME}/Work/imp/vasp:${PYTHONPATH}"
 
 export FZF_DEFAULT_OPTS="
     --layout=reverse
