@@ -1,0 +1,13 @@
+pane	4	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:/home/ned/.local/bin/nvim info.md
+pane	notes-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim -p todo.md info.md
+pane	notes-scratchpad	2	0	:-	0	nedmachine	:/home/ned/Notes/diary	1	zsh	:
+pane	notes-scratchpad	3	0	:	0	nedmachine	:/home/ned/Notes	1	nvim	:nvim
+pane	term-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	today	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+window	4	1	:nvim	1	:*	5e21,212x44,0,0,12	:
+window	notes-scratchpad	1	:info-todo	1	:*	c43f,159x26,0,0,2	off
+window	notes-scratchpad	2	:today-note	0	:-	bbe0,212x44,0,0,3	off
+window	notes-scratchpad	3	:Notes	0	:	bbe1,212x44,0,0,4	off
+window	term-scratchpad	1	:term-srcathpad	1	:*	bbe2,212x44,0,0,5	off
+window	today	1	:today	1	:*	5e20,212x44,0,0,11	off
+state	4	today

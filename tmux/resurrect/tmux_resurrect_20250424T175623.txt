@@ -1,0 +1,24 @@
+pane	notes-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim -p todo.md info.md
+pane	notes-scratchpad	2	0	:-	0	nedmachine	:/home/ned/Notes/diary	1	zsh	:
+pane	notes-scratchpad	3	0	:	0	nedmachine	:/home/ned/Notes	1	nvim	:nvim
+pane	term-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	test	1	0	:	0	nedmachine	:/home/ned/Work/robocode/2025/python-old/pyqt-contactbook	0	zsh	:
+pane	test	1	0	:	1	nedmachine	:/home/ned/Work/robocode	1	zsh	:
+pane	test	2	0	:	0	nedmachine	:/home/ned/Apps/neovim	1	zsh	:
+pane	test	2	0	:	1	nedmachine	:/home/ned/Apps/neovim	0	zsh	:
+pane	test	3	0	:-	0	nedmachine	:/home/ned/Dotfiles/tmux	0	nvim	:/home/ned/.local/bin/nvim tmux.conf
+pane	test	3	0	:-	1	nedmachine	:/home/ned/Dotfiles/tmux	0	zsh	:
+pane	test	3	0	:-	2	nedmachine	:/home/ned/Dotfiles/tmux	1	htop	:htop
+pane	test	4	1	:*	0	nedmachine	:/home/ned/Dotfiles/tmux	1	nvim	:/home/ned/.local/bin/nvim tmux.conf
+pane	test	4	1	:*	1	nedmachine	:/home/ned/Dotfiles/tmux	0	zsh	:
+pane	today	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+window	notes-scratchpad	1	:info-todo	1	:*	bbdf,212x44,0,0,2	off
+window	notes-scratchpad	2	:today-note	0	:-	bbe0,212x44,0,0,3	off
+window	notes-scratchpad	3	:Notes	0	:	bbe1,212x44,0,0,4	off
+window	term-scratchpad	1	:term-srcathpad	1	:*	bbe2,212x44,0,0,5	off
+window	test	1	:zsh	0	:	bac6,212x44,0,0{106x44,0,0,6,105x44,107,0,7}	:
+window	test	2	:zsh	0	:	3d3b,212x44,0,0[212x22,0,0,8,212x21,0,23,9]	:
+window	test	3	:test	0	:-	e9c5,212x44,0,0{106x44,0,0[106x22,0,0,10,106x21,0,23,11],105x44,107,0,12}	off
+window	test	4	:nvim	1	:*	cfc9,212x44,0,0{106x44,0,0,14,105x44,107,0,17}	:
+window	today	1	:today	1	:*	5e22,212x44,0,0,13	off
+state	test	today

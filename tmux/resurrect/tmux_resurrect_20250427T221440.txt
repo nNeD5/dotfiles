@@ -1,0 +1,44 @@
+pane	async	1	1	:*	0	nedmachine	:/home/ned/Work/personal/python/async	1	nvim	:/home/ned/.local/bin/nvim test.py
+pane	battery	2	1	:*	0	nedmachine	:/home/ned/Work/personal/bash	1	zsh	:
+pane	foot	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/foot	1	zsh	:
+pane	hyprland	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/hypr	1	nvim	:/home/ned/.local/bin/nvim hyprland.conf
+pane	master-work	1	0	:	0	nedmachine	:/home/ned/Work/university/master-work	1	nvim	:/home/ned/.local/bin/nvim
+pane	master-work	2	0	:-	0	nedmachine	:/home/ned/Work/university/master-work	1	zsh	:
+pane	master-work	3	1	:*	0	nedmachine	:/home/ned/Work/university/master-work/src/chapter_3	1	zsh	:
+pane	misha-js	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	neovim-config	1	0	:	0	nedmachine	:/home/ned	1	zsh	:
+pane	neovim-config	2	1	:*	0	nedmachine	:/home/ned/Dotfiles/nvim	1	nvim	:/home/ned/.local/bin/nvim init.lua
+pane	neovim-config	3	0	:-	0	nedmachine	:/home/ned/.local/share/nvim/lazy/mini.ai/lua/mini	1	nvim	:/home/ned/.local/bin/nvim ai.lua
+pane	notes-scratchpad	1	0	:-	0	nedmachine	:/home/ned	1	nvim	:nvim -p todo.md info.md
+pane	notes-scratchpad	2	1	:*	0	nedmachine	:/home/ned/Notes/diary	1	bash	:/usr/bin/bash /home/ned/.local/bin/qn t
+pane	notes-scratchpad	3	0	:	0	nedmachine	:/home/ned/Notes	1	nvim	:nvim
+pane	odin	1	1	:*	0	nedmachine	:/home/ned/Work/personal/odin/tg-search	1	nvim	:/home/ned/.local/bin/nvim main.odin
+pane	python-old	1	1	:*	0	nedmachine	:/home/ned/Work/robocode/2025/python-old	1	zsh	:
+pane	python-young	1	1	:*	0	nedmachine	:/home/ned/Work/robocode/2025/python-young/requests-basic	0	nvim	:/home/ned/.local/bin/nvim main.py
+pane	python-young	1	1	:*	1	nedmachine	:/home/ned/Work/robocode/2025/python-young/requests-basic	1	zsh	:
+pane	python-young	2	0	:-	0	nedmachine	:/home/ned/Work/robocode/2025/python-young/requests-basic	1	zsh	:
+pane	term-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	term-scratchpad	2	0	:-	0	nedmachine	:/home/ned	1	zsh	:
+pane	today	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+window	async	1	:nvim	1	:*	be44,170x35,0,0,7	:
+window	battery	2	:zsh	1	:*	be45,170x35,0,0,8	:
+window	foot	1	:zsh	1	:*	be46,170x35,0,0,9	:
+window	hyprland	1	:nvim	1	:*	5f4f,170x35,0,0,10	:
+window	master-work	1	:editor	0	:	5f50,170x35,0,0,11	off
+window	master-work	2	:tectronic	0	:-	5f51,170x35,0,0,12	off
+window	master-work	3	:zsh	1	:*	5f52,170x35,0,0,13	:
+window	misha-js	1	:zsh	1	:*	5f53,170x35,0,0,14	:
+window	neovim-config	1	:zsh	0	:	5f54,170x35,0,0,15	:
+window	neovim-config	2	:nvim	1	:*	5f55,170x35,0,0,16	:
+window	neovim-config	3	:nvim	0	:-	5f56,170x35,0,0,17	:
+window	notes-scratchpad	1	:info-todo	0	:-	be3f,170x35,0,0,2	off
+window	notes-scratchpad	2	:today-note	1	:*	ae80,127x21,0,0,3	off
+window	notes-scratchpad	3	:Notes	0	:	bae1,85x35,0,0,4	off
+window	odin	1	:nvim	1	:*	5f57,170x35,0,0,18	:
+window	python-old	1	:zsh	1	:*	5f58,170x35,0,0,19	:
+window	python-young	1	:editor	1	:*	d92c,170x35,0,0{85x35,0,0,20,84x35,86,0,21}	off
+window	python-young	2	:zsh	0	:-	df51,170x35,0,0,22	:
+window	term-scratchpad	1	:term-srcathpad	1	:*	b3a3,58x14,0,0,6	off
+window	term-scratchpad	2	:zsh	0	:-	df52,170x35,0,0,23	:
+window	today	1	:today	1	:*	be3d,170x35,0,0,0	off
+state	neovim-config	today

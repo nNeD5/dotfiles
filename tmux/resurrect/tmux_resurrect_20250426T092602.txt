@@ -1,0 +1,33 @@
+pane	async	1	1	:*	0	nedmachine	:/home/ned/Work/personal/python/async	1	zsh	:
+pane	battery	2	1	:*	0	nedmachine	:/home/ned/Work/personal/bash	1	zsh	:
+pane	hyprland	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/hypr	1	zsh	:
+pane	hyprland	2	0	:-	0	nedmachine	:/home/ned	1	zsh	:
+pane	master-work	1	0	:	0	nedmachine	:/home/ned/Work/university/master-work	1	nvim	:/home/ned/.local/bin/nvim
+pane	master-work	2	0	:-	0	nedmachine	:/home/ned/Work/university/master-work	1	zsh	:
+pane	master-work	3	1	:*	0	nedmachine	:/home/ned/Work/university/master-work/src/chapter_3	1	zsh	:
+pane	notes-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim -p todo.md info.md
+pane	notes-scratchpad	2	0	:	0	nedmachine	:/home/ned/Notes/diary	1	bash	:/usr/bin/bash /home/ned/.local/bin/qn w
+pane	notes-scratchpad	3	0	:-	0	nedmachine	:/home/ned/Notes	1	nvim	:nvim
+pane	nvim-config	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/nvim	1	nvim	:/home/ned/.local/bin/nvim init.lua
+pane	odin	1	1	:*	0	nedmachine	:/home/ned/Work/personal/odin/tg-search	1	nvim	:/home/ned/.local/bin/nvim main.odin
+pane	python-old	1	1	:*	0	nedmachine	:/home/ned/Work/robocode/2025/python-old/pyqt-contactbook	1	zsh	:
+pane	python-young	1	1	:*	0	nedmachine	:/home/ned/Work/robocode/2025/python-young/contactbook-tkinter	1	zsh	:
+pane	term-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	today	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/tmux/resurrect	1	zsh	:
+window	async	1	:zsh	1	:*	bfe4,212x45,0,0,7	:
+window	battery	2	:zsh	1	:*	bfe6,212x45,0,0,9	:
+window	hyprland	1	:zsh	1	:*	601f,212x45,0,0,10	:
+window	hyprland	2	:zsh	0	:-	6020,212x45,0,0,11	:
+window	master-work	1	:editor	0	:	6021,212x45,0,0,12	off
+window	master-work	2	:tectronic	0	:-	6022,212x45,0,0,13	off
+window	master-work	3	:zsh	1	:*	6023,212x45,0,0,14	:
+window	notes-scratchpad	1	:info-todo	1	:*	c17f,106x45,0,0,2	off
+window	notes-scratchpad	2	:today-note	0	:	bfe0,212x45,0,0,3	off
+window	notes-scratchpad	3	:Notes	0	:-	bfe1,212x45,0,0,4	off
+window	nvim-config	1	:nvim	1	:*	6024,212x45,0,0,15	:
+window	odin	1	:nvim	1	:*	6025,212x45,0,0,16	:
+window	python-old	1	:zsh	1	:*	6026,212x45,0,0,17	:
+window	python-young	1	:editor	1	:*	6027,212x45,0,0,18	off
+window	term-scratchpad	1	:term-srcathpad	1	:*	b7a3,58x15,0,0,6	off
+window	today	1	:today	1	:*	bfdd,212x45,0,0,0	off
+state	nvim-config	async

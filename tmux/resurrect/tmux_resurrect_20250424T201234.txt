@@ -1,0 +1,17 @@
+pane	battery	2	1	:*	0	nedmachine	:/home/ned/Work/personal/bash	1	zsh	:
+pane	hyprland	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/hypr	1	nvim	:/home/ned/.local/bin/nvim exec.conf
+pane	notes-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim -p todo.md info.md
+pane	notes-scratchpad	2	0	:-	0	nedmachine	:/home/ned/Notes/diary	1	bash	:/usr/bin/bash /home/ned/.local/bin/qn w
+pane	notes-scratchpad	3	0	:	0	nedmachine	:/home/ned/Notes	1	nvim	:nvim
+pane	nvim-config	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/nvim	1	nvim	:/home/ned/.local/bin/nvim init.lua
+pane	term-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	today	1	1	:*	0	nedmachine	:/home/ned/Downloads	1	zip	:zip -r Microsoft Office Professional Plus 2024 16.0.17932.20328.zip Microsoft Office Professional Plus 2024 16.0.17932.20328
+window	battery	2	:zsh	1	:*	6020,212x45,0,0,11	:
+window	hyprland	1	:nvim	1	:*	6022,212x45,0,0,13	:
+window	notes-scratchpad	1	:info-todo	1	:*	c441,159x26,0,0,4	off
+window	notes-scratchpad	2	:today-note	0	:-	bbe2,212x44,0,0,5	off
+window	notes-scratchpad	3	:Notes	0	:	c183,106x45,0,0,6	off
+window	nvim-config	1	:nvim	1	:*	6024,212x45,0,0,15	:
+window	term-scratchpad	1	:term-srcathpad	1	:*	c43f,159x26,0,0,2	off
+window	today	1	:today	1	:*	bbdd,212x44,0,0,0	off
+state	today	nvim-config
