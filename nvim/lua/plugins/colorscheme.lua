@@ -8,11 +8,11 @@ return {
       transparency = true,
     },
     highlight_groups = {
-      Pmenu = { bg = "overlay" },
-      PmenuSel = { fg = "love" },
+      Pmenu        = { bg = "overlay" },
+      PmenuSel     = { fg = "love" },
       PmenuKindSel = { fg = "love" },
-      WinBar = { bg = "none", fg = "rose" },
-      WinBarNc = { bg = "none", fg = "overlay" }
+      WinBar       = { bg = "NONE", fg = "text", bold = true },
+      WinBarNC     = { bg = "NONE", fg = "muted",  inherit = false  },
     },
   }
 }

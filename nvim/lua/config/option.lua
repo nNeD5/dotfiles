@@ -9,7 +9,7 @@ vim.opt.list = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.o.laststatus = 0
-vim.opt.winbar = " %f%m%r%w"
+vim.opt.winbar = "  %f%m%r%w"
 
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
