@@ -72,7 +72,6 @@ alias e='$EDITOR'
 # alias ee='nvim +"Autosession search"'
 alias n='$EDITOR Notes/diary/$(date "+%Y/%W/%d-%m-%y").md'
 alias grep='grep --color=auto'
-alias uni='cd ~/Work/university/semester11/'
 alias headset='bluetoothctl connect 98:67:2E:A8:18:E7 && sleep 1 && bluetoothctl connect 98:67:2E:A8:18:E7'
 wl_hist() { wl-clipboard-history -p "$(wl-clipboard-history -l 20 | fzf --with-nth 2.. -d , | cut -d ',' -f1)"; }
 # alias mouse='bluetoothctl connect 98:67:2E:A8:18:E7 && sleep 1 && bluetoothctl connect 98:67:2E:A8:18:E7'
@@ -80,6 +79,7 @@ wl_hist() { wl-clipboard-history -p "$(wl-clipboard-history -l 20 | fzf --with-n
 alias t='tmuxinator start today'
 alias s='tmux-session'
 alias b='blobdrop'
+alias qn='qnote'
 alias mem="df -lh -t ext4"
 function ch() { curl cheat.sh/"$1" | bat; }
 function en() { cli-dictionary "$1" en; }

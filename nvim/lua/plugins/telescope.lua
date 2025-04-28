@@ -20,7 +20,7 @@ return {
     },
     extension = {
       fzf = {},
-      -- zoxide = {}
+      zoxide = {}
     }
   },
 
@@ -29,7 +29,7 @@ return {
     telescope.setup(opts)
 
     telescope.load_extension("fzf")
-    -- telescope.load_extension("zoxide")
+    telescope.load_extension("zoxide")
 
     local telescope_builtin = require("telescope.builtin")
     vim.keymap.set("n", "<leader>sf", telescope_builtin.find_files, { desc = "Telescope find files" })
@@ -38,6 +38,6 @@ return {
     vim.keymap.set("n", "<leader>st", telescope_builtin.treesitter, { desc = "Telescope treesitter" })
     vim.keymap.set("n", "<leader>sd", telescope_builtin.diagnostics, { desc = "Telescope treesitter" })
     vim.keymap.set("n", "<leader>sg", telescope_builtin.live_grep, { desc = "Telescope grep" })
-    -- vim.keymap.set("n", "<leader>sd", require("telescope").extensions.zoxide.list)
+    vim.keymap.set("n", "<leader>cd", require("telescope").extensions.zoxide.list)
   end
 }
