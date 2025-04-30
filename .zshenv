@@ -12,7 +12,7 @@ zstyle :compinstall filename '/home/ned/.zshrc'
 
 export COLORTERM=truecolor
 export TERM='tmux-256color'
-export EDITOR='/home/ned/.local/bin/nvim'
+export EDITOR='nvim'
 
 path+=('/home/ned/.local/bin')
 

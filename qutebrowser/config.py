@@ -290,7 +290,7 @@ c.url.start_pages = '~/.config/qutebrowser/startpage/index.html'
 
 # Default zoom level.
 # Type: Perc
-c.zoom.default = '150%'
+c.zoom.default = '120%'
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.

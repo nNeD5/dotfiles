@@ -1,0 +1,29 @@
+pane	compile_nvim	1	1	:*	0	nedmachine	:/home/ned/.local/share/nvim/lazy/compile.nvim/lua/compile	1	zsh	:
+pane	hyprland	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/hypr	1	nvim	:nvim hyprland.conf
+pane	notes-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim -p todo.md info.md
+pane	notes-scratchpad	2	0	:-	0	nedmachine	:/home/ned/Notes/diary	1	bash	:/usr/bin/bash /home/ned/.local/bin/qnote w
+pane	notes-scratchpad	3	0	:	0	nedmachine	:/home/ned/Notes	1	nvim	:nvim
+pane	nvim-config	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/nvim	1	nvim	:nvim init.lua
+pane	scripts	1	1	:*	0	nedmachine	:/home/ned/Work/personal/scripts	1	nvim	:nvim
+pane	seminar	1	1	:*	0	nedmachine	:/home/ned/Work/imp/seminars_conferences/2025/imp-C02_version2	1	nvim	:nvim text.md
+pane	term-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	tmux	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim .zshrc
+pane	tmux	2	0	:	0	nedmachine	:/home/ned/Dotfiles/tmux/plugins/tmux-conda-inherit	1	zsh	:
+pane	tmux	3	0	:	0	nedmachine	:/home/ned/Dotfiles/tmux/plugins/tmux-conda-inherit	1	zsh	:
+pane	tmux	4	0	:-	0	nedmachine	:/home/ned/Dotfiles/nvim	1	zsh	:
+pane	today	1	1	:*	0	nedmachine	:/home/ned/Work/university/master-work	1	nvim	:nvim
+window	compile_nvim	1	:zsh	1	:*	6178,127x26,0,0,19	:
+window	hyprland	1	:nvim	1	:*	60a4,66x27,0,0,15	:
+window	notes-scratchpad	1	:info-todo	1	:*	bc81,100x16,0,0,4	off
+window	notes-scratchpad	2	:today-note	0	:-	c542,134x27,0,0,5	off
+window	notes-scratchpad	3	:Notes	0	:	b7a3,58x15,0,0,6	off
+window	nvim-config	1	:nvim	1	:*	c284,127x26,0,0,7	:
+window	scripts	1	:nvim	1	:*	6175,127x26,0,0,16	:
+window	seminar	1	:nvim	1	:*	6172,127x26,0,0,13	:
+window	term-scratchpad	1	:term-srcathpad	1	:*	bc7f,100x16,0,0,2	off
+window	tmux	1	:nvim	1	:*	c545,134x27,0,0,8	on
+window	tmux	2	:zsh	0	:	c546,134x27,0,0,9	on
+window	tmux	3	:zsh	0	:	62cf,134x27,0,0,10	on
+window	tmux	4	:zsh	0	:-	62d0,134x27,0,0,11	on
+window	today	1	:today	1	:*	c53d,134x27,0,0,0	off
+state	today	

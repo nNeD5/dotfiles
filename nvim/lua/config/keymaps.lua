@@ -19,6 +19,11 @@ vim.keymap.set("n", "<leader>y", '"+y')
 
 vim.keymap.set("v", "P", '"_dP')
 
+vim.keymap.set("n", "<C-w>t", "<cmd>tabnew<CR>")
+
+-- TODO: make for visual mode (https://www.reddit.com/r/neovim/comments/vu9atg/how_do_i_get_the_text_selected_in_visual_mode/)
+vim.keymap.set("n", "gf", "<cmd>e <cfile><CR>")
+
 vim.keymap.set("n", "<C-o>", "<C-o>zz")
 vim.keymap.set("n", "<C-i>", "<C-i>zz")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")

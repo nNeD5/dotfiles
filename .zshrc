@@ -80,7 +80,7 @@ alias t='tmuxinator start today'
 alias s='tmux-session'
 alias b='blobdrop'
 alias qn='qnote'
-alias mem="df -lh -t ext4"
+alias mem="duf -only local"
 function ch() { curl cheat.sh/"$1" | bat; }
 function en() { cli-dictionary "$1" en; }
 function o() { xdg-open $1 & disown ;}
@@ -110,7 +110,6 @@ else
 fi
 unset __mamba_setup
 # <<< mamba initialize <<<
-
 
 # Disable underline for file name
 (( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES

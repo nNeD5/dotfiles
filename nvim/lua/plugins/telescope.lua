@@ -38,6 +38,6 @@ return {
     vim.keymap.set("n", "<leader>st", telescope_builtin.treesitter, { desc = "Telescope treesitter" })
     vim.keymap.set("n", "<leader>sd", telescope_builtin.diagnostics, { desc = "Telescope treesitter" })
     vim.keymap.set("n", "<leader>sg", telescope_builtin.live_grep, { desc = "Telescope grep" })
-    vim.keymap.set("n", "<leader>cd", require("telescope").extensions.zoxide.list)
+    vim.keymap.set("n", "<leader>zi", require("telescope").extensions.zoxide.list)
   end
 }

@@ -1,0 +1,21 @@
+pane	notes-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim -p todo.md info.md
+pane	notes-scratchpad	2	0	:-	0	nedmachine	:/home/ned/Notes/diary	1	zsh	:
+pane	notes-scratchpad	3	0	:	0	nedmachine	:/home/ned/Notes	1	nvim	:nvim
+pane	term-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	tmux	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim .zshrc
+pane	tmux	2	0	:	0	nedmachine	:/home/ned/Dotfiles/tmux/plugins/tmux-conda-inherit	1	zsh	:
+pane	tmux	3	0	:	0	nedmachine	:/home/ned/Dotfiles/tmux/plugins/tmux-conda-inherit	1	zsh	:
+pane	tmux	4	0	:-	0	nedmachine	:/home/ned/Dotfiles/nvim	1	zsh	:
+pane	today	1	0	:-	0	nedmachine	:/home/ned	1	zsh	:
+pane	today	2	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+window	notes-scratchpad	1	:info-todo	1	:*	bc7f,100x16,0,0,2	off
+window	notes-scratchpad	2	:today-note	0	:-	c940,134x28,0,0,3	off
+window	notes-scratchpad	3	:Notes	0	:	c941,134x28,0,0,4	off
+window	term-scratchpad	1	:term-srcathpad	1	:*	bc82,100x16,0,0,5	off
+window	tmux	1	:	1	:*	e4cf,134x28,0,0,20	on
+window	tmux	2	:tmux-conda-inherit	0	:	e4d0,134x28,0,0,21	on
+window	tmux	3	:tmux-conda-inherit	0	:	e4d2,134x28,0,0,23	on
+window	tmux	4	:	0	:-	e4d8,134x28,0,0,29	on
+window	today	1	:today	0	:-	64d1,134x28,0,0,12	off
+window	today	2	:zsh	1	:*	64d2,134x28,0,0,13	off
+state	tmux	today

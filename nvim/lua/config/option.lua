@@ -8,7 +8,7 @@ vim.opt.signcolumn = "yes:1"
 vim.opt.list = true
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.o.laststatus = 0
+vim.opt.laststatus = 0
 vim.opt.winbar = "  %f%m%r%w"
 
 vim.opt.softtabstop = 4
@@ -29,3 +29,6 @@ vim.opt.completeopt = {"menu", "popup", "fuzzy"}
 
 vim.opt.grepprg = "rg --vimgrep"
 -- vim.opt.makeprg = "$*"
+
+vim.cmd([[ cnoreabbrev ц w ]])
+vim.g.tex_flavor = "latex"

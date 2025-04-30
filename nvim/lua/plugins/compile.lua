@@ -3,9 +3,11 @@ return {
   dependencies = { "m00qek/baleia.nvim" },
   -- config = function() end,
   opts = {},
-  config = function()
+  config = function(_, opts)
     compile = require("compile")
-    compile.setup()
+    compile.setup(opts)
     vim.keymap.set("n", "<leader>r", compile.compile)
+    vim.keymap.set("n", "<leader>R", compile.set_cmd)
+    vim.keymap.set("n", "<C-c>", compile.stop)
   end
 }

@@ -1,0 +1,35 @@
+pane	compile-nvim	2	1	:*	0	nedmachine	:/home/ned/.local/share/nvim/lazy/compile.nvim/lua/compile	1	nvim	:nvim test.lua
+pane	hyprland	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/hypr	1	nvim	:nvim hyprland.conf
+pane	master-paper	1	1	:*	0	nedmachine	:/home/ned/Work/university/master-work	1	nvim	:nvim src/chapter_3/chapter_3.tex
+pane	notes-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim -p todo.md info.md
+pane	notes-scratchpad	2	0	:-	0	nedmachine	:/home/ned/Notes/diary	1	zsh	:
+pane	notes-scratchpad	3	0	:	0	nedmachine	:/home/ned/Notes	1	nvim	:nvim
+pane	nvim-config	1	1	:*	0	nedmachine	:/home/ned/Dotfiles/nvim	1	nvim	:nvim init.lua
+pane	odin-tg	1	1	:*	0	nedmachine	:/home/ned/Work/personal/tg-search	1	zsh	:
+pane	scripts	1	1	:*	0	nedmachine	:/home/ned/Work/personal/scripts	1	nvim	:nvim
+pane	seminar	1	1	:*	0	nedmachine	:/home/ned/Work/imp/seminars_conferences/2025/imp-C02_version2	1	nvim	:nvim text.md
+pane	term-scratchpad	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+pane	tmux	1	1	:*	0	nedmachine	:/home/ned	1	nvim	:nvim .zshrc
+pane	tmux	2	0	:	0	nedmachine	:/home/ned/Dotfiles/tmux/plugins/tmux-conda-inherit	1	zsh	:
+pane	tmux	2	0	:	1	nedmachine	:/home/ned/Dotfiles/tmux/plugins/tmux-conda-inherit	0	zsh	:
+pane	tmux	3	0	:	0	nedmachine	:/home/ned/Dotfiles/tmux/plugins/tmux-conda-inherit	1	zsh	:
+pane	tmux	4	0	:-	0	nedmachine	:/home/ned/Dotfiles/nvim	1	zsh	:
+pane	tmux	4	0	:-	1	nedmachine	:/home/ned/Dotfiles/nvim	0	zsh	:
+pane	today	1	1	:*	0	nedmachine	:/home/ned	1	zsh	:
+window	compile-nvim	2	:nvim	1	:*	df56,170x35,0,0,27	:
+window	hyprland	1	:nvim	1	:*	c940,134x28,0,0,3	:
+window	master-paper	1	:editor	1	:*	be41,170x35,0,0,4	off
+window	notes-scratchpad	1	:info-todo	1	:*	ae82,127x21,0,0,5	off
+window	notes-scratchpad	2	:today-note	0	:-	c943,134x28,0,0,6	off
+window	notes-scratchpad	3	:Notes	0	:	c944,134x28,0,0,7	off
+window	nvim-config	1	:nvim	1	:*	be45,170x35,0,0,8	:
+window	odin-tg	1	:zsh	1	:*	c946,134x28,0,0,9	:
+window	scripts	1	:nvim	1	:*	64cf,134x28,0,0,10	:
+window	seminar	1	:nvim	1	:*	64d0,134x28,0,0,11	:
+window	term-scratchpad	1	:term-srcathpad	1	:*	5771,127x21,0,0,12	off
+window	tmux	1	:nvim	1	:*	64d2,134x28,0,0,13	on
+window	tmux	2	:zsh	0	:	8950,134x28,0,0[134x1,0,0,14,134x26,0,2,15]	on
+window	tmux	3	:zsh	0	:	64d5,134x28,0,0,16	on
+window	tmux	4	:zsh	0	:-	0958,134x28,0,0[134x1,0,0,17,134x26,0,2,18]	on
+window	today	1	:zsh	1	:*	5f58,170x35,0,0,19	:
+state	compile-nvim	nvim-config
