@@ -8,8 +8,9 @@ vim.opt.signcolumn = "yes:1"
 vim.opt.list = true
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.laststatus = 0
+vim.opt.laststatus = 3
 vim.opt.winbar = "  %f%m%r%w"
+vim.opt.statusline = " "
 
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
