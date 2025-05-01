@@ -10,7 +10,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.laststatus = 3
 vim.opt.winbar = "  %f%m%r%w"
-vim.opt.statusline = " "
+vim.opt.statusline = [[%=%{% &ruler ? ( &rulerformat == '' ? '%-14.(%l,%c%V%) %P' : &rulerformat ) : '' %}]]
 
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
