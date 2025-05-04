@@ -6,7 +6,7 @@ plugins = [
 
 [scratchpads.term]
 animation = "fromTop"
-command = "foot --title scratchpad-term tmuxinator start term-scratchpad"
+command = "foot --title scratchpad-term tmux new -As term-scratchpad"
 class = "scratchpad-term"
 size = "75% 60%"
 margin = 10
@@ -14,7 +14,7 @@ pinned = true
 
 [scratchpads.notes]
 animation = "fromTop"
-command = "foot --title scratchpad-notes tmuxinator notes-scratchpad"
+command = "foot --title scratchpad-notes tmux new -As notes-scratchpad"
 class = "scratchpad-notes"
 size = "75% 60%"
 margin = 10

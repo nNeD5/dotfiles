@@ -22,6 +22,7 @@ vim.opt.smartcase = true
 vim.opt.undofile = true
 vim.opt.undodir = os.getenv("HOME") .. "/.local/share/nvim/undodir"
 vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal"
+vim.opt.shada = "!,'100,<50,s10,h"
 
 vim.opt.path:append("**")
 

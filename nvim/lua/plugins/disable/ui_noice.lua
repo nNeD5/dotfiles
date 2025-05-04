@@ -1,4 +1,5 @@
 return {
+  enabled = false,
   "folke/noice.nvim",
   event = "VeryLazy",
   dependencies = {
@@ -14,6 +15,12 @@ return {
     },
     messages = {
       enabled = true,
+      view_search = false,
     },
+    lsp = {
+      signature = {
+        auto_open = false,
+      }
+    }
   },
 }

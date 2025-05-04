@@ -1,8 +1,9 @@
 return {
-  "nNeD5/compile.nvim",
+  dir = "~/Work/personal/compile.nvim",
   dependencies = { "m00qek/baleia.nvim" },
-  -- config = function() end,
-  opts = {},
+  opts = {
+    height = 0.3,
+  },
   config = function(_, opts)
     compile = require("compile")
     compile.setup(opts)

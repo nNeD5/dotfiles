@@ -16,8 +16,10 @@ vim.keymap.set("v", ">", ">gv")
 
 vim.keymap.set("v", "<leader>y", '"+y')
 vim.keymap.set("n", "<leader>y", '"+y')
-
 vim.keymap.set("v", "P", '"_dP')
+vim.keymap.set("n", "ycc", function()
+  return "yy" .. vim.v.count1 .. "gcc']p"
+end, { remap = true, expr = true })
 
 vim.keymap.set("n", "<C-w>t", "<cmd>tabnew<CR>")
 
