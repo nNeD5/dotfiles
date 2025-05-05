@@ -76,7 +76,7 @@ alias headset='bluetoothctl connect 98:67:2E:A8:18:E7 && sleep 1 && bluetoothctl
 wl_hist() { wl-clipboard-history -p "$(wl-clipboard-history -l 20 | fzf --with-nth 2.. -d , | cut -d ',' -f1)"; }
 # alias mouse='bluetoothctl connect 98:67:2E:A8:18:E7 && sleep 1 && bluetoothctl connect 98:67:2E:A8:18:E7'
 
-alias t='tmuxinator start today'
+alias t='tmux new -As today'
 alias s='tmux-session'
 alias b='blobdrop'
 alias qn='qnote'

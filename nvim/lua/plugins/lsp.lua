@@ -64,6 +64,6 @@ return {
     require("lspconfig").bashls.setup({})
     require("lspconfig").gopls.setup({})
     require("lspconfig").ols.setup({})
-    -- require'lspconfig'.typos_lsp.setup{}
+    require("lspconfig").typos_lsp.setup{}
   end,
 }
