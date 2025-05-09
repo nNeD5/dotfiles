@@ -13,6 +13,7 @@ zstyle :compinstall filename '/home/ned/.zshrc'
 export COLORTERM=truecolor
 export TERM='tmux-256color'
 export EDITOR='nvim'
+export MANPAGER='nvim +Man!'
 
 path+=('/home/ned/.local/bin')
 
