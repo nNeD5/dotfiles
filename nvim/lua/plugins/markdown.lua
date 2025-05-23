@@ -6,6 +6,7 @@ return {
     { "echasnovski/mini.icons", opts = {} } },
   opts = {
     render_modes = { "v", "n", "i", "t" },
+    latex = { enable = false },
     heading = {
       icons = {},
       -- left_pad = 0.15,
@@ -23,6 +24,7 @@ return {
       custom = {
         todo = { raw = "[-]", rendered = "󰥔 ", highlight = "RenderMarkdownTodo" },
         cancel = { raw = "[!]", rendered = " ", highlight = "RenderMarkdownTodo" },
+        cancel = { raw = "[?]", rendered = " ", highlight = "RenderMarkdownTodo" },
       },
     },
   },

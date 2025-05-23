@@ -78,7 +78,7 @@ wl_hist() { wl-clipboard-history -p "$(wl-clipboard-history -l 20 | fzf --with-n
 
 alias t='tmux new -As today'
 alias s='tmux-session'
-alias b='blobdrop'
+alias b='blobdrop -f gui'
 alias qn='qnote'
 alias mem="duf -only local"
 function ch() { curl cheat.sh/"$1" | bat; }
@@ -97,6 +97,8 @@ function batt() {
 
 eval "$(zoxide init zsh)"
 source <(fzf --zsh)
+
+source "${HOME}/.local/share/zsh/site-functions/_papis"
 
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'micromamba shell init' !!

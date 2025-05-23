@@ -16,12 +16,14 @@ export EDITOR='nvim'
 export MANPAGER='nvim +Man!'
 
 path+=('/home/ned/.local/bin')
+path+=('/home/ned/.config/tmux/plugins/tmux-open-nvim/scripts')
 
 
 export GOPATH="$HOME/.config/go"
 export GOMODCACHE="$HOME/.config/go/pkg/mod"
 export XDG_DATA_DIRS="${XDG_DATA_DIRS}:${HOME}/.local/share/flatpak/exports/share/applications"
 export PYTHONPATH="${HOME}/Work/imp/vasp:${PYTHONPATH}"
+export ZK_NOTEBOOK_DIR="${HOME}/Notes"
 
 export FZF_DEFAULT_OPTS="
     --layout=reverse

@@ -1,7 +1,7 @@
 [Default Applications]
 x-scheme-handler/tg=org.telegram.desktop.desktop
 x-scheme-handler/tonsite=org.telegram.desktop.desktop
-application/pdf=org.pwmt.zathura-pdf-poppler.desktop
+application/pdf=org.pwmt.zathura.desktop
 image=swayimg.desktop
 image/svg=swayimg.desktop
 image/svg+xml=swayimg.desktop

@@ -4,6 +4,7 @@ return {
   opts = {
     -- new/moved/renamed
     skip_confirm_for_simple_edits = true,
+    delete_to_trash = true,
     float = {
       padding = 2,
       max_width = 80,
